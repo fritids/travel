@@ -1,0 +1,591 @@
+/* reset.css */
+@import "reset.css";
+
+body{
+	background-color: #f4f4f4;
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 12px;
+	color: #666;
+	padding: 90px 0 0 0;
+	line-height: 1.6em;
+}
+a{
+	color: #333;
+}
+a:hover{
+	color: #333;
+}
+.center880{
+	width: 960px;
+	margin: 0px auto;
+}
+#header{
+	height: 75px; background:#FFF url(../images/header-bg.jpg) repeat-x; z-index: 10000; box-shadow:0px 0px 5px #666;
+-webkit-box-shadow:0px 0px 5px #666;
+-moz-box-shadow:0px 0px 5px #666;
+	color: #fff;
+	font-size: 13px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1000;
+}
+
+#header .logo{
+	width: 160px;
+	float: left;
+	text-align:left;
+	padding: 0px 0 0 0;
+}
+#header .logo a:hover{
+	opacity: 0.9;
+}
+#header .links{
+	width: 800px;
+	float: left;
+	padding-top: 27px;
+}
+#header .links a {
+	color: #fff; font-size: 16px;
+	padding: 5px 9px;
+}
+#header .links a:hover {
+	color: #fff;
+	border-radius:10px;
+	padding: 5px 9px;
+}
+.text-right{
+	text-align: right;
+}
+
+
+
+.ticketform{
+	width: 390px;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	margin: 0px auto;
+	padding: 25px 29px;
+	box-shadow: 0px 0px 5px #ddd;
+}
+
+
+.formline{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 12px;
+	margin-bottom: 12px;
+}
+
+.stlabel{
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	color: #666;
+	padding-bottom: 7px;
+}
+.stinput{
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	border: 1px solid #C8CDDC;
+	background: #fff url('../images/inputbg.jpg') repeat-x top;
+	width: 376px;
+	padding: 4px;
+	border-top: 1px solid #AAAEBA;
+	border-radius: 2px;
+	font-size: 13px;
+	color: #8A8D97;
+	padding: 9px 6px;
+}
+
+.stinput-active{
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	background: #fff url('../images/inputbg.jpg') repeat-x top;
+	width: 376px;
+	padding: 4px;
+	border-radius: 2px;
+	font-size: 13px;
+	color: #8A8D97;
+	padding: 9px 6px;
+	box-shadow: 0px 0px 3px #7EB1DF;
+	border: 1px solid #ddd;
+}
+
+.stbutton{
+	background: #f91a3f url('../images/sendbuttonbg.png') repeat-x left top;
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	border: 1px solid #f91a3f;
+	border-radius: 2px;
+	text-align: center;
+	padding: 10px 0;
+	width: 100%;
+	box-shadow: 0px 1px 2px #999;
+	text-shadow: 0px -1px 0px #999;
+}
+.stbutton:hover{
+	border: 1px solid #f91a3f;
+}
+.stbutton:active{
+	opacity: 0.9;
+	background-image: none;
+	color: #fff;
+	text-shadow: 0px 1px 0px #da1f3c;
+	box-shadow: inset 0px 0px 6px #da1f3c;
+	border: 1px solid #f91a3f;
+}
+
+
+#footer{
+	margin-top: 20px;
+	text-align: center;
+	padding: 10px;
+	color: #999;
+	font-size: 12px;
+	text-shadow: 0px 1px 0px #fff;
+}
+#footer a{
+	font-weight: bold;
+	color: #3E83E7;
+	padding: 0px 7px;
+}
+#footer a:hover{
+	text-decoration: underline;
+}
+
+
+.reportbox{
+	width: 390px;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	color: #666;
+	margin: 0px auto;
+	padding: 25px 29px;
+	box-shadow: 0px 0px 5px #ddd;
+}
+.reportbox h1{
+	color: #666;
+	font-size: 21px;
+	padding-bottom: 5px;
+	text-align: center;
+	letter-spacing: -0.1px;
+}
+.reportbox .text{
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	padding: 15px 0px;
+	text-align: center;
+	margin: 11px 0;
+	color: #666;
+}
+
+
+.stbox{
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	color: #666;
+	margin: 0px auto;
+	padding: 25px 39px;
+	box-shadow: 0px 0px 5px #ddd;
+	padding: 0 40px;
+}
+.stbox h1{
+	font-size: 22px;
+	color: #666;
+	letter-spacing: -0.4px;
+}
+
+.ticketinfo{
+	padding: 16px 39px;
+	position: relative;
+	margin-bottom: 18px;;
+}
+.ticketinfo h1{
+	padding-bottom: 18px;
+	padding-top: 14px;
+}
+.ticketinfo ul{
+	color: #616A7B;
+}
+.ticketinfo ul li{
+	display: block;
+	width: 390px;
+	float: left;
+	position: relative;
+	height: 28px;
+	font-weight: bold;
+}
+.ticketinfo ul li span{
+	display: block;
+	font-weight: normal;
+	position: absolute;
+	left: 94px;
+	top: 0;
+}
+.ticketinfo .open{
+	color: #66AE70;
+}.ticketinfo .close{
+	color: #C75F4D;
+}
+.ticketinfo .wait1{
+	color: #DEBF36;
+}
+
+.open{ color: #66AE70; }
+.close{ color: #C75F4D; }
+.wait1{ color: #DEBF36; }
+
+.ticketinfoclose{
+	background: #fff url('../images/close.png') no-repeat center;
+	text-indent: -9999px;
+	display: block;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 22px;
+	top: 22px;
+	border: 1px solid #fff;
+	border-radius: 10px;
+}
+.ticketinfoclose:hover {
+	opacity: 0.7;
+}
+
+.chat{
+	padding: 0px;
+	margin-bottom: 20px;
+}
+
+.chat h1{
+	border-bottom: 1px solid #E5E7EA;
+	line-height: 1.33em;
+	padding: 15px 39px;
+}
+.chatname{
+	background: #E6E9EF;
+	border-radius: 20px;
+	font-size: 11px;
+	box-shadow: inset 0px -1px 2px #CFD2D8;
+	text-align: center;
+	color: #8E929C;
+	letter-spacing: -0.1px;
+	text-shadow: 0px 1px 0px #fff;
+}
+.chatpicture{
+	border-radius: 4px;
+	display: block;
+	margin-bottom: 7px;
+}
+.customer-date{
+	color: #B0B4BD;
+	font-size: 11px;
+	display: block;
+	text-align: right;
+	padding-top: 10px;
+}
+
+
+.chatline-customer{
+	padding: 30px 39px 18px 39px;
+	border-bottom: 1px solid #F3F3F5;
+	border-top: 1px solid #FBFBFC;
+	position: relative;
+}
+.chatline-customer .profile{
+	width: 60px;
+	float: left;
+}
+.chatline-customer .ballon{
+	width: 664px;
+	float: right;
+	background: #FBFFF4;
+	border: 1px solid #AAB385;
+	border-radius: 8px;
+	color: #70736B;
+	line-height: 20px;
+	padding: 14px 25px;
+	box-shadow: inset 0px 2px 2px #fff, inset 0px -1px 2px #C3C8B4, 0px 1px 2px #E6E9EF;
+	border-bottom: 1px solid #99A278;
+    word-wrap:break-word;
+}
+
+.chatline-customer .ballon pre{
+    background: #F5F5F5;
+    border:1px dashed #ccc;
+    padding:6px;
+}
+    
+.chatline-support .ballon pre{
+    background: #F5F5F5;
+    border:1px dashed #ccc;
+    padding:6px;
+}
+
+.chatline-customer .ballon ul{
+    margin-left:10px;
+}
+
+.chatline-support .ballon ul{
+    margin-left:10px;
+}
+
+.chatline-customer .ballon ol{
+    margin-left:10px;
+}
+
+.chatline-support .ballon ol{
+    margin-left:10px;
+}
+
+.customer-arrow{
+	position: absolute;
+	top: 46px;
+	left: 112px;
+}
+
+.customer-date{
+	color: #B0B4BD;
+	font-size: 11px;
+	display: block;
+	text-align: right;
+	padding-top: 10px;
+}
+
+.chatline-support{
+	padding: 30px 39px 18px 39px;
+	border-bottom: 1px solid #F3F3F5;
+	border-top: 1px solid #FBFBFC;
+	position: relative;
+}
+.chatline-support .profile{
+	width: 60px;
+	float: right;
+}
+.chatline-support .ballon{
+	width: 664px;
+	float: left;
+	background: #FFF9F3;
+	border: 1px solid #D18966;
+	border-radius: 8px;
+	color: #604F47;
+	line-height: 20px;
+	padding: 14px 25px;
+	box-shadow: inset 0px 2px 2px #fff, inset 0px -1px 2px #EED1C2, 0px 1px 2px #E6E9EF;
+	border-bottom: 1px solid #C77A52;
+    word-wrap:break-word;
+}
+.support-arrow{
+	position: absolute;
+	top: 46px;
+	right: 112px;
+}
+
+.support-date{
+	color: #B0B4BD;
+	font-size: 11px;
+	display: block;
+	text-align: left;
+	padding-top: 10px;
+}
+
+.ballon li{margin:0px;padding:0px;}
+.reply{
+	border-top: 1px solid #ddd;
+	padding: 20px 39px;
+	background: url('../images/replybg.jpg') repeat-x top;
+}
+.reply textarea{
+	width: 786px;
+	margin-bottom: 8px;
+}
+.reply .button{
+	width: 100px;
+	float: right;
+	display: block;
+}
+
+.getticket{
+	padding: 17px;
+	border-top: 1px solid #E5E7EA;
+	margin-top: -1px;
+}
+.getticket:hover{
+	background: #F8F9FB;
+}
+.getticket .c1{
+	width: 29px;
+	float: left;
+	margin-left: -6px;
+}
+.getticket .c1 img{
+	margin-left: 5px;
+}
+
+.getticket .c2{
+	width: 570px;
+	float: left;
+}
+.getticket .c2 .title{
+	display: block;
+	color: #666;
+	font-size: 13px;
+}
+.getticket .c2 .title:hover{
+	color: #333;
+	text-decoration: underline;
+}
+.getticket .c2 span{
+	color: #ACB0BA;
+	font-size: 11px;
+	padding-right: 30px;
+}
+.getticket .c3{
+	width: 240px;
+	float: right;
+	text-align: right;
+	padding-top: 10px;
+	display: none;
+}
+.hbutton a{
+	border: 1px solid #E5E7EA;
+	padding: 4px 12px;
+	border-radius: 30px;
+	margin-left: 5px;
+	color: #B7B8C5;
+	background: #fff;
+}
+.getticket:hover .c3 {
+	display: block;
+}
+.hbutton a:hover{
+	border: 1px solid #B7BFD7;
+	color: #666;
+	background: #E9ECF2;
+	box-shadow: inset 0px -1px 1px #CED4DC;
+}
+.hbutton a:active{
+	border: 1px solid #A0A7BC;
+	box-shadow: inset 0px 1px 1px #CED4DC, inset 0px -1px 0px #fff;
+}
+
+
+
+
+.bottombar{
+	padding: 20px;
+	border-top: 1px solid #E5E7EA;
+}
+.bottombar a{
+	border: 1px solid #B7BFD7;
+	color: #666;
+	border-radius: 30px;
+	padding: 4px 12px;
+	background: #E9ECF2;
+	box-shadow: inset 0px -1px 1px #CED4DC;
+}
+.bottombar a:hover{
+	border: 1px solid #9da2b0;
+	box-shadow: inset 0px 1px 0px #f2f2f2, inset 0px -1px 1px #CED4DC;
+}
+.bottombar a:active{
+	box-shadow: inset 0px 2px 1px #CED4DC, inset 0px -1px 0px #fff;
+}
+.actionbutton{
+	width: 40%;
+	float: left;
+}
+
+.pagebutton{
+	width: %50;
+	float: right;
+	text-align: right;
+}
+
+.alert{
+	font-size:12px;
+	line-height:17px;
+	box-shadow:0px 1px 0px #F7F7F7;
+	position:relative;
+	margin:15px 0px;
+	padding:14px 42px;
+	border-radius:3px;
+	zoom: 1;
+}
+    
+.ok{
+	background:#EBF9E2;
+	border:1px solid #BEE4A5;
+	color:#658C2C;}
+
+.error{
+	background:#F8E9E9;
+	border:1px solid #E4BBBC;
+	color:#BF2C11;}
+
+.tablelist{
+	text-align:center;}
+.tablelist thead{
+	background:#efefef;
+}
+.tablelist thead td{
+	border-left:1px solid #FFF;
+	padding:10px;
+	font-weight:bold;
+	}
+.tablelist tbody tr{
+	border-top: 0px solid #E5E7EA;
+}
+.tablelist tbody td{
+	border-left:1px solid #EDEEF1;
+	padding:8px;}
+.tablelist tbody td a{
+	border: 1px solid #B7BFD7;
+	color: #666;
+	border-radius: 30px;
+	padding: 4px 12px;
+	background: #E9ECF2;
+	box-shadow: inset 0px -1px 1px #CED4DC;
+}
+.tablelist tbody td a:hover{
+	border: 1px solid #9da2b0;
+	box-shadow: inset 0px 1px 0px #f2f2f2, inset 0px -1px 1px #CED4DC;
+}
+.attachments{
+    display:block;
+    margin: 15px 0 0 0;
+    padding:5px;
+    
+}
+.attachments h4{color:red;}
+.attachments li{list-style:none;}
+
+.settings-menu{
+    margin-bottom:20px;
+}
+.settings-menu a{
+    text-decoration:none;
+    background:#e6e6e6;
+    padding:5px 10px 5px 10px;
+    margin:2px;
+}
+.settings-menu a:hover{
+    background:#ccc;
+}
+
+.settings-menu .active{
+    text-decoration:none;
+    background:#ccc;
+    padding:5px 10px 5px 10px;
+    margin:2px;
+}
+
+.container{
+    margin:20px;
+}
+
+
+
+
+

@@ -1,0 +1,167 @@
+.events .dashboard_item {
+
+	 border-bottom: 1px solid #EEEEEE;
+
+
+    margin-bottom: 0;
+
+    overflow: hidden;
+
+    padding-top: 20px; padding-bottom: 10px; padding-left: 20px;
+
+    position: relative;
+
+    width: 650px; 
+
+    -webkit-transition: background-color .45s ease-in-out;
+
+	-moz-transition: background-color .45s ease-in-out;
+
+	-o-transition: background-color .45s ease-in-out; 
+
+}
+
+
+.events .dashboard_item_small {
+
+	 border-bottom: 1px solid #EEEEEE;
+
+
+    margin-bottom: 0;
+
+    overflow: hidden;
+
+    padding-top: 20px; padding-bottom: 10px; padding-left: 0px;
+
+    position: relative;
+
+    width: 650px; 
+
+    -webkit-transition: background-color .45s ease-in-out;
+
+	-moz-transition: background-color .45s ease-in-out;
+
+	-o-transition: background-color .45s ease-in-out; 
+
+}
+
+
+
+.events .dashboard_item:hover { background: #ebf7fc; }
+.events .dashboard_item_small:hover { background: #ebf7fc; }
+
+
+.events .background_new { background: #f2fafd; border-color: #c9e5f1; }
+
+
+
+
+.events .item_body {
+
+	float: left;
+
+    padding-right: 0px;
+
+    width: 490px;
+
+    margin-left: 0px;
+
+}
+
+.events .item_body_small {
+
+	float: left;
+
+    padding-right: 0px;
+
+    width: 490px;
+
+    margin-left: 0px;
+
+}
+
+
+.events .item_body p {
+
+	padding-bottom: 0px;
+
+}
+
+
+.events .item_body p.detail {
+
+	font-size: 14px; color: #666;
+font-weight: normal; padding-bottom: 0px; line-height:18px; font-style: italic; font-family: Georgia, "Times New Roman", serif;
+}
+
+
+
+.events .item_body_right {
+
+	float: right;
+
+    padding-right: 0px;
+
+    width: 100px;
+
+    margin-left: 14px;
+
+}
+
+
+.events .item_body h5 a {
+
+	font-size: 13px;
+
+	font-weight: bold;
+
+	color: #c94a57;
+
+}
+
+.events .item_body h4 a {
+
+float: left;
+}
+
+.events .item_body_right .price {
+
+	font-size: 17px; padding-top: 20px;
+
+	font-weight: bold; margin-bottom: 20px;
+
+	color: #c94a57;
+
+}
+
+.events .item_body_right p {
+
+	font-size: 11px; padding-top: 20px;
+
+	font-weight: normal;
+
+	color: #99999;
+
+}
+
+.events .item_body h5 .item_time a, .item_time a {
+
+	color: #c7c7c7;
+
+	font-weight: normal;
+
+	font-size: 11px;
+
+}
+.events .item_time {
+	color: #c7c7c7;
+}
+
+
+.events .dashboard_item p {
+
+	font-size: 12px;
+
+	line-height:12px;		word-wrap: break-word;
+
+}

@@ -1,0 +1,153 @@
+
+
+#lean_overlay {
+    position: fixed;
+    z-index: 10000;
+    top: 0px;
+    left: 0px;
+    height:100%;
+    width:100%;
+    background: #000;
+    display: none;
+}
+
+
+/*---------------------------------------
+
+	EXAMPLES
+
+-----------------------------------------*/
+
+        #signup {
+
+     width: 500px; padding: 20px;
+
+    display:none;
+
+
+        border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.3); -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3); -moz-box-shadow: 0 0px 10px rgba(0,0,0,0.3);
+   background: #FFF url(../images/hd-bg.png) repeat-x;     
+}
+
+
+#signup form {
+
+  margin-top: 40px;
+       
+}
+
+
+
+#social 
+{
+	width: 384px;
+padding: 20px;	display:none;
+	background: #FFF; border: 10px solid #efefef;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);
+}
+
+#test {
+     width: 600px;
+padding: 30px; 
+    display:none;
+
+
+    background: #FFF;
+        border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+        box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);
+       
+}
+
+#test p { color: #666; text-shadow: none; }
+
+#signup-header { padding: 0px; padding-bottom: 20px; border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; border-top-right-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+
+#signup-header  h2 { color: #444; font-size: 2em; font-weight: 700; margin-bottom: 3px; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); }
+#signup-header  p { color: #444; font-size: 1.3em; margin: 0; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); text-shadow: none; }
+
+#signup-header  h3 { color: #e6073c; font-size: 2em; font-weight: 700; margin-bottom: 3px; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); }
+
+
+        
+.modal_close { position: absolute; top: 12px; right: 12px; display: block; width: 14px; height: 14px; background: url(../images/modal_close.png); z-index: 2; }
+
+
+
+
+
+#booking,
+#privacy_policy {
+width: 800px; 
+padding: 20px;
+display:none;
+background: #FFF url(../images/hd-bg.png) repeat-x;     
+border-radius: 5px; 
+-moz-border-radius: 5px; color: #333;
+-webkit-border-radius: 5px;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.3); 
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+-moz-box-shadow: 0 0px 10px rgba(0,0,0,0.3); border: 10px solid #FFF;
+       
+}
+
+#message_view_1,
+#message_view_2,
+#message_view_3,
+#message_view_4,
+#message_view_5,
+#message_view_6,
+#message_view_7,
+#message_view_8,
+#message_view_9,
+#message_view_10,
+#user-login-popup {
+width: 500px; 
+padding: 20px;
+display:none;
+background: #FFF url(../images/hd-bg.png) repeat-x;     
+border-radius: 5px; 
+-moz-border-radius: 5px; color: #333;
+-webkit-border-radius: 5px;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.3); 
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+-moz-box-shadow: 0 0px 10px rgba(0,0,0,0.3);border: 10px solid #FFF;
+       
+}
+
+#map-popup {
+width: 750px; 
+padding: 0px;
+display:none;
+background: #FFF;     
+border-radius: 5px; 
+-moz-border-radius: 5px; color: #333;
+-webkit-border-radius: 5px;
+box-shadow: 0px 0px 10px rgba(0,0,0,0.3); 
+-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.3); 
+-moz-box-shadow: 0 0px 10px rgba(0,0,0,0.3);border: 10px solid #FFF;
+       
+}
+
+
+#booking .left, #privacy_policy .left {
+width: 390px; float: left;       
+}
+
+#booking .right, #privacy_policy .right {
+width: 390px; float: left;       
+}
+
+#booking form, #privacy_policy form {
+margin-top: 40px;
+       
+}
+
+#booking-header { background: url(../images/hd-bg.png); padding: 0px; padding-bottom: 20px; border-top-left-radius: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; border-top-right-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+
+#booking-header  h2 { color: #444; font-size: 2em; font-weight: 700; margin-bottom: 3px; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); }
+#booking-header  p { color: #444; font-size: 1.3em; margin: 0; text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.5); text-shadow: none; }
+
+
+

@@ -1,0 +1,107 @@
+2007-09-27  TAKAGI Masahiro  <matakagi@gmail.com>
+
+    * docs/ja/designers/language-custom-functions/language-function-html-checkboxes.xml:
+      sync with en.
+
+2007-09-27  Monte Ohrt  <monte@ohrt.com>
+
+    * docs/en/designers/language-custom-functions/language-function-html-checkboxes.xml:
+      remove redundant attribute
+
+2007-09-18  Messju Mohr  <messju@lammfellpuschen.de>
+
+    * docs/id/programmers/plugins/plugins-functions.xml:
+      removed errornous whitespace
+
+2007-09-18  Zaenal Mutaqin  <zaenalm@gmail.com>
+
+    * docs/id/designers/language-basic-syntax/language-escaping.xml
+      docs/id/designers/language-basic-syntax/language-math.xml
+      docs/id/designers/language-basic-syntax/language-syntax-attributes.xml
+      docs/id/designers/language-basic-syntax/language-syntax-comments.xml
+      docs/id/designers/language-basic-syntax/language-syntax-functions.xml
+      docs/id/designers/language-basic-syntax/language-syntax-quotes.xml
+      docs/id/designers/language-basic-syntax/language-syntax-variables.xml
+      docs/id/designers/language-builtin-functions/language-function-capture.xml
+      docs/id/designers/language-builtin-functions/language-function-config-load.xml
+      docs/id/designers/language-builtin-functions/language-function-foreach.xml
+      docs/id/designers/language-builtin-functions/language-function-if.xml
+      docs/id/designers/language-builtin-functions/language-function-include-php.xml
+      docs/id/designers/language-builtin-functions/language-function-include.xml
+      docs/id/designers/language-builtin-functions/language-function-insert.xml
+      docs/id/designers/language-builtin-functions/language-function-ldelim.xml
+      docs/id/designers/language-builtin-functions/language-function-literal.xml
+      docs/id/designers/language-builtin-functions/language-function-php.xml
+      docs/id/designers/language-builtin-functions/language-function-section.xml
+      docs/id/designers/language-builtin-functions/language-function-strip.xml
+      docs/id/designers/language-custom-functions/language-function-assign.xml
+      docs/id/designers/language-custom-functions/language-function-counter.xml
+      docs/id/designers/language-custom-functions/language-function-cycle.xml
+      docs/id/designers/language-custom-functions/language-function-debug.xml
+      docs/id/designers/language-custom-functions/language-function-eval.xml
+      docs/id/designers/language-custom-functions/language-function-fetch.xml
+      docs/id/designers/language-custom-functions/language-function-html-checkboxes.xml
+      docs/id/designers/language-custom-functions/language-function-html-image.xml
+      docs/id/designers/language-custom-functions/language-function-html-options.xml
+      docs/id/designers/language-custom-functions/language-function-html-radios.xml
+      docs/id/designers/language-custom-functions/language-function-html-select-date.xml
+      docs/id/designers/language-custom-functions/language-function-html-select-time.xml
+      docs/id/designers/language-custom-functions/language-function-html-table.xml
+      docs/id/designers/language-custom-functions/language-function-mailto.xml
+      docs/id/designers/language-custom-functions/language-function-math.xml
+      docs/id/designers/language-custom-functions/language-function-popup-init.xml
+      docs/id/designers/language-custom-functions/language-function-popup.xml
+      docs/id/designers/language-custom-functions/language-function-textformat.xml
+      docs/id/designers/language-modifiers/language-modifier-capitalize.xml
+      docs/id/designers/language-modifiers/language-modifier-cat.xml
+      docs/id/designers/language-modifiers/language-modifier-count-characters.xml
+      docs/id/designers/language-modifiers/language-modifier-count-paragraphs.xml
+      docs/id/designers/language-modifiers/language-modifier-count-sentences.xml
+      docs/id/designers/language-modifiers/language-modifier-count-words.xml
+      docs/id/designers/language-modifiers/language-modifier-date-format.xml
+      docs/id/designers/language-modifiers/language-modifier-default.xml
+      docs/id/designers/language-modifiers/language-modifier-escape.xml
+      docs/id/designers/language-modifiers/language-modifier-indent.xml
+      docs/id/designers/language-modifiers/language-modifier-lower.xml
+      docs/id/designers/language-modifiers/language-modifier-nl2br.xml
+      docs/id/designers/language-modifiers/language-modifier-regex-replace.xml
+      docs/id/designers/language-modifiers/language-modifier-replace.xml
+      docs/id/designers/language-modifiers/language-modifier-spacify.xml
+      docs/id/designers/language-modifiers/language-modifier-string-format.xml
+      docs/id/designers/language-modifiers/language-modifier-strip-tags.xml
+      docs/id/designers/language-modifiers/language-modifier-strip.xml
+      docs/id/designers/language-modifiers/language-modifier-truncate.xml
+      docs/id/designers/language-modifiers/language-modifier-upper.xml
+      docs/id/designers/language-modifiers/language-modifier-wordwrap.xml
+      docs/id/designers/language-variables/language-assigned-variables.xml
+      docs/id/designers/language-variables/language-config-variables.xml
+      docs/id/designers/language-variables/language-variables-smarty.xml
+      docs/id/programmers/advanced-features/advanced-features-objects.xml
+      docs/id/programmers/advanced-features/advanced-features-outputfilters.xml
+      docs/id/programmers/advanced-features/advanced-features-postfilters.xml
+      docs/id/programmers/advanced-features/advanced-features-prefilters.xml
+      docs/id/programmers/advanced-features/section-template-cache-handler-func.xml
+      docs/id/programmers/advanced-features/template-resources.xml
+      docs/id/programmers/api-functions/api-append-by-ref.xml
+      docs/id/programmers/api-functions/api-append.xml
+      docs/id/programmers/api-functions/api-assign-by-ref.xml
+      docs/id/programmers/api-functions/api-assign.xml
+      docs/id/programmers/api-functions/api-clear-all-assign.xml
+      docs/id/programmers/api-functions/api-clear-all-cache.xml
+      docs/id/programmers/api-functions/api-clear-assign.xml
+      docs/id/programmers/api-functions/api-clear-cache.xml
+      docs/id/programmers/api-functions/api-clear-compiled-tpl.xml
+      docs/id/programmers/api-functions/api-clear-config.xml
+      docs/id/programmers/api-functions/api-config-load.xml
+      docs/id/programmers/api-functions/api-display.xml
+      docs/id/programmers/api-functions/api-fetch.xml
+      docs/id/programmers/api-functions/api-get-config-vars.xml
+      docs/id/programmers/api-functions/api-get-registered-object.xml
+      docs/id/programmers/api-functions/api-get-template-vars.xml
+      docs/id/programmers/api-functions/api-is-cached.xml
+      docs/id/programmers/api-functions/api-load-filter.xml
+      docs/id/programmers/api-functions/api-register-block.xml
+      docs/id/programmers/api-functions/api-register-compiler-function.xml
+      docs/id/programmers/api-functions/api-register-function.xml
+      docs/id/programmers/api-functions/api-register-modifier.xml
+      docs/id/programmers/api-functions/api-register-object.x

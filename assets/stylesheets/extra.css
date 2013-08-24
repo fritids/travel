@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.no_top_margin{ margin-top:0px !important;}
+
+a.hotel_name{color: #e6073c;}
+a.hotel_name:hover{color: #e6073c;}
+a.offer_name{color: #e6073c;}
+a.offer_name:hover{color: #e6073c;}
+
