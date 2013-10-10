@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'rjtravel_trav35a';
-$db['default']['password'] = 's!uNEevObFpW';
-$db['default']['database'] = 'rjtravel_trav45a43';
+$db['default']['hostname'] = 'mysql.ideaincube.com';
+$db['default']['username'] = 'ashish021';
+$db['default']['password'] = '';
+$db['default']['database'] = 'trip_bangladesh';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = 'trv_';
 $db['default']['pconnect'] = TRUE;
