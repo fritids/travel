@@ -48,9 +48,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'mysql.ideaincube.com';
-$db['default']['username'] = 'ashish021';
-$db['default']['password'] = '';
+$db['default']['hostname'] = 'localhost';
+$db['default']['username'] = 'root';
+$db['default']['password'] = 'root';
 $db['default']['database'] = 'trip_bangladesh';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = 'trv_';
