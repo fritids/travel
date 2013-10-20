@@ -32,8 +32,8 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);}
 .locations h1				{font-size:1.8em;padding:4px 0 10px;color:#666;-webkit-text-shadow:none;-moz-text-shadow:none;text-shadow:none;text-align:left;display:inline-block;float:left;width:100%;}
 .locations .details			{text-align:center;}
 
-.locations h5				{text-align: left; color: #e6073c; line-height: 13px; font-weight: 700;}
-.locations h5 a.offer_name				{text-align: left; color: #e6073c;}
+.locations h5				{text-align: left; color: #008209; line-height: 13px; font-weight: 700;}
+.locations h5 a.offer_name				{text-align: left; color: #008209;}
 
 
 .locations .details span,
@@ -46,7 +46,7 @@ box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);}
 .locations .full-width  .description			{width:350px;border:none;margin:0;padding:3px 0 2px;overflow:hidden;}
 
 .locations .full-width img			{width:200px; height: 140px; border:none;margin:0;padding:0px;overflow:hidden; margin-bottom: -5px; margin-right: 20px; background-color: #FFF;}
-.locations .full-width h5			{font-size: 16px; color: #e6073c; padding-bottom: 5px; font-weight: 700;}
+.locations .full-width h5			{font-size: 16px; color: #008209; padding-bottom: 5px; font-weight: 700;}
 
 .locations .full-width img			{width:130px; height: 100px; border:none;margin:0;padding:0px;overflow:hidden; margin-bottom: -5px;  margin: 10px; border: 1px solid #ddd; padding: 5px;   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;}

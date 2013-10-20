@@ -239,18 +239,18 @@ input[type="button"]:active {
 /* Red Button
 ==========================*/
 .button.red {
-	  background-color: #d51a3f;
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f41042), to(#d51a3f));
-  background: -webkit-linear-gradient(top, #f41042, #d51a3f);
-  background: -moz-linear-gradient(top, #f41042, #d51a3f);
-  background: -ms-linear-gradient(top, #f41042, #d51a3f);
-  background: -o-linear-gradient(top, #f41042, #d51a3f);
+	  background-color: #FFCB18;
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFCB18), to(#FFCB18));
+  background: -webkit-linear-gradient(top, #FFCB18, #FFCB18);
+  background: -moz-linear-gradient(top, #FFCB18, #FFCB18);
+  background: -ms-linear-gradient(top, #FFCB18, #FFCB18);
+  background: -o-linear-gradient(top, #FFCB18, #FFCB18);
 	color:#fff;
-	text-shadow: 1px -1px 0px #a43b37;
-	filter: dropshadow(color=#a43b37, offx=1, offy=1);
+	text-shadow: 1px -1px 0px #9f8324;
+	filter: dropshadow(color=#9f8324, offx=1, offy=1);
 }
 
-.button.red:hover {background: #f41042;}
+.button.red:hover {background: #f0bb50;}
 
 
 /* Green Button
