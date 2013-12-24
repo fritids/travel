@@ -121,7 +121,7 @@
                     position: latLng,
                     map: map,
                     draggable: true,
-                    title:"Sie können mich per Drag & Drop auf das gewünschte Ziel setzen. Oder im Suche feld den Ort eingeben und auswählen."
+                    title:"Sie k��nnen mich per Drag & Drop auf das gew��nschte Ziel setzen. Oder im Suche feld den Ort eingeben und ausw��hlen."
                 });
 
                 var input = document.getElementById('city_top');
@@ -188,7 +188,7 @@ updateMarkerPosition(marker.getPosition());
 	<div id="signup-ct">
 		<div id="signup-header"><h3><?php echo lang('popup_title_homepage');?></h3></div>
 	</div>
-		<div id="social-message">L'unico portale in cui pubblicare le tue offerte.<br><h4>Provalo subito gratuitamente per due mesi.</h4><br>Crei i tuoi pacchetti, fatti trovare per la qualità delle tue <br>proposte di soggiorno. Puoi decidere poi se ne vale la pena.
+		<div id="social-message">L'unico portale in cui pubblicare le tue offerte.<br><h4>Provalo subito gratuitamente per due mesi.</h4><br>Crei i tuoi pacchetti, fatti trovare per la qualit�� delle tue <br>proposte di soggiorno. Puoi decidere poi se ne vale la pena.
 
 <br><br><a href="<?php echo base_url();?><?php echo $this->config->item('hotel_owner_signup_url'); ?>" style="width:80px;height:17px;" class="button medium red"><?php echo lang('button_registrati_homepage');?> &raquo;</a> <a href="<?php echo base_url();?><?php echo $this->config->item('dashboard_url');?>" style="width:54px;height:17px; color:#FFF;" class="button medium red">Login &raquo;</a>
 <a href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>" style="width:114px;height:17px; color:#666;" class="button medium">come funziona &raquo;</a>
@@ -258,7 +258,7 @@ updateMarkerPosition(marker.getPosition());
 	<!-- 960 Container Start -->
 	<div class="container">
 		
-				<div class="sixteen columns">						<h2><?php echo lang('lastmminute');?> <?php echo lang('hotel');?>, <?php echo lang('bb');?>, <?php echo lang('vacation_house');?>. <a href="http://www.travelly.me/blog">Travelly blog</a></h2>
+				<div class="sixteen columns">						<h2><?php echo lang('lastmminute');?> <?php echo lang('hotel');?>, <?php echo lang('bb');?>, <?php echo lang('vacation_house');?>.</h2>
 
 		</div>
 	</div>
@@ -284,7 +284,7 @@ updateMarkerPosition(marker.getPosition());
                         <div class="item-img">
                 
                         <ul class="item_toolbar">da<br>
-									<h3 style="color:#FFF;"><?php echo $offer_item->offer_price_adult;?>€</h3>
+									<h3 style="color:#FFF;"><?php echo $offer_item->offer_price_adult;?>���</h3>
 									
 																													</ul>
 					<a href="<?php echo base_url();?><?php echo offers_url($offer_item);?>">
@@ -335,7 +335,7 @@ Vacanze a <?php echo $offer_item->city_name;?>
 		         <div class="overlay zoom"></div>   </a>
                 </div>
                                      <div class="portfolio-item-meta">
-<strong>a partire da 79€ a persona</strong>
+<strong>a partire da 79��� a persona</strong>
 
 				                                          <div style="clear:both;"></div>
                                        
@@ -357,7 +357,7 @@ Vacanze a <?php echo $offer_item->city_name;?>
 		         <div class="overlay zoom"></div>   </a>
                 </div>
                                     <div class="portfolio-item-meta">
-<strong>a partire da 49€ a persona</strong>
+<strong>a partire da 49��� a persona</strong>
 
 				                                          <div style="clear:both;"></div>
                                        
@@ -378,7 +378,7 @@ Vacanze a <?php echo $offer_item->city_name;?>
 		         <div class="overlay zoom"></div>   </a>
                 </div>
                                       <div class="portfolio-item-meta">
-<strong>a partire da 89€ a persona</strong>
+<strong>a partire da 89��� a persona</strong>
 
 				                                          <div style="clear:both;"></div>
                                        
@@ -400,7 +400,7 @@ Vacanze a <?php echo $offer_item->city_name;?>
 		         <div class="overlay zoom"></div>   </a>
                 </div>
                                      <div class="portfolio-item-meta">
-<strong>a partire da 49€ a persona</strong>
+<strong>a partire da 49��� a persona</strong>
 				                                          <div style="clear:both;"></div>
                                        
                                                    </div>

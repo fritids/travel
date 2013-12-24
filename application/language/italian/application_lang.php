@@ -1,6 +1,6 @@
 <?php
 /*
- * English
+ * Italian
  */
 // HOME PAGE
 
