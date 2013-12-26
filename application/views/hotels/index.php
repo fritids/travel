@@ -179,7 +179,7 @@
     <div class="twelve columns">
     
       <div class="notification notice-why closeable">
-				<p><span>10</span> Buoni Motivi Per Pubblicare Su Travelly! <a href="http://www.travelly.me/how-it-works">Scopri di piu</a></p>
+				<p><span>10</span> Good Reasons To Publish On Trip-bangladesh! <a href="http://www.trip-bangladesh.com/how-it-works">Learn more</a></p>
 			</div>	
 			
 			<div class="clearfix-small"></div>

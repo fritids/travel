@@ -53,7 +53,9 @@
                         <?php } ?>
                         
                         <div class="forgot_password" style="margin-bottom: 0px;text-align:left; ">
-                        	<a href="<?=base_url();?><?=$this->config->item('passrecover_url');?>"><?php echo lang('forgot_password');?>?</a> / <a href="<?php echo base_url(); ?><?php echo $this->config->item('signup_url'); ?>"><?php echo lang('signup');?></a> / <a href="<?php echo base_url();?><?php echo $this->config->item('hotel_owner_signup_url'); ?>"><strong>Area Strutture</strong></a>
+                        	<a href="<?=base_url();?><?=$this->config->item('passrecover_url');?>"><?php echo lang('forgot_password');?>?</a> / 
+                        	<a href="<?php echo base_url(); ?><?php echo $this->config->item('signup_url'); ?>"><?php echo lang('signup');?></a> / 
+                        	<a href="<?php echo base_url();?><?php echo $this->config->item('hotel_owner_signup_url'); ?>"><strong>Post your offers</strong></a>
 
                         </div>
                         
@@ -66,7 +68,7 @@
         								                        	<div class="clearfix"></div>
 
 
-						<input type="submit" name="signin" id="signin" class="button medium yellow" value="<?php echo lang('login');?>">
+						<input type="submit" name="signin" id="signin" class="button medium btn-red" value="<?php echo lang('login');?>">
 						
 									<div class="clearfix"></div>
 

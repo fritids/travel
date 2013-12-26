@@ -4,7 +4,7 @@
 					
                     <?php if($invitation_code!=NULL && $account_type=="1") { ?>
                     					<div class="notification red" style="background-color:#efefef;">
-                    					<h5 style="margin-bottom:10px;line-height:14px;">Inserisci il Codice promozionale: PROMO4FREE2MON<br> per un accesso gratuito di 2 mesi.</h5>
+                    					<h5 style="margin-bottom:10px;line-height:14px;">Promotion Code: PROMO4FREE2MON<br> (free access for 2 months.)</h5>
                     	<?php if (isset($invalid_invitation_code) && $invalid_invitation_code==TRUE) { ?>
                             <span class="suggestion error first_signup_visit" id="full_nameInfo"><?php echo lang('invalid_invitaiton_code'); ?></span>
                         <?php  }else{ ?>
@@ -13,9 +13,10 @@
                         <?php } ?>
                         <input type="text" class="input-big" style="width:360px;" placeholder="codice promozionale" value="<?php if(isset($invitation_code) && $invitation_code!="beta") echo $invitation_code;?>" name="invitation_code" id="invitation_code" />
                         <div class="clearfix"></div>
-                        <a href="#" class="button medium red">Codice promozionale: PROMO4FREE2MON</a><br>
+                        <a href="#" class="button medium btn-red">Promotion Code: PROMO4FREE2MON</a><br>
                         <div class="clearfix-small"></div>
-                        Se hai problemi registrati con il codice promozionale invia una mail<br><a href="mailto:support@travelly.me">support@travelly.me</a>
+                        If you have any problems in registration with promo code,<br>
+                        send an e-mail <a href="mailto:support@trip-bangladesh.com">support@trip-bangladesh.com</a>
                         <div class="clearfix-small"></div>
 
                         </div>  <div class="clearfix-border"></div>
@@ -108,7 +109,7 @@
                     //-->
                     
                     <div class="clearfix"></div>
-					 <input type="checkbox" name="accept_privacy_conditions" id="accept_privacy_conditions" style="width:30px; margin-left:-5px;"> <?php echo lang('i_agree_text');?> <a href="#privacy_policy" rel="leanModal"><?php echo lang('privacy_policy');?></a> e <a href="http://travelly.me/terms-and-conditions">Condizioni</a>
+					 <input type="checkbox" name="accept_privacy_conditions" id="accept_privacy_conditions" style="width:30px; margin-left:-5px;"> <?php echo lang('i_agree_text');?> <a href="#privacy_policy" rel="leanModal"><?php echo lang('privacy_policy');?></a> and <a href="http://trip-bangladesh.com/terms-and-conditions">Conditions</a>
 					<div class="clearfix"></div>
 					
 					<div class="clearfix"></div>
@@ -137,6 +138,6 @@
         			        			<div class="clearfix"></div>
 						        									
 					<input type="hidden" name="timezone_offset" id="timezone_offset" value="">
-					<input type="submit" name="cretae_my_account" id="btn_register" class="button medium btn-green" value="<?php echo lang('register');?>">	
+					<input type="submit" name="cretae_my_account" id="btn_register" class="button medium btn-red" value="<?php echo lang('register');?>">	
 			
 </form>

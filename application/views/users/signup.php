@@ -23,11 +23,11 @@
 				<h1 class="login" style="color:#666;">
                                     <?php 
                                     if(isset($account_type) && $account_type=="2")
-                                        echo lang('dd')."Registrati su Travelly"; 
+                                        echo lang('dd')."Sign up on Trip-bangladesh"; 
                                     else if(isset($account_type) && $account_type=="1")
-                                        echo lang('regisster')."Registra la tua <strong>struttura</strong>";
+                                        echo lang('regisster')."Sign up - <strong>Hotel Owner</strong>";
                                     else if(isset($account_type) && $account_type=="3")
-                                        echo lang('register')." Tourist Office ";
+                                        echo lang('register')." Sign up - <strong>Tourist Office</strong> ";
                                     else
                                         echo lang('register');
                                     
@@ -35,9 +35,9 @@
                                 </h1>
                                      <?php 
                                     if(isset($account_type) && $account_type=="2")
-                                        echo lang('dd')."Giá registrato? <a href='http://travelly.me/users/login'>Login</a>"; 
+                                        echo lang('dd')."Already a member? <a href='http://trip-bangladesh.com/users/login'>Login</a>"; 
                                     else if(isset($account_type) && $account_type=="1")
-                                        echo lang('regisster')."Giá registrato? <a href='http://travelly.me/users/login'>Login</a>";
+                                        echo lang('regisster')."Already a member? <a href='http://trip-bangladesh.com/users/login'>Login</a>";
                                     else if(isset($account_type) && $account_type=="3")
                                         echo lang('register')." Tourist Office ";
                                     else

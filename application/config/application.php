@@ -79,5 +79,5 @@ $config['privacy_page_url'] = "privacy-policy";
 $config['offers_seo_title'] = "%offer_title% - %hotel_name% - %city%";
 $config['hotel_seo_title'] = "%hotel_type% a %city% - %hotel_name%";
 
-$config['default_country'] = 80;
+$config['default_country'] = 14;
 ?>

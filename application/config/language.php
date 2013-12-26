@@ -10,9 +10,10 @@ $config['supported_languages'] = array(
 */
 $config['supported_languages'] = array(
     'en'=> array('name' => 'English', 'folder' => 'english'),
-    'it'=> array('name' => 'Italian', 'folder' => 'italian'),
-	'de'=> array('name' => 'Deutsch', 'folder' => 'deutsch')
+    'bn'=> array('name' => 'Bengali', 'folder' => 'bengali')
+    /*'it'=> array('name' => 'Italian', 'folder' => 'italian'),
+	'de'=> array('name' => 'Deutsch', 'folder' => 'deutsch')*/
 );
-$config['default_language'] = 'it';
+$config['default_language'] = 'en';
 
 ?>

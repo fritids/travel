@@ -55,7 +55,7 @@
 	                    <div style="margin-left: 120px; margin-bottom:15px;">
 							<div id="signup_error_message" class="error_message" style="<?php if(isset($display_error) && $error_message!='') echo "display:block;"; ?>"><?php if(isset($display_error) && $error_message!='') echo $error_message; ?></div>
 						</div>
-						<input type="submit" name="recovery_email_send" id="btn_register" class="button medium yellow" value="Submit">	
+						<input type="submit" name="recovery_email_send" id="btn_register" class="button medium btn-red" value="Submit">	
 								
 				</form></div>
 			</div>

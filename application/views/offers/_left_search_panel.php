@@ -8,7 +8,7 @@
 												'Toscana','Trentino-Alto Adige','Umbria','Valle dAosta','Veneto');
 						?>    
     
-					    <h5>Offerte per Regione</h5>
+					    <h5>Offers by City</h5>
                         <div>
                             <ul class="ckeckbox-search" id="search_by_state_multiple">
                                  <?php 

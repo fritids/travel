@@ -100,7 +100,7 @@ $(document).ready(function(){
 		//if it's NOT valid
 		if(name.val().length < 3){
 			//name.addClass("error");
-			nameInfo.text("Usa almeno 3 lettere");
+			nameInfo.text("Use at least 3 letters");
 			nameInfo.removeClass("success");
 			nameInfo.addClass("error");
 			return false;
@@ -108,7 +108,7 @@ $(document).ready(function(){
 		//if it's valid
 		else{
 			//name.removeClass("error");
-			nameInfo.text("Il nome sembra ottimo");
+			nameInfo.text("Your name sounds great!");
 			nameInfo.removeClass("error");
 			nameInfo.addClass("success");
 			return true;
@@ -124,7 +124,7 @@ $(document).ready(function(){
       											 }, function(response){
         																if(response=="1")
 																			{
-																				usernameInfo.text("Nome utente disponibile");
+																				usernameInfo.text("Username available");
 																				usernameInfo.removeClass("error");
 																				usernameInfo.addClass("success");
 																				//alert("return username true");
@@ -132,7 +132,7 @@ $(document).ready(function(){
 																			}
 																		else
 																			{
-																				usernameInfo.text("Questo nome utente già esiste!");
+																				usernameInfo.text("This username already exists!");
 																				usernameInfo.removeClass("success");
 																				usernameInfo.addClass("error");
 																				check2 = false;
@@ -146,7 +146,7 @@ $(document).ready(function(){
 		//if it's valid
 		else{
 			//name.removeClass("error");
-			usernameInfo.text("Nome utente non valido");
+			usernameInfo.text("Invalid username!");
 			usernameInfo.removeClass("success");
 			usernameInfo.addClass("error");
 			return false;
@@ -166,7 +166,7 @@ $(document).ready(function(){
         																if(response=="1")
 																			{
 																				//email.removeClass("error");
-																				emailInfo.text("Ti invieremo una email di conferma");
+																				emailInfo.text("We will send you a confirmation email");
 																				emailInfo.removeClass("error");
 																				emailInfo.addClass("success");
 																				//alert("return email true");
@@ -175,7 +175,7 @@ $(document).ready(function(){
 																		else
 																			{
 																				//email.removeClass("error");
-																				emailInfo.html("Email già registrata. Puoi <a href='"+baseurl+"user/login'>fare l'accesso</a> o <a href='"+baseurl+"user/recover'>resettare la password</a>");
+																				emailInfo.html("Email already registered. You can <a href='"+baseurl+"user/login'>access your account</a> or <a href='"+baseurl+"user/recover'>reset your password</a>");
 																				emailInfo.removeClass("success");
 																				emailInfo.addClass("error");
 																				check3 = false;	
@@ -187,7 +187,7 @@ $(document).ready(function(){
 		//if it's NOT valid
 		else{
 			//email.addClass("error");
-			emailInfo.text("Email non valida");
+			emailInfo.text("Invalid Email!");
 			emailInfo.removeClass("success");
 			emailInfo.addClass("error");
 			return false;
@@ -201,7 +201,7 @@ $(document).ready(function(){
 		//it's NOT valid
 		if(pass1.val().length <6){
 			//pass1.addClass("error");
-			pass1Info.text("Usa almeno 6 caratteri per la password");
+			pass1Info.text("Use at least 6 characters for the password");
 			pass1Info.removeClass("success");
 			pass1Info.addClass("error");
 			return false;
@@ -209,7 +209,7 @@ $(document).ready(function(){
 		//it's valid
 		else{			
 			//pass1.removeClass("error");
-			pass1Info.text("La password sembra accettabile");
+			pass1Info.text("The password seems OK.");
 			pass1Info.removeClass("error");
 			pass1Info.addClass("success");
 			validatePass2();

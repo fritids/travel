@@ -224,7 +224,7 @@ updateMarkerPosition(marker.getPosition());
                 <div class="field" style="margin-right:0px;width:125px; float:right;">
                 <input type="hidden" name="search_latitude" id="search_latitude" value="">
                 <input type="hidden" name="search_longitude" id="search_longitude" value="">
-				<input type="submit" name="search" class="button medium yellow" style="width:125px;"  value="<?php echo lang('start_search');?>">
+				<input type="submit" name="search" class="button medium btn-red" style="width:125px;"  value="<?php echo lang('start_search');?>">
 				</div>
                 <div class="clearfix"></div>
 			</form>
@@ -242,7 +242,7 @@ updateMarkerPosition(marker.getPosition());
 	<div class="flexslider">
 	
 	 <ul class="rslides rslides1">
-      <li><img src="<?php echo IMAGEPATH; ?>home/toscana_big.jpg" alt=""></li>
+      <li><img src="<?php echo IMAGEPATH; ?>home/nilgiri2.jpg" alt=""></li>
     </ul>
     
     
@@ -324,40 +324,35 @@ Vacanze a <?php echo $offer_item->city_name;?>
 
                     <div class="four columns background">
                         <div class="item-img">
-                
-                              <ul class="item_toolbar">Offerte di vacanza<br>
-									<strong>Piemonte</strong>
-									
-																													</ul>
-					<a href="http://www.travelly.me/offers/italy/piemonte">
-						
-						<img src="http://travelly.me/assets/images/home/piemonte.jpg" />						
-		         <div class="overlay zoom"></div>   </a>
-                </div>
-                                     <div class="portfolio-item-meta">
-<strong>a partire da 79��� a persona</strong>
-
-				                                          <div style="clear:both;"></div>
-                                       
-                                                   </div>
-                        
-                    </div>
+                			<ul class="item_toolbar">Vacation deals<br>
+								<strong>Cox's Bazar</strong>
+							</ul>
+							<a href="http://www.trip-bangladesh.com/offers/bangladesh/coxs-bazaar">
+								<img src="http://travelly.me/assets/images/home/piemonte.jpg" />						
+		         				<div class="overlay zoom"></div>   
+		         			</a>
+                		</div>
+                        <div class="portfolio-item-meta">
+							<strong>From 499 TK per person</strong>
+							<div style="clear:both;"></div>
+                        </div>
+             		</div>
                     
                     
                       <div class="four columns background">
                         <div class="item-img">
                 
-                              <ul class="item_toolbar">Offerte di vacanza<br>
-									<strong>Puglia</strong>
+                              <ul class="item_toolbar">Vacation deals<br>
+									<strong>Saint Martin</strong>
 									
 																													</ul>
-					<a href="http://www.travelly.me/offers/italy/puglia">
+					<a href="http://www.trip-bangladesh.com/offers/bangladesh/saint-martin">
 						
 						<img src="http://travelly.me/assets/images/home/puglia.jpg" />						
 		         <div class="overlay zoom"></div>   </a>
                 </div>
                                     <div class="portfolio-item-meta">
-<strong>a partire da 49��� a persona</strong>
+<strong>From 399 TK per person</strong>
 
 				                                          <div style="clear:both;"></div>
                                        
@@ -368,17 +363,17 @@ Vacanze a <?php echo $offer_item->city_name;?>
                        <div class="four columns background">
                         <div class="item-img">
                 
-                              <ul class="item_toolbar">Offerte di vacanza<br>
-									<strong>Toscana</strong>
+                              <ul class="item_toolbar">Vacation deals<br>
+									<strong>Rangamati</strong>
 									
 																													</ul>
-					<a href="http://www.travelly.me/offers/italy/toscana">
+					<a href="http://www.trip-bangladesh.com/offers/bangladesh/rangamati">
 						
 						<img src="http://travelly.me/assets/images/home/toscana.jpg" />						
 		         <div class="overlay zoom"></div>   </a>
                 </div>
                                       <div class="portfolio-item-meta">
-<strong>a partire da 89��� a persona</strong>
+<strong>From 499 TK per person</strong>
 
 				                                          <div style="clear:both;"></div>
                                        
@@ -390,17 +385,17 @@ Vacanze a <?php echo $offer_item->city_name;?>
                        <div class="four columns background">
                         <div class="item-img">
                 
-                              <ul class="item_toolbar">Offerte di vacanza<br>
-									<strong>Abruzzo</strong>
+                              <ul class="item_toolbar">Vacation deals<br>
+									<strong>Bandarban Nilgiri</strong>
 									
 																													</ul>
-					<a href="http://www.travelly.me/offers/italy/abruzzo">
+					<a href="http://www.trip-bangladesh.com/offers/bangladesh/bandarban">
 						
 						<img src="http://travelly.me/assets/images/home/abruzzo.jpg" />						
 		         <div class="overlay zoom"></div>   </a>
                 </div>
                                      <div class="portfolio-item-meta">
-<strong>a partire da 49��� a persona</strong>
+<strong>From 499 TK per person</strong>
 				                                          <div style="clear:both;"></div>
                                        
                                                    </div>
@@ -419,9 +414,9 @@ Vacanze a <?php echo $offer_item->city_name;?>
                     <p><?php echo lang('register_with_us_promotion_text');?></p>
                 </div>
                 	<?php if(isset($is_loggedin) && $is_loggedin=="true"){ ?>
-                    <a class="button medium red" style="float: right;" href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>">Pubblica le tue offerte</a>
+                    <a class="button medium btn-red" style="float: right;" href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>">Pubblica le tue offerte</a>
                     <?php }else{ ?>
-                    <a class="button medium red" style="float: right;" href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>">Pubblica le tue offerte</a>
+                    <a class="button medium btn-red" style="float: right;" href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>">Pubblica le tue offerte</a>
                     <?php } ?>
                     
                            <div class="clearfix"></div>

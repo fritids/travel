@@ -102,12 +102,13 @@ input[type="button"]:active {
 /*Red*/
 .btn-red {
   background-color: #d51a3f;
-  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f41042), to(#d51a3f));
-  background: -webkit-linear-gradient(top, #f41042, #d51a3f);
-  background: -moz-linear-gradient(top, #f41042, #d51a3f);
-  background: -ms-linear-gradient(top, #f41042, #d51a3f);
-  background: -o-linear-gradient(top, #f41042, #d51a3f);
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FF0000), to(#d51a3f));
+  background: -webkit-linear-gradient(top, #FF0000, #d51a3f);
+  background: -moz-linear-gradient(top, #FF0000, #d51a3f);
+  background: -ms-linear-gradient(top, #FF0000, #d51a3f);
+  background: -o-linear-gradient(top, #FF0000, #d51a3f);
   border: 1px solid #d51a3f;
+  color:#FFFFFF;
 }
 
 .btn-red:hover {
@@ -117,6 +118,7 @@ input[type="button"]:active {
   background: -moz-linear-gradient(top, #ca0000, #ca0000);
   background: -ms-linear-gradient(top, #ca0000, #ca0000);
   background: -o-linear-gradient(top, #ca0000, #ca0000);
+  color:#FFFFFF;
 }
 
 /*Blue*/

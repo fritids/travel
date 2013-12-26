@@ -43,7 +43,7 @@
                     position: latLng,
                     map: map,
                     draggable: true,
-                    title:"Sie können mich per Drag & Drop auf das gewünschte Ziel setzen. Oder im Suche feld den Ort eingeben und auswählen."
+                    title:"Sie kï¿½nnen mich per Drag & Drop auf das gewï¿½nschte Ziel setzen. Oder im Suche feld den Ort eingeben und auswï¿½hlen."
                 });
 
                 var input = document.getElementById('city_top');
@@ -196,7 +196,7 @@ updateMarkerPosition(marker.getPosition());
 				</div>
 				<input type="hidden" name="search_latitude" id="search_latitude" value="">
                 <input type="hidden" name="search_longitude" id="search_longitude" value="">	
-				<input type="submit" name="search" class="button medium yellow" style="float:right; margin-top:0px;"  value="<?php echo lang('start_search');?>">
+				<input type="submit" name="search" class="button medium btn-red" style="float:right; margin-top:0px;"  value="<?php echo lang('start_search');?>">
 			</form>
 		</div>
 	</div>

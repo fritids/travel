@@ -106,7 +106,7 @@
 
 			<div class="twelve columns">
 		 <div class="notification notice-why closeable">
-				<p><span>10</span> Buoni Motivi Per Pubblicare Su Travelly! <a href="http://www.travelly.me/how-it-works">Scopri di piu</a></p>
+				<p><span>10</span> Good Reasons To Publish On Trip-bangladesh! <a href="http://www.trip-bangladesh.com/how-it-works">Learn more</a></p>
 			</div>	
 			
 			<div class="clearfix-small"></div>
@@ -115,10 +115,10 @@
 						<div class="sort-by">
 							<h3><?php echo lang('search_result_page_heading');?> <?php if(isset($search_city)) echo $search_city;?></h3>
 							<ul class="sort">
-							<li><a href="?sort=durata&asc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="ascending" class="ascending">ascending</a><a href="?sort=durata&desc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="descending" class="descending">descending</a><span>Durata</span></li>
-								<li><a href="?sort=prezzo&asc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="ascending" class="ascending">ascending</a><a href="?sort=prezzo&desc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="descending" class="descending">descending</a><span>Prezzo</span></li>
-								<li><a href="?sort=data&asc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="ascending" class="ascending">ascending</a><a href="?sort=data&desc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="descending" class="descending">descending</a><span>Data</span></li>
-								<li><a href="?sort=stelle&asc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="ascending" class="ascending">ascending</a><a href="?sort=stelle&desc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="descending" class="descending">descending</a><span>Stelle</span></li>
+							<li><a href="?sort=durata&asc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="ascending" class="ascending">ascending</a><a href="?sort=durata&desc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="descending" class="descending">descending</a><span>Duration</span></li>
+								<li><a href="?sort=prezzo&asc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="ascending" class="ascending">ascending</a><a href="?sort=prezzo&desc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="descending" class="descending">descending</a><span>Price</span></li>
+								<li><a href="?sort=data&asc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="ascending" class="ascending">ascending</a><a href="?sort=data&desc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="descending" class="descending">descending</a><span>Date</span></li>
+								<li><a href="?sort=stelle&asc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="ascending" class="ascending">ascending</a><a href="?sort=stelle&desc=true&p=<?php if(isset($_GET['p'])) echo $_GET['p'];?>" title="descending" class="descending">descending</a><span>Star</span></li>
 								
  
  </ul>
