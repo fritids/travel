@@ -188,13 +188,13 @@ updateMarkerPosition(marker.getPosition());
 	<div id="signup-ct">
 		<div id="signup-header"><h3><?php echo lang('popup_title_homepage');?></h3></div>
 	</div>
-		<div id="social-message">L'unico portale in cui pubblicare le tue offerte.<br><h4>Provalo subito gratuitamente per due mesi.</h4><br>Crei i tuoi pacchetti, fatti trovare per la qualit�� delle tue <br>proposte di soggiorno. Puoi decidere poi se ne vale la pena.
+		<div id="social-message">The only platform where you can publish your offers.<br><h4>Try it now free for two months.</h4><br>Create your own packages, find the facts for the quality of your proposed stay. You can then decide whether it's worth it.
 
-<br><br><a href="<?php echo base_url();?><?php echo $this->config->item('hotel_owner_signup_url'); ?>" style="width:80px;height:17px;" class="button medium red"><?php echo lang('button_registrati_homepage');?> &raquo;</a> <a href="<?php echo base_url();?><?php echo $this->config->item('dashboard_url');?>" style="width:54px;height:17px; color:#FFF;" class="button medium red">Login &raquo;</a>
-<a href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>" style="width:114px;height:17px; color:#666;" class="button medium">come funziona &raquo;</a>
+<br><br><a href="<?php echo base_url();?><?php echo $this->config->item('hotel_owner_signup_url'); ?>" style="width:80px;height:17px;" class="button medium btn-red"><?php echo lang('button_registrati_homepage');?> &raquo;</a> <a href="<?php echo base_url();?><?php echo $this->config->item('dashboard_url');?>" style="width:54px;height:17px; color:#FFF;" class="button medium btn-red">Login &raquo;</a>
+<a href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>" style="width:114px;height:17px;" class="button medium btn-red">How it works &raquo;</a>
 
 <div class="clearfix-border"></div><a href="http://pinterest.com/travellyme/" style="float:left;margin-top:6px; height:24px; width:40px;" target="_blank"><img src="<?php echo IMAGEPATH; ?>pinterest.jpg"></a>
-<a href="https://twitter.com/travelly_me" class="twitter-follow-button" data-show-count="true" data-lang="<?php echo lang('language_string');?>" data-show-screen-name="false">Segui @travelly_me</a>
+<a href="https://twitter.com/travelly_me" class="twitter-follow-button" data-show-count="true" data-lang="<?php echo lang('language_string');?>" data-show-screen-name="false">Segui @trip-bangladesh</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> <div class="fb-like" style="margin-top:6px;"  data-href="http://www.facebook.com/pages/Travelly/405193586167312" data-send="false" data-layout="button_count" data-width="150" data-show-faces="false"></div></div>
 </div>
 
@@ -251,8 +251,8 @@ updateMarkerPosition(marker.getPosition());
 	<!-- Flexslider End-->		
 </div>
 <div class="clearfix"></div>
-  <link rel="stylesheet" href="http://www.travelly.me/assets/stylesheets/responsiveslides.css">
-  <script src="http://www.travelly.me/assets/javascript/responsiveslides.min.js"></script>
+  <link rel="stylesheet" href="<?php echo base_url(); ?>assets/stylesheets/responsiveslides.css">
+  <script src="<?php echo base_url(); ?>assets/javascript/responsiveslides.min.js"></script>
 <!--  Page Title -->
 <div id="page-title-home" style="padding-top:6px; padding-bottom:0px;">
 	<!-- 960 Container Start -->
@@ -328,7 +328,7 @@ Vacanze a <?php echo $offer_item->city_name;?>
 								<strong>Cox's Bazar</strong>
 							</ul>
 							<a href="http://www.trip-bangladesh.com/offers/bangladesh/coxs-bazaar">
-								<img src="http://travelly.me/assets/images/home/piemonte.jpg" />						
+								<img src="<?php echo base_url(); ?>assets/images/home/piemonte.jpg" />						
 		         				<div class="overlay zoom"></div>   
 		         			</a>
                 		</div>
@@ -348,7 +348,7 @@ Vacanze a <?php echo $offer_item->city_name;?>
 																													</ul>
 					<a href="http://www.trip-bangladesh.com/offers/bangladesh/saint-martin">
 						
-						<img src="http://travelly.me/assets/images/home/puglia.jpg" />						
+						<img src="<?php echo base_url(); ?>assets/images/home/puglia.jpg" />						
 		         <div class="overlay zoom"></div>   </a>
                 </div>
                                     <div class="portfolio-item-meta">
@@ -369,7 +369,7 @@ Vacanze a <?php echo $offer_item->city_name;?>
 																													</ul>
 					<a href="http://www.trip-bangladesh.com/offers/bangladesh/rangamati">
 						
-						<img src="http://travelly.me/assets/images/home/toscana.jpg" />						
+						<img src="<?php echo base_url(); ?>assets/images/home/toscana.jpg" />						
 		         <div class="overlay zoom"></div>   </a>
                 </div>
                                       <div class="portfolio-item-meta">
@@ -391,7 +391,7 @@ Vacanze a <?php echo $offer_item->city_name;?>
 																													</ul>
 					<a href="http://www.trip-bangladesh.com/offers/bangladesh/bandarban">
 						
-						<img src="http://travelly.me/assets/images/home/abruzzo.jpg" />						
+						<img src="<?php echo base_url(); ?>assets/images/home/abruzzo.jpg" />						
 		         <div class="overlay zoom"></div>   </a>
                 </div>
                                      <div class="portfolio-item-meta">

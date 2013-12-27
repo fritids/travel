@@ -689,13 +689,13 @@ $lang['notifications_page_new_mention_mes_post'] = "ti ha menzionato nel post";
 
 $lang[md5('noMessage')] = NULL;
 
-$lang['user_settings'] = "Impostazione del tuo account";
+$lang['user_settings'] = "Set up your account";
 
 $lang['create_match'] = "Crea partita";
 
 $lang['create_post'] = "Scrivi post";
 
-$lang['profile'] = "Profilo";
+$lang['profile'] = "Profile";
 
 $lang['dashboard'] = "<span style='display:none'>Aggiornamenti</span>";
 
@@ -717,29 +717,29 @@ $lang['search_result_title_no'] = "Nessun contenuto trovato per la tua ricerca";
 
 $lang['session_expire_error'] = "Devi effettuare l'accesso";
 
-$lang['login_fail_error'] = "Combinazione nome utente e password errata";
+$lang['login_fail_error'] = "Incorrect username and password combination";
 
-$lang['login_fail_for_captcha'] = "Testo inserito non corretto, riprova";
+$lang['login_fail_for_captcha'] = "Text entered is incorrect, please try again";
 
-$lang['update_settings_success'] = "Le tue impostazioni sono state aggionate correttamente";
+$lang['update_settings_success'] = "Your settings have been successfully saved";
 
-$lang['update_password_success'] = "La tua password &egrave; stata aggiornata";
+$lang['update_password_success'] = "Your password has been updated";
 
-$lang['update_profile_success'] = "Il tuo profilo �� stato aggiornato";
+$lang['update_profile_success'] = "Your profile has beed updated";
 
-$lang['invalid_email'] = "Indirizzo email non valido";
+$lang['invalid_email'] = "Invalid email address";
 
-$lang['email_already_registered'] = "Email gi&agrave; registrata";
+$lang['email_already_registered'] = "Email already registered";
 
-$lang['send_invitation_success'] = "Un codice d'invito verr�� spedito alla tua email appena possibile";
+$lang['send_invitation_success'] = "An invitation code will be delivered to your email as soon as possible";
 
-$lang['already_sent_invitation_code'] = "Controlla la tua email. Ti abbiamo inviato un codice d'invito";
+$lang['already_sent_invitation_code'] = "Check your email. We have sent you an invitation code";
 
-$lang['email_suggestion_for_invitation_pass'] = "Si prega di inserire un indirizzo email valido.";
+$lang['email_suggestion_for_invitation_pass'] = "Please enter a valid email address.";
 
 
 
-$lang['already_have_in_our_db'] = "Hai gi�� inviato la tua richiesta d'invito";
+$lang['already_have_in_our_db'] = "You have already sent your request invitation";
 
 
 
@@ -894,8 +894,8 @@ $lang['you_dont_have_old_offer'] = "Non ci sono offerte vecchie / scaduto.";
 
 
 //Popup translation descriptions
-$lang['popup_title_homepage'] = "Benvenuto su Travelly";
-$lang['button_registrati_homepage'] = "Registrati";
+$lang['popup_title_homepage'] = "Welcome to Trip-Bangladesh";
+$lang['button_registrati_homepage'] = "Sign up";
 $lang['language_string'] = "it";
 
 

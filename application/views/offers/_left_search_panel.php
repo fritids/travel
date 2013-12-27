@@ -3,9 +3,8 @@
 <div id="default-example" class="background" data-collapse>
 
 						<?php
-							$state_list=array('Abruzzo', 'Basilicata', 'Calabria', 'Emilia-Romagna', 'Friuli-Venezia Giulia','Lazio',
-												'Liguria','Lombardia','Marche','Molise','Piemonte','Puglia','Sardegna','Sicilia',
-												'Toscana','Trentino-Alto Adige','Umbria','Valle dAosta','Veneto');
+							$state_list=array('Dhaka', 'Chittagong', 'Sylhet', 'Khulna', 'Rajshahi', 'Barisal', 'Rangpur', 'Rangamati',
+												'Bandarban','Cox\'s Bazar', 'Kuakata', 'Saint Martin');
 						?>    
     
 					    <h5>Offers by City</h5>

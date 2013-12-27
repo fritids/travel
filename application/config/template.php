@@ -44,7 +44,7 @@ $config['OCU_profile'] = FALSE;
 | the views as the $site_name variable for use in layouts and views.
 |
 */
-$config['OCU_site_name'] = "Travelly";
+$config['OCU_site_name'] = "Trip-Bangladesh";
 $config['OCU_site_description'] = "site description";
 $config['OCU_site_keywords'] = "site keywords";
 
