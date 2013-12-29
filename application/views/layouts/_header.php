@@ -13,7 +13,7 @@
 	<div class="container ie-dropdown-fix">
 		
 		<!-- Logo -->
-		<div class="five columns omega" style="width: auto; margin-top: 15px;">
+		<div class="five columns omega" style="width: auto; margin-top: 14px;">
 			<a href="<?php echo base_url();?>">
 				<img src="<?php echo IMAGEPATH; ?>logo.png" alt=""/>
 			</a>

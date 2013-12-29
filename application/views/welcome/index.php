@@ -258,7 +258,7 @@ updateMarkerPosition(marker.getPosition());
 	<!-- 960 Container Start -->
 	<div class="container">
 		
-				<div class="sixteen columns">						<h2><?php echo lang('lastmminute');?> <?php echo lang('hotel');?>, <?php echo lang('bb');?>, <?php echo lang('vacation_house');?>.</h2>
+				<div class="sixteen columns">						<h2><?php echo lang('lastmminute');?>.</h2>
 
 		</div>
 	</div>
@@ -414,9 +414,9 @@ Vacanze a <?php echo $offer_item->city_name;?>
                     <p><?php echo lang('register_with_us_promotion_text');?></p>
                 </div>
                 	<?php if(isset($is_loggedin) && $is_loggedin=="true"){ ?>
-                    <a class="button medium btn-red" style="float: right;" href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>">Pubblica le tue offerte</a>
+                    <a class="button medium btn-red" style="float: right;" href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>">Post your offers</a>
                     <?php }else{ ?>
-                    <a class="button medium btn-red" style="float: right;" href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>">Pubblica le tue offerte</a>
+                    <a class="button medium btn-red" style="float: right;" href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>">Post your offers</a>
                     <?php } ?>
                     
                            <div class="clearfix"></div>
