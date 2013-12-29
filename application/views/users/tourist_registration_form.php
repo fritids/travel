@@ -11,7 +11,7 @@
 			<span class="suggestion" id="invitation_codeInfo"></span>
 
                         <?php } ?>
-                        <input type="text" class="input-big" style="width:360px;" placeholder="codice promozionale" value="<?php if(isset($invitation_code) && $invitation_code!="beta") echo $invitation_code;?>" name="invitation_code" id="invitation_code" />
+                        <input type="text" class="input-big" style="width:360px;" placeholder="Promotional Code" value="<?php if(isset($invitation_code) && $invitation_code!="beta") echo $invitation_code;?>" name="invitation_code" id="invitation_code" />
                         <div class="clearfix"></div>
                         <a href="#" class="button medium btn-red">Promotion Code: PROMO4FREE2MON</a><br>
                         <div class="clearfix-small"></div>

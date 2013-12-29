@@ -55,7 +55,7 @@ $(document).ready(function(){
 				$('#invitation_code').focus();
 			}
 			else{
-				$("#invitation_codeInfo").text("Questo codice ti verra inviato via mail. Controlla adesso !");
+				$("#invitation_codeInfo").text("This code will be sent to you via e-mail. Check your email address !");
 				$("#invitation_codeInfo").css('color','#949494');
 			}
 			
@@ -79,7 +79,7 @@ $(document).ready(function(){
 		}
 		else{
 			$('#signup_error_message').show();
-			$('#signup_error_message').text('accetta Privacy e Condizioni.');
+			$('#signup_error_message').text('Please accepts policy and terms.');
 			return false;
 		}
 			
@@ -108,7 +108,7 @@ $(document).ready(function(){
 		//if it's valid
 		else{
 			//name.removeClass("error");
-			nameInfo.text("Your name sounds great!");
+			nameInfo.text("Your name sounds great !");
 			nameInfo.removeClass("error");
 			nameInfo.addClass("success");
 			return true;
@@ -132,7 +132,7 @@ $(document).ready(function(){
 																			}
 																		else
 																			{
-																				usernameInfo.text("This username already exists!");
+																				usernameInfo.text("This username already exists !");
 																				usernameInfo.removeClass("success");
 																				usernameInfo.addClass("error");
 																				check2 = false;
@@ -146,7 +146,7 @@ $(document).ready(function(){
 		//if it's valid
 		else{
 			//name.removeClass("error");
-			usernameInfo.text("Invalid username!");
+			usernameInfo.text("Invalid username !");
 			usernameInfo.removeClass("success");
 			usernameInfo.addClass("error");
 			return false;
@@ -187,7 +187,7 @@ $(document).ready(function(){
 		//if it's NOT valid
 		else{
 			//email.addClass("error");
-			emailInfo.text("Invalid Email!");
+			emailInfo.text("Invalid Email !");
 			emailInfo.removeClass("success");
 			emailInfo.addClass("error");
 			return false;
@@ -209,7 +209,7 @@ $(document).ready(function(){
 		//it's valid
 		else{			
 			//pass1.removeClass("error");
-			pass1Info.text("The password seems OK.");
+			pass1Info.text("Your password seems OK.");
 			pass1Info.removeClass("error");
 			pass1Info.addClass("success");
 			validatePass2();
@@ -224,21 +224,21 @@ $(document).ready(function(){
 		{
 			//alert("here");
 			pass2Info.removeClass("success");
-			pass2Info.text("Le password sono diverse");
+			pass2Info.text("Your retyped password not matched.");
 			pass2Info.addClass("error");
 			return false;
 		}
 		else if((pass1.val() != pass2.val()) ){
 			//pass2.addClass("error");
 			pass2Info.removeClass("success");
-			pass2Info.text("Le password sono diverse");
+			pass2Info.text("Your retyped password not matched.");
 			pass2Info.addClass("error");
 			return false;
 		}
 		//are valid
 		else{
 			pass2Info.removeClass("error");
-			pass2Info.text("Le password sono uguali");
+			pass2Info.text("Retyped password is OK.");
 			pass2Info.addClass("success");
 			return true;
 		}

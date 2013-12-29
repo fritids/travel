@@ -232,10 +232,10 @@ $lang['zip'] = "Postal Code";
 $lang['phone'] = "Telephone";
 $lang['fax'] = "Fax";
 $lang['www'] = "Web";
-//up to done this line by ashish021
-$lang['hotel_description_en'] = "Descrizione struttura<br>(inglese)";
-$lang['type_hotel_description_sugession_en'] = "Inserisci una breve descrizione della tua struttura";
-$lang['hotel_description_it'] = "Descrizione struttura<br>(italiano)";
+
+$lang['hotel_description_en'] = "Description<br>(English)";
+$lang['type_hotel_description_sugession_en'] = "Enter a brief description of your hotel.";
+$lang['hotel_description_it'] = "Description<br>(italiano)";
 $lang['type_hotel_description_sugession_it'] = "Inserisci una breve descrizione della tua struttura";
 $lang['hotel_description_fr'] = "Descrizione struttura<br>(francese)";
 $lang['type_hotel_description_sugession_fr'] = "Inserisci una breve descrizione della tua struttura";
@@ -243,138 +243,138 @@ $lang['hotel_description_de'] = "Descrizione struttura<br>(tedesco)";
 $lang['type_hotel_description_sugession_de'] = "Inserisci una breve descrizione della tua struttura";
 $lang['hotel_description_es'] = "Descrizione struttura<br>(spagnolo)";
 $lang['type_hotel_description_sugession_es'] = "Inserisci una breve descrizione della tua struttura";
-$lang['activities_around_the_hotel_en'] = "Da vedere, da fare (EN)";
+$lang['activities_around_the_hotel_en'] = "Things to see and do (EN)";
 $lang['activities_around_the_hotel_it'] = "Da vedere, da fare (IT)";
 $lang['activities_around_the_hotel_fr'] = "Da vedere, da fare (FR)";
 $lang['activities_around_the_hotel_de'] = "Da vedere, da fare (DE)";
 $lang['activities_around_the_hotel_es'] = "Da vedere, da fare (ES)";
-$lang['important_information_en'] = "Condizioni (inglese)";
+$lang['important_information_en'] = "Conditions (English)";
 $lang['important_information_it'] = "Condizioni (italiano)";
 $lang['important_information_fr'] = "Condizioni (francese)";
 $lang['important_information_de'] = "Condizioni (tedesco)";
 $lang['important_information_es'] = "Condizioni (spagnolo)";
-$lang['services'] = "Servizi";
-$lang['lastminute_theme'] = "Tema Hotel";
-$lang['nearest_airport'] = "Aeroporto pi�� vicino";
-$lang['nearest_train_station'] = "Stazione pi�� vicino";
-$lang['nearest_bus_station'] = "Autobus pi�� vicino";
-$lang['nearest_beach'] = "Spiaggia pi�� vicino";
-$lang['nearest_restaurant'] = "Ristorante pi�� vicino";
-$lang['images'] = "Immagini";
-$lang['type_hotel_name_sugession'] = "Inserisci il nome della tua struttura";
-$lang['select_country_sugession'] = "Scegli paese, regione e provincia";
-$lang['write_town_sugession'] = "Citt��, Paese o Localit��.";
-$lang['map_indication'] = "Attenzione: il puntatore si posiziona automaticamente inserendo i dati sottostanti; se non viene indicato il punto corretto sulla mappa �� possibile spostare il puntatore manualmente.";
-$lang['photo_indication'] = "per visualizzarle al meglio, si raccomanda di caricare immagini che abbiano dimensione <strong>660x400 pixel</strong>";
+$lang['services'] = "Service";
+$lang['lastminute_theme'] = "Theme";
+$lang['nearest_airport'] = "Nearest airport";
+$lang['nearest_train_station'] = "Nearest train station";
+$lang['nearest_bus_station'] = "Nearest bus station";
+$lang['nearest_beach'] = "Nearest beach";
+$lang['nearest_restaurant'] = "Nearest restaurant";
+$lang['images'] = "Images";
+$lang['type_hotel_name_sugession'] = "Enter the name of your hotel";
+$lang['select_country_sugession'] = "Select the country, division and city";
+$lang['write_town_sugession'] = "City, Country or Locality.";
+$lang['map_indication'] = "Warning: the pointer is automatically positioned by inserting the underlying data and, if not given the proper point on the map can move the pointer manually.";
+$lang['photo_indication'] = "We recommend you to upload images that have <strong> size 660x400 pixels </ strong>, for better views.";
 
 
-$lang['type_hotel_address_line_sugession'] = "Esempio: Via Roma 19";
-$lang['hotel_zip_code_sugession'] = "Esempio: 38123";
-$lang['type_hotel_phonenumber_sugession'] = "Scrivi il numero di telefono con segue: +393801443651";
+$lang['type_hotel_address_line_sugession'] = "Example: Gulshan 2";
+$lang['hotel_zip_code_sugession'] = "Example: 1207";
+$lang['type_hotel_phonenumber_sugession'] = "Write the phone number below: +8801717125386";
 $lang['set_hotel_services_sugession'] = "Choose the services offered by the hotel.";
 $lang['set_hotel_theme_sugession'] = "Choose the theme of the hotel.";
-$lang['activities_around_the_hotel_sugession_en'] = "Cosa offre il territorio e la localit�� turistica";
+$lang['activities_around_the_hotel_sugession_en'] = "What's are the activities around the hotel or the tourist resort";
 $lang['activities_around_the_hotel_sugession_it'] = "Cosa offre il territorio e la localit�� turistica";
 $lang['activities_around_the_hotel_sugession_fr'] = "Cosa offre il territorio e la localit�� turistica";
 $lang['activities_around_the_hotel_sugession_de'] = "Cosa offre il territorio e la localit�� turistica";
 $lang['activities_around_the_hotel_sugession_es'] = "Cosa offre il territorio e la localit�� turistica";
-$lang['important_information_sugession_en'] = "Termini di pagamento e cancellazione";
+$lang['important_information_sugession_en'] = "Terms of payment and cancellation";
 $lang['important_information_sugession_it'] = "Termini di pagamento e cancellazione";
 $lang['important_information_sugession_fr'] = "Termini di pagamento e cancellazione";
 $lang['important_information_sugession_de'] = "Termini di pagamento e cancellazione";
 $lang['important_information_sugession_es'] = "Termini di pagamento e cancellazione";
-$lang['nearest_airport_suggestion'] = "Ex: Milan-Malpensa Airport, 25KM.";
-$lang['input_description_different_language'] = "Inserisci la descrizione nelle altre lingue.<br>Usa <a href='http://translate.google.it' target='_blank'>google translator</a> per le tue traduzioni";
+$lang['nearest_airport_suggestion'] = "Ex: Hazrat Shahjalal International Airport, 5KM.";
+$lang['input_description_different_language'] = "Please enter a description in other languages. <br>You can use <a href='http://translate.google.it' target='_blank'> google translator </ a> for your translations.";
 $lang['important_information'] = "Important Information";
 
 //hotel profile payment information form
-$lang['payment_method'] = "Metodo di Pagamento";
-$lang['bank_name'] = "Nome Banca";
-$lang['bank_swift_code'] = "Banca SWIFT/BIC code";
-$lang['bank_code'] = "Codice Banca";
-$lang['benificiary_name'] = "Nome Beneficiario";
+$lang['payment_method'] = "Payment Systems";
+$lang['bank_name'] = "Bank Name";
+$lang['bank_swift_code'] = "Bank SWIFT / BIC code";
+$lang['bank_code'] = "Bank Code";
+$lang['benificiary_name'] = "Account Name";
 $lang['iban_code'] = "IBAN code";
 $lang['bank_country'] = "Bank country";
 $lang['paypal_email'] = "Paypal Email";
 $lang['paypal'] = "Paypal";
-$lang['bank_transfer'] = "Bonifico Bancario";
-$lang['save'] = "Salva";
-$lang['cancel'] = "Cancella";
-$lang['edit'] = "Modifica";
+$lang['bank_transfer'] = "Bank Transfer";
+$lang['save'] = "Save";
+$lang['cancel'] = "Cancel";
+$lang['edit'] = "Edit";
 
 
 $lang['paypal_email_sugession'] = "E-mail address of paypal account.";
 $lang['bank_name_sugession'] = "Name of the bank. Ex: UniCredit";
 $lang['swift_code_sugession'] = "SWIFT code of the bank. Ex: GENERICO";
 $lang['bank_code_sugession'] = "Bank code number. Ex: UNCR IT MM";
-$lang['benificiary_name_sugession'] = "Benificiary name of the bank account.";
+$lang['benificiary_name_sugession'] = "Name of the bank account.";
 $lang['iban_code_sugession'] = "Ex: IT 89 G xxxxx xxxxx xxxxxxxxxxxx";
-$lang['bank_country_sugession'] = "Ex: Italy";
+$lang['bank_country_sugession'] = "Ex: Bangladesh";
 
 
 //Hotel profile Invoicing form
-$lang['vat_number'] = "Partita IVA";
-$lang['legal_name'] = "Ragione sociale";
-$lang['attention'] = "Nome Cognome";
+$lang['vat_number'] = "VAT Number";
+$lang['legal_name'] = "Company";
+$lang['attention'] = "Name";
 
-$lang['vat_number_sugession'] = "VAT or TAX Code of your business. Ex: IT XXXXXXXXXX";
+$lang['vat_number_sugession'] = "VAT or Tax Code of your business. Ex: IT XXXXXXXXXX";
 $lang['legal_name_sugession'] = "Legal name of the invoice to.";
 
 //account settings page
-$lang['account_name'] = "Nome Account";
-$lang['old_password'] = "Vecchia Password";
-$lang['new_password'] = "Nuova Password";
+$lang['account_name'] = "Account Name";
+$lang['old_password'] = "Old Password";
+$lang['new_password'] = "New Password";
 $lang['old_password_suggestion'] = "Write down the current password of your account to change it.";
-$lang['password_are_same_message'] = "Le password sono uguali";
-$lang['password_are_different_message'] = "Le password sono diverse";
-$lang['password_acceptable_message'] = "La password sembra accettabile";
-$lang['password_sugession_message'] = "Usa almeno 6 caratteri per la password";
+$lang['password_are_same_message'] = "Passwords are same";
+$lang['password_are_different_message'] = "Passwords are different";
+$lang['password_acceptable_message'] = "Password seems OK";
+$lang['password_sugession_message'] = "Use at least 6 characters for the password";
 $lang['old_password_not_correct'] = "Your Given Password Not correct";
 $lang['valid_username_message'] = "A valid user name! You can change it later.";
-$lang['invalid_username_message'] = "Nome utente non valido";
-$lang['username_already_exists_message'] = "Questo nome utente gi�� esiste!";
-$lang['username_available_message'] = "Nome utente disponibile";
-$lang['name_looks_good_message'] = "Il nome sembra ottimo";
-$lang['use_3_letter_in_name_message'] = "Usa almeno 3 lettere";
+$lang['invalid_username_message'] = "Invalid username";
+$lang['username_already_exists_message'] = "This user name already exists!";
+$lang['username_available_message'] = "Username available";
+$lang['name_looks_good_message'] = "The name sounds great";
+$lang['use_3_letter_in_name_message'] = "Use at least 3 letters";
 
 
 //add new offer page
-$lang['add_new_offer'] = "Add offer/lastminute";
-$lang['offer_title'] = "Titolo offerta";
-$lang['offer_title_suggestion'] = "Dai un titolo alla tua proposta";
-$lang['duration_time'] = "Durata";
-$lang['duration_time_suggesion'] = "Numero di giorni e delle notti della tua proposta";
-$lang['availability'] = 'Disponibilit��';
-$lang['start_date'] = "Inzio offerta";
-$lang['offer_validation'] = "Offerta valida";
+$lang['add_new_offer'] = "Add offer";
+$lang['offer_title'] = "Offer Title";
+$lang['offer_title_suggestion'] = "Give a title to your Offer";
+$lang['duration_time'] = "Duration";
+$lang['duration_time_suggesion'] = "Number of days and nights of your offer";
+$lang['availability'] = 'Availability';
+$lang['start_date'] = "Start Date";
+$lang['offer_validation'] = "Offer valid";
 
-$lang['start_date_sugession'] = "Data di inizio del periodo di validit��";
-$lang['finish_date'] = "Fine offerta";
-$lang['finish_date_sugession'] = "Data di scadenza del periodo di validit��";
+$lang['start_date_sugession'] = "Date of commencement of the period of validity";
+$lang['finish_date'] = "End Date";
+$lang['finish_date_sugession'] = "Date of expiry of the period of validity";
 $lang['end_price'] = "End price";
-$lang['price_adult'] = "Prezzo adulto";
-$lang['end_price_sugession'] = "Per favore scrivi il prezzo adulto";
-$lang['price_adult_sugession'] = "Prezzo finito per adulto secondo il trattamento e durata offerta";
-$lang['price_children_sugession'] = "Prezzo finito per bambini secondo il trattamento e durata offerta";
-$lang['price_children_sugession_children_gratis'] = "Lascia vuoto il campo se il bambini non paga";
+$lang['price_adult'] = "Price (adult)";
+$lang['end_price_sugession'] = "Please write the adult price";
+$lang['price_adult_sugession'] = "Price for adult according to the treatment duration and offer";
+$lang['price_children_sugession'] = "Price for children according to the treatment duration and offer";
+$lang['price_children_sugession_children_gratis'] = "Leave field blank if the child does not pay";
 
-$lang['price_children'] = "Prezzo bambino";
-$lang['offer_includes'] = "Trattamento";
-$lang['package_description_en'] = "Descrizione pacchetto (inglese)";
+$lang['price_children'] = "Price (children)";
+$lang['offer_includes'] = "Offer Includes";
+$lang['package_description_en'] = "Package Description (English)";
 $lang['package_description_it'] = "Descrizione pacchetto (italiano)";
 $lang['package_description_fr'] = "package description (francese)";
 $lang['package_description_de'] = "Descrizione pacchetto (tedesco)";
 $lang['package_description_es'] = "package description (spagnolo)";
-$lang['package_description_sugession'] = "Descrivi nel dettaglio l'offerta, tutti i servizi e le note aggiuntive";
+$lang['package_description_sugession'] = "Describe in detail the offer, all the services and additional notes";
 $lang['facility'] = "Services included";
-$lang['offer_facility_sugession'] = "Please Check Some Offer Facilities.";
-$lang['offer_theme'] = "Tema della offerta";
-$lang['offer_theme_sugession'] = "Spunta i criteri con cui �� possibile cercare l'offerta";
-$lang['offer_period'] = "Stagione";
-$lang['offer_period_sugession'] = "Spunta le stagioni in cui l'offerta �� valida";
-$lang['duration_time_options'] = array('1 giorno','2 giorni 1 notte','3 giorni 2 notti','4 giorni 3 notti','5 giorni 4 notti','6 giorni 5 notti','7 giorni 6 notti','8 giorni 7 notti','9 giorni 8 notti','10 giorni 9 notti','11 giorni 10 notti','12 giorni 11 notti','13 giorni 12 notti','13 giorni 13 notti','15 giorni 14 notti');
+$lang['offer_facility_sugession'] = "Please check some offer facilities.";
+$lang['offer_theme'] = "Theme of the offer";
+$lang['offer_theme_sugession'] = "Check the criteria by which you can search the offer";
+$lang['offer_period'] = "Seasons";
+$lang['offer_period_sugession'] = "Check the seasons in which the offer is valid";
+$lang['duration_time_options'] = array('1 day','2 days 1 night','3 days 2 nights','4 days 3 nights','5 days 4 nights','6 days 5 nights','7 days 6 nights','8 days 7 nights','9 days 8 nights','10 days 9 nights','11 days 10 nights','12 days 11 nights','13 days 12 nights','13 days 13 nights','15 days 14 nights');
 
-//information offer
+//up to done this line by ashish021
 $lang['information_offer_title_1'] = "Guida all'offerta";
 $lang['information_offer_description_1'] = "Leggi nelle sezioni qui sotto come rendere la tua proposta accattivante per la clientela, in modo da favorire la richiesta del turista. <strong>Potrai cambiarla o aggiungere altre opzioni in un secondo momento.</strong>";
 $lang['information_offer_title_2'] = "Titolo offerta";
@@ -851,13 +851,13 @@ $lang['public_match_message'] = "Tutti i visitatori possono vedere la tua partit
 
 //SEO descriptions
 
-$lang['welcome_page_description'] = "La community di calcio che aspettavi �� finalmente on-line. Condividi la tua passione per lo sport pi�� bello e seguito del mondo in modo innovativo e social!";
+$lang['welcome_page_description'] = "The football community who were expecting finally online. Share your passion for the sport and followed most beautiful in the world in an innovative and social!";
 
-$lang['public_profile_only_posts_description'] = "Scopri i post che {replace} condivide con i suoi followers su Travelly!";
+$lang['public_profile_only_posts_description'] = "Check out the posts that {replace} shares with his followers on Trip-Bangladesh!";
 
-$lang['public_profile_only_matches_description'] = "Scopri le partite che {replace} condivide con i suoi followers su Travelly!";
+$lang['public_profile_only_matches_description'] = "Discover the games {replace} shares with his followers on Trip-Bangladesh!";
 
-$lang['public_profile_description'] = "Scopri tutti gli aggiornamenti che {replace} condivide con i suoi followers su Travelly!";
+$lang['public_profile_description'] = "Check out all the updates {replace} shares with his followers on Trip-Bangladesh!";
 
 
 
@@ -868,10 +868,10 @@ $lang['offer_cancel_successfully'] = "Your offer canceled successfully.";
 $lang['payment_profile_update_success'] = "Your Payment profile updated successfully.";
 $lang['payment_profile_update_error'] = "Please check your profile data again. There is a errror.";
 $lang['email_suggestion_for_recover_pass'] = "Input your email address or Username.";
-$lang['hotel_profile_update_successfully'] = "Salvato con successo.";
-$lang['account_profile_update_successfully'] = "Salvato con successo.";
-$lang['offer_created_successfully'] = "Salvato con successo.";
-$lang['offer_edit_successfully'] = "Salvato con successo.";
+$lang['hotel_profile_update_successfully'] = "Saved Successfully.";
+$lang['account_profile_update_successfully'] = "Saved Successfully.";
+$lang['offer_created_successfully'] = "Saved Successfully.";
+$lang['offer_edit_successfully'] = "Saved Successfully.";
 $lang['delete_comment_message'] = "Are you sure that you want to delete this comment?";
 $lang['unlike_offer_message'] = "Are you sure that you want to unlike this offer?";
 $lang['cancel_offer_message'] = "Are you sure that you want to cancel this offer?";
@@ -881,16 +881,16 @@ $lang['invoicing_profile_update_success'] = "Your Invoicing Data Saved Successfu
 $lang['invoicing_profile_update_error'] = "Sorry!!! Faced some difficulties. Please try again.";
 
 
-$lang['dont_have_permission_to_buy_credit'] = "Non hai permessi per accedere a questa pagina.";
+$lang['dont_have_permission_to_buy_credit'] = "You do not have permission to access this page.";
 $lang['package_amount_advice'] = "Valid for unlimited offer listing within one year.";
 
 
 
-$lang['you_dont_have_offers_like'] = "Non ci sono offerte che ti piacciono";
-$lang['you_dont_have_recent_comments'] = "Non ci sono commenti recenti.";
-$lang['my_comments'] = "Commenti";
-$lang['you_dont_have_active_offer'] = "Non ci sono offerte attive.";
-$lang['you_dont_have_old_offer'] = "Non ci sono offerte vecchie / scaduto.";
+$lang['you_dont_have_offers_like'] = "There is no offers that you like most";
+$lang['you_dont_have_recent_comments'] = "There are is recent comments.";
+$lang['my_comments'] = "Comments";
+$lang['you_dont_have_active_offer'] = "There is no active offers.";
+$lang['you_dont_have_old_offer'] = "There is no old / expired offers.";
 
 
 //Popup translation descriptions
@@ -901,18 +901,18 @@ $lang['language_string'] = "it";
 
 
 
-$lang['about_us_page_title'] = "Chi siamo - Travelly";
-$lang['support_page_title'] = "Supporto - Travelly";
-$lang['contact_page_title'] = "Contatto - Travelly";
-$lang['conditions_page_title'] = "Condizioni - Travelly";
-$lang['privacy_page_title'] = "Privacy - Travelly";
-$lang['how_it_works_page_title'] = "10 Buoni Motivi Per Pubblicare Su Travelly! - Travelly";
-$lang['how_it_works_tourist_page_title'] = "How it works for tourist - Travelly";
-$lang['how_it_works_hotel_page_title'] = "Aggiungere la tua struttura e pubblicare
-le tue offerte su Travelly �� semplice e veloce - Travelly";
-$lang['how_it_works_office_page_title'] = "How it works for office - Travelly";
-$lang['get_started_page_title'] = "Get Started - Travelly";
-$lang['career_page_title'] = "Siamo un start-up alla ricerca di un developer - Travelly";
+$lang['about_us_page_title'] = "Who we are - Trip-Bangladesh";
+$lang['support_page_title'] = "Support - Trip-Bangladesh";
+$lang['contact_page_title'] = "Contact - Trip-Bangladesh";
+$lang['conditions_page_title'] = "Conditions - Trip-Bangladesh";
+$lang['privacy_page_title'] = "Privacy - Trip-Bangladesh";
+$lang['how_it_works_page_title'] = "10 Good Reasons To Publish On trip-bangladesh! - Trip-Bangladesh";
+$lang['how_it_works_tourist_page_title'] = "How it works for tourist - Trip-Bangladesh";
+$lang['how_it_works_hotel_page_title'] = "Add your business and publish
+your offers on trip-bangladesh quick and easy - Trip-Bangladesh";
+$lang['how_it_works_office_page_title'] = "How it works for office - Trip-Bangladesh";
+$lang['get_started_page_title'] = "Get Started - Trip-Bangladesh";
+$lang['career_page_title'] = "We are a start-up looking for a developer - Trip-Bangladesh";
 
 
 

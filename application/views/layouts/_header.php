@@ -13,12 +13,14 @@
 	<div class="container ie-dropdown-fix">
 		
 		<!-- Logo -->
-		<div class="three columns omega">
-			<a href="<?php echo base_url();?>"><img src="<?php echo IMAGEPATH; ?>logo.png" alt=""/></a>
+		<div class="five columns omega" style="width: auto; margin-top: 15px;">
+			<a href="<?php echo base_url();?>">
+				<img src="<?php echo IMAGEPATH; ?>logo.png" alt=""/>
+			</a>
 		</div>
 		
 		<!-- Main Navigation Start -->
-		<div class="thirteen columns">
+		<div class="eleven columns">
 			<div id="navigation">
 				<ul id="nav">				
 					<li><i class="icon-bookmark icon-white"></i> <a href="<?php echo base_url();?>"><?php echo lang('home'); ?></a></li>
