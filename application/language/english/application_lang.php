@@ -37,12 +37,12 @@ $lang['payment_info'] = "Make payment to be able to publish your tenders";
 $lang['default_payment_notification_message_for_buy_credit'] = "Fee for the publication of an unlimited number of offers: only 999 BDT / year";
 
 $lang['dashboard_nav'] = "Dashboard";
-$lang['profile_nav'] = "Profilo Structure";
+$lang['profile_nav'] = "Profile";
 $lang['account_nav'] = "Account";
 $lang['comments_nav'] = "Comments";
 $lang['offers_nav'] = "Offers";
 $lang['payments_nav'] = "Payments";
-$lang['message_nav'] = "Posts (#n)";
+$lang['message_nav'] = "Messages (#n)";
 $lang['seo-title'] = "Find Cheap holidays in Bangladesh for Hotels, B & B, Holiday";
 $lang['seo_description'] = "On trip-bangladesh you can find great deals on hotels, vacation packages offered by the hotels in bangladesh. Discover the vacation package is best suited to you.";
 $lang['seo_keywords'] = "hotel packages, vacation packages, travel offers, hotel deals, hotel packages, vacation package, Bangladesh, packages, offers Ski packages";
@@ -374,55 +374,53 @@ $lang['offer_period'] = "Seasons";
 $lang['offer_period_sugession'] = "Check the seasons in which the offer is valid";
 $lang['duration_time_options'] = array('1 day','2 days 1 night','3 days 2 nights','4 days 3 nights','5 days 4 nights','6 days 5 nights','7 days 6 nights','8 days 7 nights','9 days 8 nights','10 days 9 nights','11 days 10 nights','12 days 11 nights','13 days 12 nights','13 days 13 nights','15 days 14 nights');
 
-//up to done this line by ashish021
-$lang['information_offer_title_1'] = "Guida all'offerta";
-$lang['information_offer_description_1'] = "Leggi nelle sezioni qui sotto come rendere la tua proposta accattivante per la clientela, in modo da favorire la richiesta del turista. <strong>Potrai cambiarla o aggiungere altre opzioni in un secondo momento.</strong>";
-$lang['information_offer_title_2'] = "Titolo offerta";
-$lang['information_offer_description_2'] = "La tua proposta �� unica. Riassumila in 4 parole che catturino l'attenzione del turista. esempio: San Valentino - Weekend romantico sul mare";
-$lang['information_offer_title_3'] = "Durata";
-$lang['information_offer_description_3'] = "Scegli nella tendina quanti giorni e quante notti dura il soggiorno. Questa informazione compare nel dettaglio dell'offerta.";
-$lang['information_offer_title_4'] = "Inzio - Fine offerta";
-$lang['information_offer_description_4'] = "Queste date si riferiscono al periodo di validit�� della proposta. Ad esempio: L'offerta e valida per tutti i weekend del mese di marzo. Le date da inserire sono inzio 1 marzo fine 31 marzo (Trattandosi di weekend, nel campo durata avrai gi�� inserito 2 giorni / 1 notte.";
-$lang['information_offer_title_5'] = "Trattamento e Prezzi";
-$lang['information_offer_description_5'] = "Scegli dalla tendina trattamento il tipo di soggiorno che offri e nei due campi prezzo (adulto-bambino) inserisci il costo a persona relattivo al trattamento da te selezionato e durata della offerta";
-$lang['information_offer_title_6'] = "Descrizione pacchetto";
-$lang['information_offer_description_6'] = "Riassumi una descrizione che catturi l'attenzione del turista. <strong>esempio: San Valentino �� la festa di tutti gli innamorati che vogliono rinnovare le loro promesse d���amore con un weekend indimenticabile. Vieni a trascorrerlo sulla spiaggia utilizzando gratuitamente il nostro centro benessere e gustandoti i nostri menu dedicati. Incluso nel prezzo hai anche la sdraio e l'ombrellone.</strong>";
-$lang['information_offer_title_7'] = "Tema - Stagione";
-$lang['information_offer_description_7'] = "Spunta i criteri con cui la tua offerta pu�� essere cercata dal cliente su travelly.";
-
-//information offer generic
-$lang['information_offer_generic_title'] = "Pubblica Offerta";
-$lang['information_offer_generic_description'] = "Clicca su pubblica offerta e compila il form d'inserimento dell'offerta seguendo le indicazioni.";
+$lang['information_offer_title_1'] = "Guide to the";
+$lang['information_offer_description_1'] = "Read the sections below as you make your proposal appealing to the customers, in order to facilitate the application of the tourist. <strong> You can change or add other options at a later time. </ strong>";
+$lang['information_offer_title_2'] = "Offer Title";
+$lang['information_offer_description_2'] = "Your unique proposal. Riassumila in 4 words that capture the attention of tourists. example: Valentine's Day - Romantic Weekend on the sea";
+$lang['information_offer_title_3'] = "Duration";
+$lang['information_offer_description_3'] = "Choose from the drop down how many days and how many nights you stay hard. This information appears in the detail of the offer.";
+$lang['information_offer_title_4'] = "Start - End of offer";
+$lang['information_offer_description_4'] = "These dates refer to the period of validity of the proposal. For example: Offer is valid for every weekend of the month of March. The dates are to be entered BEGINNING end March 1 March 31 (Since this weekend, in the life you have already posted 2 days / 1 night.";
+$lang['information_offer_title_5'] = "Treatment and Pricing";
+$lang['information_offer_description_5'] = "Choose from the dropdown the type of treatment you offer and stay in the two camps price (adult-child) enter the cost per person relattivo to treatment and duration of your selected offer";
+$lang['information_offer_title_6'] = "Package Description";
+$lang['information_offer_description_6'] = "Summarize a description that captures the attention of tourists. <strong> example: Valentine's day all the lovers who want to renew their promises of love with an unforgettable weekend. Come and spend it on the beach using our free spa and tasting the menu, our dedicated. Included in the price you also have the beach chairs and an umbrella. </ Strong>";
+$lang['information_offer_title_7'] = "Theme - Season";
+$lang['information_offer_description_7'] = "Check the criteria by which your offer may be sought by the customer on Trip-bangladesh.";
 
 
-$lang['my_offers_online'] = "Offerte attive";
-$lang['old_offers'] = "Offerte scadute";
-$lang['favourites_offers'] = "Offerte preferite";
+$lang['information_offer_generic_title'] = "Post Job";
+$lang['information_offer_generic_description'] = "Click on public offer and fill out the form input supply following the directions.";
 
 
-$lang['my_offers_online_description'] = "Questo pannello ti mostra le offerte che hai attualmente online su travelly. Alla data di scadenza travelly sposta l'offerta automaticamente nelle offerte scadute.";
-$lang['old_offers_description'] = "Questo pannello archivia le offerte scadute. Se desideri puoi ripubblicarle.";
+$lang['my_offers_online'] = "Active offers";
+$lang['old_offers'] = "Offers expired";
+$lang['favourites_offers'] = "Offers to favorites";
+
+
+$lang['my_offers_online_description'] = "This panel will show the offers that you currently online travelly. At the maturity date travelly moves automatically in the offer expired offers.";
+$lang['old_offers_description'] = "This panel stores the offers have expired. If you wish, you can republish.";
 
 //information profile generic
 
-$lang['information_profile_title_1'] = "Modifica Profilo";
-$lang['information_profile_description_1'] = "In questa sezione inserisci e tieni aggiornate le informazioni sulla tua struttura ricettiva e sulle attrazioni o gli eventi del territorio.
-Inoltre puoi caricare fino a 8 immagini (max. 500 kb ciascuna) e definire sci i criteri di ricerca per il turista (temi).";
+$lang['information_profile_title_1'] = "Edit Profile";
+$lang['information_profile_description_1'] = "In this section, enter and keep up to date information about your accommodation and attractions or events in the area.
+In addition, you can upload up to 8 pictures (max. 500 kb each) and define the search criteria for ski tourists (themes).";
 
-$lang['information_profile_title_2'] = "Dati della Societ��";
+$lang['information_profile_title_2'] = "Details of the Company";
 
-$lang['information_profile_description_2'] = "Carica in questo spazio vengono i dati che Travelly deve utilizzare per inviarti la fattura. Importante: tutti i campi sono obbligatori, e la ragione sociale della struttura deve essere quella registrata (non il nome commerciale).";
+$lang['information_profile_description_2'] = "Upload in this space are the data that Travelly should use to send the bill. Important: All fields are required, and the name of the structure that is to be recorded (not your trade name)";
 
-$lang['information_profile_title_3'] = "Impostazione Account";
+$lang['information_profile_title_3'] = "Setting Account";
 
-$lang['information_profile_description_3'] = "L'account �� costituito dalle informazioni inserite quando ti sei registrata/o e che permettono a travelly ad ogni accesso: nome account, utente, password, e-mail; qui le puoi modificare e salvare.";
+$lang['information_profile_description_3'] = "The account consists of the information entered when you registered and / or and that allow access to every travelly: account name, user name, password, e-mail, here you can edit and save";
 
 
 //information payment generic
-$lang['information_payment_title_1'] = "Informazioni Fattura";
+$lang['information_payment_title_1'] = "Invoice information";
 
-$lang['information_payment_description_1'] = "Questo pannello riepiloga la situazione contabile con travelly.<br><br>Appena effettuato il pagamento - versamento o carta di credito - travelly ti invia una ricevuta via e-mail e la registra sotto l'elenco.<br><br><strong>La fattura viene emessa a pagamento ricevuto: da questo momento la si potr�� scaricare dall'elenco e si potranno pubblicare le offerte</strong>
-";
+$lang['information_payment_description_1'] = "This panel summarizes the accounting situation with travelly. <br> Just made ​​the payment - payment or credit card - travelly will send you a receipt via e-mail and records it in the list. <br> <strong> the invoice will be issued upon receipt of payment from now potr the download list and you will be able to publish your tenders </ strong>";
 
 
 //static page content
@@ -435,48 +433,48 @@ $lang['how_it_works'] = "How it works";
 $lang['conditions'] = "Conditions";
 $lang['privacy'] = "Privacy";
 $lang['get_started'] = "Get started";
-$lang['about_us_summary_footer'] = "Consectetur adipiscing elit aeneane lorem lipsum, condimentum ultrices consequat eu, vehicula mauris lipsum adipiscing lipsum aenean orci lorem.";
+$lang['about_us_summary_footer'] = "Adipiscing aeneane consectetur elit lorem Lipsum, Condimentum ultrices consequat eu vehicula mauris Lipsum Lipsum Adipiscing aenean jars lorem.";
 
 
 //Notificaiton Messages
 $lang['please_recharge_your_account'] = "Please recharge your account first and complete your profile. Then try to add offers.";
-$lang['please_complete_your_profile'] = "Prima di pubblicare l'offerte completa per favore il tuo profilo, descrizione, servizi, intorno, immagini e inserisci i dati della Societ��.";
-$lang['default_profile_notification_message'] = "Si prega di compilare il tuo profilo hotel e dettagli della Societ�� per usufruire dei servizi travelly. Grazie!!";
-$lang['default_payment_notification_message'] = "Si prega di sottoscrivere i servizi di godere di servizi Travelly. Grazie!!";
+$lang['please_complete_your_profile'] = "Before you post, please complete the offerings your profile, description, services, about, pictures, and enter the details of the Company";
+$lang['default_profile_notification_message'] = "Please fill out your profile hotels and details of the Company to take advantage of the services travelly. Thank you!";
+$lang['default_payment_notification_message'] = "Please subscribe to the service to enjoy Travelly services. Thank you!";
 
-$lang['complete_profile'] = "Completa il tuo profilo";
-$lang['bills_information'] = "Dati della Societ��";
+$lang['complete_profile'] = "Complete your profile";
+$lang['bills_information'] = "Details of the Company";
 
 
 // General
-$lang['yes_string'] = "si";
-$lang['no_string'] = "no";
-$lang['more_items_string'] = "altri aggiornamenti";
-$lang['more_items_interesting_people'] = "altre persone interessanti";
-$lang['no_more_post_string'] = "Spiacenti, non ci sono altri aggiornamenti";
+$lang['yes_string'] = "Yes";
+$lang['no_string'] = "No";
+$lang['more_items_string'] = "Other updates";
+$lang['more_items_interesting_people'] = "Other interesting people";
+$lang['no_more_post_string'] = "Sorry, there are no other updates";
 
 // FORM STRINGS
-$lang['your_email_string'] = "La tua email";
-$lang['username_email_string'] = "Nome utente o email";
-$lang['username_string'] = "Nome utente";
+$lang['your_email_string'] = "Your email";
+$lang['username_email_string'] = "Username or email";
+$lang['username_string'] = "Username";
 $lang['email_string'] = "Email";
 $lang['password_string'] = "Password";
-$lang['invitation_code_string'] = "Questo codice ti verr�� inviato via mail. Controlla adesso !";
-$lang['invitation_code_title'] = "Per provare gratuitamente richiedi il tuo codice";
+$lang['invitation_code_string'] = "The code you posted will come via email. Check now !";
+$lang['invitation_code_title'] = "To request your free trial code";
 
-$lang['invitation_code_placeholder'] = "Codice d'invito";
-$lang['invalid_invitaiton_code'] = "Codice d'invito non valido";
-$lang['password_confirmation_string'] = "Conferma password";
+$lang['invitation_code_placeholder'] = "Invitation code";
+$lang['invalid_invitaiton_code'] = "Invitation code not valid";
+$lang['password_confirmation_string'] = "Confirm password";
 
 
 $lang['username_ok_string'] = "Choose a valid username! You can change it later.";
 
-$lang['signin_string'] = "entra";
-$lang['forgot_it_string'] = "password dimenticata?";
+$lang['signin_string'] = "Enter";
+$lang['forgot_it_string'] = "Forget password?";
 
 
-// BETA INVITATION
-$lang['read_blog_string'] = "Scopri di pi�� sul blog";
+//up to done this line by ashish021
+$lang['read_blog_string'] = "Learn more on the blog";
 $lang['advertise_string'] = "Pubblicit&agrave;";
 $lang['privacy_string'] = "Privacy";
 $lang['terms_string'] = "Termini e condizioni";
