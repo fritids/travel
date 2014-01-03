@@ -37,6 +37,7 @@
                                     		<textarea class="input-big" name="hotel_description_es" id="hotel_description_es" style="margin-bottom:0px; padding-bottom:0px;" /><?php if(isset($hotel_description_es)) echo $hotel_description_es; else if($profile_details->hotel_description_es!="0") echo $profile_details->hotel_description_es;?></textarea>    
                                         </div>
                                         
+                                        <!--
                                         <label style="margin-top:0px !important;">&nbsp;</label>
                                         <span class="language_span"><?php echo lang('input_description_different_language'); ?></span>
                                         <span id="lang_for_inputfield">	
@@ -52,8 +53,10 @@
                                                         <?php } ?>
                                             </ul>
                                         </span>
+                                       	//-->
                                         <div class="clearfix-big"></div>		
                                                                     
+                                        
                                         <div id="div_hotel_activities_en" <?php if(CURRENT_LANGUAGE=="en") { ?> style="display:block;"<?php }else{ ?> style="display:none;" <?php } ?>>
                                         <label style="margin-top:15px;"><?php echo lang('activities_around_the_hotel_en');?></label>
                                     		<span class="suggestion" id="hotel_activities_error"><?php echo lang('activities_around_the_hotel_sugession_en'); ?></span>
@@ -84,6 +87,8 @@
                                         	<textarea class="input-big" name="hotel_activities_es" id="hotel_activities_es" style="margin-bottom:0px; padding-bottom:0px;" /><?php if(isset($hotel_activities_es)) echo $hotel_activities_es; else if($profile_details->hotel_activities_es!="0") echo $profile_details->hotel_activities_es;?></textarea>
                                         </div>
                                         <div class="clearfix"></div>
+                                        
+                                        <!--
                                         <label style="margin-top:0px !important;">&nbsp;</label>
                                         <span class="language_span"><?php echo lang('input_description_different_language'); ?></span>
                                         <span id="lang_for_inputfield">	
@@ -99,6 +104,7 @@
                                                         <?php } ?>
                                             </ul>
                                         </span>
+                                        //-->
                                         <div class="clearfix-big"></div>
                                         
                                         
@@ -132,6 +138,7 @@
                                     		<textarea class="input-big" name="hotel_importnat_information_es" id="hotel_importnat_information_es" style="margin-bottom:0px; padding-bottom:0px;" /><?php if(isset($hotel_importnat_information_es)) echo $hotel_importnat_information_es; else if($profile_details->important_information_es!="0") echo $profile_details->important_information_es;?></textarea>
                                         </div>
                                         <div class="clearfix"></div>
+                                        <!--
                                         <label style="margin-top:0px !important;">&nbsp;</label>
                                         <span class="language_span"><?php echo lang('input_description_different_language'); ?></span>
                                         <span id="lang_for_inputfield">	
@@ -147,9 +154,10 @@
                                                         <?php } ?>
                                             </ul>
                                         </span>
+                                        //-->
                                         <div class="clearfix-big"></div>
                                         
-                                         <input type="submit" class="button medium yellow" name="save_profile_data" id="save_profile_data" value="<?php echo lang('save');?>" />
+                                         <input type="submit" class="button medium btn-red" name="save_profile_data" id="save_profile_data" value="<?php echo lang('save');?>" />
                                          
                                          
                                       

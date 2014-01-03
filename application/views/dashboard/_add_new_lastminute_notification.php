@@ -4,5 +4,5 @@
 		<?php echo lang('information_offer_generic_description');?>
 	</p>
 	<br>
-	<a href="<?php echo base_url();?><?php echo $this->config->item('create_new_offer_url');?>" class="button medium red"><?php echo lang('post_offer');?></a>
+	<a href="<?php echo base_url();?><?php echo $this->config->item('create_new_offer_url');?>" class="button medium btn-red"><?php echo lang('post_offer');?></a>
 </div>

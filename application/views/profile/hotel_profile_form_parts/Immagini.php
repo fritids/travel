@@ -34,7 +34,7 @@ $(document).ready(function() {
                                         <div class="clearfix"></div>
                                                	<div class="clearfix-border"></div>
   												<div class="notification notice" style="padding:10px;">
-  													<h3>Attenzione:</h3>
+  													<h3>Attention:</h3>
 													<p><?php echo lang('photo_indication');?></p>
 											
 													<div id="file_upload_wrap">

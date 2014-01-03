@@ -24,4 +24,4 @@
                                     	<input type="hidden" name="number_of_themes" id="number_of_themes" value="<?php echo count($lastminute_themes);?>">
                                     	<div class="clearfix-big"></div>
                                         
-                                         <input type="submit" class="button medium yellow" name="save_profile_data" id="save_profile_data" value="<?php echo lang('save');?>" />
+                                         <input type="submit" class="button medium btn-red" name="save_profile_data" id="save_profile_data" value="<?php echo lang('save');?>" />

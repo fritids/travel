@@ -29,11 +29,11 @@
 				<?php } ?>
 			</ul>
 			<?php if(isset($profile_details) && $profile_details->user_type==1) { ?>
-        		<a href="<?php echo base_url();?><?php echo $this->config->item('create_new_offer_url');?>" class="button small red" style="float:right;"><?php echo lang('post_offer');?></a> 
+        		<a href="<?php echo base_url();?><?php echo $this->config->item('create_new_offer_url');?>" class="button small btn-red" style="float:right;"><?php echo lang('post_offer');?></a> 
             <?php }elseif(isset($profile_details) && $profile_details->user_type==3){ ?>
-        		<a href="<?php echo base_url();?><?php echo $this->config->item('create_new_offer_url');?>" class="button small red" style="float:right;"><?php echo lang('publish_event');?></a> 
+        		<a href="<?php echo base_url();?><?php echo $this->config->item('create_new_offer_url');?>" class="button small btn-red" style="float:right;"><?php echo lang('publish_event');?></a> 
 			<?php }else{ ?>
-            	<a href="<?php echo base_url();?><?php echo $this->config->item('user_profile_edit_url');?>" class="button small yellow" style="float:right;"><?php echo lang('edit_profile');?></a> 
+            	<a href="<?php echo base_url();?><?php echo $this->config->item('user_profile_edit_url');?>" class="button small btn-red" style="float:right;"><?php echo lang('edit_profile');?></a> 
             <?php } ?>
 			
 					</div>

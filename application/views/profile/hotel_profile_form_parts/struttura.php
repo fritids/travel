@@ -67,7 +67,7 @@
                                                 </div>
                                                 
                                                 <div id="hotel_city_other_div">
-                                                <label class="padding_top_13 margin_top_22"><?php echo lang('town');?></label>
+                                                <label class="padding_top_13" style="margin-top: 13px;"><?php echo lang('town');?></label>
                                                 <span class="suggestion" id="hotel_town_error"><?php echo lang('write_town_sugession');?></span>
 												<input type="text" class="input-big" name="hotel_town" id="hotel_town" onblur="codeAddress(this.value);"  value="<?php if(isset($hotel_town)) echo $hotel_town; else echo $profile_details->hotel_town;?>" />	
                                                 <div class="clearfix"></div>
@@ -88,28 +88,28 @@
                                         </div>
                                        
                                         
-                                        <label class="padding_top_13 margin_top_22"><?php echo lang('address_line');?></label>
+                                        <label class="padding_top_13" style="margin-top: 13px;"><?php echo lang('address_line');?></label>
                                         <span class="suggestion" id="hotel_address_line_error"><?php echo lang('type_hotel_address_line_sugession'); ?></span>
         								<input type="text" class="input-big" name="hotel_address" id="hotel_address" onblur="codeAddress(this.value);"  value="<?php if(isset($hotel_address)) echo $hotel_address; else echo $profile_details->hotel_address;?>" />
 										<div class="clearfix"></div>
 
-										<label class="padding_top_13 margin_top_22"><?php echo lang('zip');?></label>
+										<label class="padding_top_13" style="margin-top: 13px;"><?php echo lang('zip');?></label>
                                        	<span class="suggestion" id="hotel_zipcode_error"><?php echo lang('hotel_zip_code_sugession');?></span>
                             			<input type="text" class="input-big" name="hotel_zip" id="hotel_zip" value="<?php if(isset($hotel_zip)) echo $hotel_zip; else echo $profile_details->hotel_zip;?>" />
 										<div class="clearfix"></div>
                                         
                                         
                                         
-                                        <label class="padding_top_13 margin_top_22"><?php echo lang('phone');?></label>
+                                        <label class="padding_top_13" style="margin-top: 13px;"><?php echo lang('phone');?></label>
                                         <span class="suggestion" id="hotel_phonenumber_error"><?php echo lang('type_hotel_phonenumber_sugession'); ?></span>
     									<input type="text" class="input-big" name="hotel_phone" id="hotel_phone" value="<?php if(isset($hotel_phone)) echo $hotel_phone; else echo $profile_details->hotel_phone;?>" />
 										<div class="clearfix"></div>
                                         
-                                        <label class="margin_top_18"><?php echo lang('fax');?></label>
+                                        <label style="margin-top: 7px;"><?php echo lang('fax');?></label>
                                     	<input type="text" class="input-big" name="hotel_fax" id="hotel_fax" value="<?php if(isset($hotel_fax)) echo $hotel_fax; else echo $profile_details->hotel_fax;?>" />
                                         <div class="clearfix"></div>
                                         
-                                        <label class="padding_top_13"><?php echo lang('www');?></label>
+                                        <label style="margin-top: 7px;"><?php echo lang('www');?></label>
                                     	<input type="text" class="input-big" name="hotel_website" id="hotel_website" value="<?php if(isset($hotel_website)) echo $hotel_website; else echo $profile_details->hotel_website;?>" />
                                         <div class="clearfix"></div>
                                         
@@ -121,7 +121,7 @@
 										
 										<div class="clearfix"></div>
 					                    <label>&nbsp;</label>
-										 <input type="checkbox" name="send_newsletter" id="send_newsletter" value="1" <?php if ((isset($send_newsletter) && $send_newsletter=="1")|| (isset($profile_details) && $profile_details->send_newsletter=="1")) { ?> checked="checked" <?php } ?> style="width:30px; margin-left:-5px;"> Notify me by e-mail about travelly's offers and news
+										 <input type="checkbox" name="send_newsletter" id="send_newsletter" value="1" <?php if ((isset($send_newsletter) && $send_newsletter=="1")|| (isset($profile_details) && $profile_details->send_newsletter=="1")) { ?> checked="checked" <?php } ?> style="width:30px; margin-left:-5px;"> Notify me by e-mail about trip-bangladesh's offers and news
 										<div class="clearfix"></div>
                                     	
                                     	<div style="margin-left: 120px; margin-bottom:10px;">
@@ -130,5 +130,5 @@
 											</div>
 										</div>
 							
-                                    	 <input type="submit" class="button medium yellow" name="save_profile_data" id="save_profile_data" value="<?php echo lang('save');?>" />
+                                    	 <input type="submit" class="button medium btn-red" name="save_profile_data" id="save_profile_data" value="<?php echo lang('save');?>" />
                                         

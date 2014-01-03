@@ -3,13 +3,13 @@
 <?php if(isset($profile_details) && $profile_details->map_latitude!=0) { ?>
 		var map_latitude=<?php echo $profile_details->map_latitude; ?>;
 <?php }else{ ?>
-		var map_latitude=42.83333;
+		var map_latitude=23.69;
 <?php } ?>
 
 <?php if(isset($profile_details) && $profile_details->map_longitude!=0) { ?>
 		var map_longitude=<?php echo $profile_details->map_longitude; ?>;
 <?php }else{ ?>
-		var map_longitude=12.83333;
+		var map_longitude=90.405;
 <?php } ?>
 
 <?php if(isset($profile_details) && $profile_details->map_zoom_level!=0) { ?>

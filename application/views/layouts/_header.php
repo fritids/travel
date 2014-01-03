@@ -26,9 +26,11 @@
 					<li><i class="icon-bookmark icon-white"></i> <a href="<?php echo base_url();?>"><?php echo lang('home'); ?></a></li>
 					<li><i class="icon-calendar icon-white"></i> <a href="<?php echo base_url();?><?php echo $this->config->item('lastminute_page_url');?>"><?php echo lang('offers'); ?></a></li>
 					<li><i class="icon-home icon-white"></i> <a href="<?php echo base_url();?><?php echo $this->config->item('hotel_page_url');?>"><?php echo lang('hotels'); ?></a></li>
-        			<a style="margin-top:5px;margin-left:15px;" href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>" class="button small btn-red" style="float:right;">Post your offers</a> 
+					<a style="margin-top:5px;margin-left:15px;" href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>" class="button small btn-red" style="float:right;">Post your offers</a> 
+        		    <?php if(isset($is_loggedin) && $is_loggedin=="true"){ ?>
+					<?php }else{ ?>
         		    <a style="margin-top:5px;margin-left:0px;" href="<?php echo base_url();?><?php echo $this->config->item('hotel_owner_signup_url'); ?>" class="button small btn-red" style="float:right;">Sign up</a> 
-
+					<?php } ?>
                 </ul>
 			</div>
 	

@@ -57,7 +57,7 @@ $.fn.Uploadrr = function( options ) {
                         this.fakeDiv = $( '<div/>', { 'class':'fake' } );
                         this.ftext =  $( '<input/>', { 'type':'text', 'class':'text bev' } );
                         this.fakeDiv.append( this.ftext );
-                        this.fakeDiv.append( $( '<input/>', { 'type':'button', 'class':'button bev xx', 'value':'scegli'} ) );
+                        this.fakeDiv.append( $( '<input/>', { 'type':'button', 'class':'button bev xx', 'value':'Browse'} ) );
                         this.realDiv.append(this.fakeDiv);
                     };
                 this.realDiv.append( this.fileField );
@@ -74,7 +74,7 @@ $.fn.Uploadrr = function( options ) {
                         this.info = $( '<div/>', {'class':'info'} ).html('To select files click "BROWSE" '+ (this.DragDropSupported ? 'or drag them into this box.' : '.' )+ (typeof this.settings.allowedExtensions=='object'? '<br>Allowed file types: '+ this.settings.allowedExtensions.join(', '):''));
                         this.fileListDiv.append(this.info);
                     fform.append( this.fileListDiv );
-                    this.submit = $('<input/>', { 'type':'button', 'value':'Carica', 'class':$.browser.msie ? 'ib':'button bev'}).css({'width':'auto','position':'relative','padding':'6px 20px'});
+                    this.submit = $('<input/>', { 'type':'button', 'value':'Save', 'class':$.browser.msie ? 'ib':'button bev'}).css({'width':'auto','position':'relative','padding':'6px 20px'});
                     fform.append( this.submit );
                     element.append( fform );
                     temp =function (html) {

@@ -34,11 +34,11 @@ $lang['register_with'] = "Register by";
 $lang['welcome'] = "Welcome";
 
 $lang['payment_info'] = "Make payment to be able to publish your tenders";
-$lang['default_payment_notification_message_for_buy_credit'] = "Fee for the publication of an unlimited number of offers: only 999 BDT / year";
+$lang['default_payment_notification_message_for_buy_credit'] = "Fee for the publication of an unlimited number of offers: only 1999 BDT / year";
 
 $lang['dashboard_nav'] = "Dashboard";
-$lang['profile_nav'] = "Profile";
-$lang['account_nav'] = "Account";
+$lang['profile_nav'] = "Business profile";
+$lang['account_nav'] = "Account information";
 $lang['comments_nav'] = "Comments";
 $lang['offers_nav'] = "Offers";
 $lang['payments_nav'] = "Payments";
@@ -56,11 +56,10 @@ $lang['edit-offer'] = "Edit Offer";
 $lang['struttura_profilo'] = "Profile";
 $lang['struttura_servizi'] = "Services";
 $lang['struttura_descrizione'] = "Description";
-$lang['struttura_distanze'] = "Distances";
+$lang['struttura_distanze'] = "Others";
 $lang['struttura_Immagini'] = "Images";
 
-$lang['payment_info_paypal'] = "Choose the payment for you. <br> If you choose to pay by credit card, trip-bangladesh.com leans to the system <strong> Paypal </ strong> to ensure maximum safety and reliability. <br>
-In the case of bank transfer <strong> </ strong>, on the next page get the instructions to do so.";
+$lang['payment_info_paypal'] = "Currently we only accept bank transfer and for bank transfer, on the next page get the instructions to do so.";
 
 
 $lang['payment_bank_title'] = "Thank you for choosing to pay by bank transfer.";
@@ -72,10 +71,10 @@ $lang['dashboard_of'] = "Dashboard";
 $lang['edit_profile'] = "Edit Profile";
 $lang['edit_profile_sidebar'] = "Edit Account";
 
-$lang['post_offer'] = "Post a Offer";
+$lang['post_offer'] = "+ Add offer";
 $lang['publish_event'] = "Publish Event";
 $lang['active_account'] = "Payment";
-$lang['credit_amount'] = "Fee for the publication of an unlimited number of offers: <strong> only 999 BDT / year </ strong> <br> <a href = 'http://trip-bangladesh.me/terms-and-conditions' target =' _blank '> read our conditions </ a>";
+$lang['credit_amount'] = "Fee for the publication of an unlimited number of offers: <strong> only 1999 BDT / year </ strong> <br> <a href = 'http://trip-bangladesh.com/terms-and-conditions' target =' _blank '> read our conditions </a>";
 
 
 $lang['Struttura'] = "Structure";
@@ -112,7 +111,7 @@ $lang['slideshow_bottom_notice_text'] = "<a href='http://trip-bangladesh.me/how-
 $lang['offers_in_the_city'] = "Offers in city";
 $lang['from'] = "from";
 
-$lang['register_with_us_promotion_text_head'] = "Register and publish your offers (unlimited) only by 999 BDT / year";
+$lang['register_with_us_promotion_text_head'] = "Register and publish your offers (unlimited) only by 1999 BDT / year";
 $lang['register_with_us_promotion_text'] = "Register and create your free profile, easy and fast";
 $lang['register_for'] = "Register";
 $lang['view_details'] = "View Details";
@@ -218,13 +217,13 @@ $lang['type_of_hotel'] = "Accommodation";
 $lang['star_rating'] = "Stars";
 $lang['name_of_hotel'] = "Name of Hotel";
 $lang['country'] = "Country";
-$lang['state'] = "State";
+$lang['state'] = "Division";
 $lang['city'] = "City";
 $lang['Other'] = "Other";
-$lang['comune'] = "Province";
-$lang['town'] = "Town";
+$lang['comune'] = "City";
+$lang['town'] = "Thana / Post office";
 $lang['select_country'] = "Select Country";
-$lang['select_state'] = "Select State/Region";
+$lang['select_state'] = "Select Division";
 $lang['select_city'] = "Select City";
 $lang['select_comune'] = "Select Comune";
 $lang['address_line'] = "Address";
@@ -233,7 +232,7 @@ $lang['phone'] = "Telephone";
 $lang['fax'] = "Fax";
 $lang['www'] = "Web";
 
-$lang['hotel_description_en'] = "Description<br>(English)";
+$lang['hotel_description_en'] = "Description";
 $lang['type_hotel_description_sugession_en'] = "Enter a brief description of your hotel.";
 $lang['hotel_description_it'] = "Description<br>(italiano)";
 $lang['type_hotel_description_sugession_it'] = "Inserisci una breve descrizione della tua struttura";
@@ -243,12 +242,12 @@ $lang['hotel_description_de'] = "Descrizione struttura<br>(tedesco)";
 $lang['type_hotel_description_sugession_de'] = "Inserisci una breve descrizione della tua struttura";
 $lang['hotel_description_es'] = "Descrizione struttura<br>(spagnolo)";
 $lang['type_hotel_description_sugession_es'] = "Inserisci una breve descrizione della tua struttura";
-$lang['activities_around_the_hotel_en'] = "Things to see and do (EN)";
+$lang['activities_around_the_hotel_en'] = "Things to see and do";
 $lang['activities_around_the_hotel_it'] = "Da vedere, da fare (IT)";
 $lang['activities_around_the_hotel_fr'] = "Da vedere, da fare (FR)";
 $lang['activities_around_the_hotel_de'] = "Da vedere, da fare (DE)";
 $lang['activities_around_the_hotel_es'] = "Da vedere, da fare (ES)";
-$lang['important_information_en'] = "Conditions (English)";
+$lang['important_information_en'] = "Conditions";
 $lang['important_information_it'] = "Condizioni (italiano)";
 $lang['important_information_fr'] = "Condizioni (francese)";
 $lang['important_information_de'] = "Condizioni (tedesco)";
@@ -261,9 +260,9 @@ $lang['nearest_bus_station'] = "Nearest bus station";
 $lang['nearest_beach'] = "Nearest beach";
 $lang['nearest_restaurant'] = "Nearest restaurant";
 $lang['images'] = "Images";
-$lang['type_hotel_name_sugession'] = "Enter the name of your hotel";
-$lang['select_country_sugession'] = "Select the country, division and city";
-$lang['write_town_sugession'] = "City, Country or Locality.";
+$lang['type_hotel_name_sugession'] = "Enter the name of your hotel / accomodation.";
+$lang['select_country_sugession'] = "Select the country, division and city.";
+$lang['write_town_sugession'] = "Locality of thana / post office.";
 $lang['map_indication'] = "Warning: the pointer is automatically positioned by inserting the underlying data and, if not given the proper point on the map can move the pointer manually.";
 $lang['photo_indication'] = "We recommend you to upload images that have <strong> size 660x400 pixels </ strong>, for better views.";
 
@@ -390,37 +389,38 @@ $lang['information_offer_title_7'] = "Theme - Season";
 $lang['information_offer_description_7'] = "Check the criteria by which your offer may be sought by the customer on Trip-bangladesh.";
 
 
-$lang['information_offer_generic_title'] = "Post Job";
-$lang['information_offer_generic_description'] = "Click on public offer and fill out the form input supply following the directions.";
+$lang['information_offer_generic_title'] = "Post an offer";
+$lang['information_offer_generic_description'] = "Click on add offer button and fill out the form by following the instructions.";
 
 
 $lang['my_offers_online'] = "Active offers";
-$lang['old_offers'] = "Offers expired";
+$lang['old_offers'] = "Expired offers";
 $lang['favourites_offers'] = "Offers to favorites";
 
 
-$lang['my_offers_online_description'] = "This panel will show the offers that you currently online travelly. At the maturity date travelly moves automatically in the offer expired offers.";
+$lang['my_offers_online_description'] = "This panel will show the active offers that you submited in trip-bangladesh. At the maturity date, trip-bangladesh will moves automatically active offers into the expired offers.";
 $lang['old_offers_description'] = "This panel stores the offers have expired. If you wish, you can republish.";
 
 //information profile generic
 
 $lang['information_profile_title_1'] = "Edit Profile";
-$lang['information_profile_description_1'] = "In this section, enter and keep up to date information about your accommodation and attractions or events in the area.
-In addition, you can upload up to 8 pictures (max. 500 kb each) and define the search criteria for ski tourists (themes).";
+$lang['information_profile_description_1'] = "Enter and keep up to date information about your hotel or accommodation, attractions or events in the area.
+In addition, you can upload up to 8 pictures (max. 500 KB each) and define the search criteria for tourists (themes).";
 
 $lang['information_profile_title_2'] = "Details of the Company";
 
-$lang['information_profile_description_2'] = "Upload in this space are the data that Travelly should use to send the bill. Important: All fields are required, and the name of the structure that is to be recorded (not your trade name)";
+$lang['information_profile_description_2'] = "Update your account information data that Trip-bangladesh should use to send the bill. 
+Important: All fields are required, and the name of the business that is to be recorded (not your trade name)";
 
 $lang['information_profile_title_3'] = "Setting Account";
 
-$lang['information_profile_description_3'] = "The account consists of the information entered when you registered and / or and that allow access to every travelly: account name, user name, password, e-mail, here you can edit and save";
+$lang['information_profile_description_3'] = "The account consists of the information entered when you registered which usually used to access your trip-bangladesh account. Here you can edit and save your account name, user name, password, e-mail etc.";
 
 
 //information payment generic
 $lang['information_payment_title_1'] = "Invoice information";
 
-$lang['information_payment_description_1'] = "This panel summarizes the accounting situation with travelly. <br> Just made ​​the payment - payment or credit card - travelly will send you a receipt via e-mail and records it in the list. <br> <strong> the invoice will be issued upon receipt of payment from now potr the download list and you will be able to publish your tenders </ strong>";
+$lang['information_payment_description_1'] = "This panel summarizes the accounting situation with trip-bangladesh.com. <br> Just made ​​the payment by paypal or bank transfer - trip-bangladesh will send you a receipt via e-mail / by post and records it in the list. <br> <strong> the invoice will be issued upon receipt of the payment and you will able to download it from the list here and you will be able to publish your offers.</ strong>";
 
 
 //static page content
@@ -438,7 +438,7 @@ $lang['about_us_summary_footer'] = "Adipiscing aeneane consectetur elit lorem Li
 
 //Notificaiton Messages
 $lang['please_recharge_your_account'] = "Please recharge your account first and complete your profile. Then try to add offers.";
-$lang['please_complete_your_profile'] = "Before you post, please complete the offerings your profile, description, services, about, pictures, and enter the details of the Company";
+$lang['please_complete_your_profile'] = "Before you post any offer, please complete your profile, description, services, about, pictures, and enter the details of the company";
 $lang['default_profile_notification_message'] = "Please fill out your profile hotels and details of the Company to take advantage of the services travelly. Thank you!";
 $lang['default_payment_notification_message'] = "Please subscribe to the service to enjoy Travelly services. Thank you!";
 

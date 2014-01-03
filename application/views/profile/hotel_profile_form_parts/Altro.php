@@ -33,4 +33,4 @@
                                     	<input type="text" class="input-big" name="nearest_restaurant" id="nearest_restaurant" value="<?php if(isset($nearest_restaurant)) echo $nearest_restaurant; else if($profile_details->nearest_restaurant!="0") echo $profile_details->nearest_restaurant;?>" />
                                         <div class="clearfix"></div>
                                         
-                                         <input type="submit" class="button medium yellow" name="save_profile_data" id="save_profile_data" value="<?php echo lang('save');?>" />
+                                         <input type="submit" class="button medium btn-red" name="save_profile_data" id="save_profile_data" value="<?php echo lang('save');?>" />

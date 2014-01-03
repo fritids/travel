@@ -74,8 +74,8 @@
 							<div class="background">
 
 				<ul class="tabs-nav">
-				<li class="active"><a href="#tab1">Pagamento</a></li>
-				<li><a href="#tab2">Fatture</a></li>
+				<li class="active"><a href="#tab1">Payments</a></li>
+				<li><a href="#tab2">Invoices</a></li>
 			</ul>
 
 			<!-- Tabs Content -->
@@ -105,7 +105,7 @@
                                 	<?php if($payment->invoice_attachment!=NULL || $payment->invoice_attachment!="") { ?>
                                     		<a href="<?php echo base_url(); ?><?php echo BILLS_ATTACHMENT_DOWNLOAD_PATH."/".$payment->user_id."/".$payment->invoice_attachment; ?>">Download Invoice</a>
                                     <?php }else if(($payment->bank_transfer_receipt==NULL || $payment->bank_transfer_receipt=="") && ($payment->payment_status=="Pending"))  { ?>
-                                    		<a href="mailto:payments@travelly.me">Email Payment Receipt</a>
+                                    		<a href="mailto:payments@trip-bangladesh.com">Email Payment Receipt</a>
                                     <?php } ?>
                                 <?php }else{ ?>
                                 &nbsp;
