@@ -14,30 +14,9 @@
 	<div class="four columns">
 		<?php echo $this->template->block('NormalUserSummary','dashboard/_normal_user_summary.php');?>
 			
-		<div class="large-notice notification error closeable background">
-			<h2>Pubblica Offerta</h2>
-			<p>
-				Clicca su pubblica offerta e compila il form d'inserimento dell'offerta seguendo le indicazioni.
-			</p>
-			<br>
-			<a href="<?php echo base_url();?><?php echo $this->config->item('create_new_offer_url');?>" class="button medium red">Pubblica Offerta</a>
-		</div>			
+		<?php echo $this->template->block('AddNewLastMinuteNotification','dashboard/_add_new_lastminute_notification.php'); ?>				
 
 		<div class="clearfix-small"></div>
-
-		<div class="background">
-			<div id="default-example-info" data-collapse>
-				<h5 class="open">Offerte attive</h5>
-				<div>
-					Questo pannello ti mostra le offerte che hai attualmente online su travelly. Alla data di scadenza travelly sposta l'offerta automaticamente nelle offerte scadute.										                       
-				</div> 
-				<h5>Offerte scadute</h5>
-				<div>
-					Questo pannello archivia le offerte scadute. Se desideri puoi ripubblicarle.
-				</div> 
-			</div>
-												                       
-		</div>
 	</div>
 			
 	<div class="twelve columns">		

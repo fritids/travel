@@ -14,10 +14,10 @@
                                            	<input type="radio" name="payment_methods" id="payment_methods" value="paypal" style="width:20px;" checked="checked"><?php echo lang('paypal'); ?>
                                             //-->
                                             <div class="clearfix"></div>
-                                            <input type="radio" name="payment_methods" id="payment_methods" value="bank_transfer" style="width:20px;"><?php echo lang('bank_transfer'); ?>
+                                            <input type="radio" name="payment_methods" id="payment_methods" checked="checked" value="bank_transfer" style="width:20px;"><?php echo lang('bank_transfer'); ?>
                                             <div class="clearfix-big"></div>
     
-					<input type="submit" class="button medium btn-green" name="buy_credit_for_account" id="save_account_information" value="<?php echo lang('procced_payment'); ?>" />
+					<input type="submit" class="button medium btn-red" name="buy_credit_for_account" id="save_account_information" value="<?php echo lang('procced_payment'); ?>" />
 
     									</div>
     									

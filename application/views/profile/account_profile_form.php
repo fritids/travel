@@ -39,6 +39,6 @@
 											</div>
 										 </div>	
                                          
-                                         <input type="submit" class="button medium yellow" name="save_account_information" id="save_account_information" value="<?php echo lang('save'); ?>" />
+                                         <input type="submit" class="button medium btn-red" name="save_account_information" id="save_account_information" value="<?php echo lang('save'); ?>" style="margin-left:220px;" />
                                          
 									</form>

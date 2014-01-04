@@ -64,6 +64,6 @@
 											</div>
 										 </div>	
                                          
-                                         <input type="submit" class="button medium yellow" name="save_invoice_information" id="save_account_information" value="<?php echo lang('save');?>" />
+                                         <input type="submit" class="button medium btn-red" name="save_invoice_information" id="save_account_information" value="<?php echo lang('save');?>" />
                                          
 									</form>

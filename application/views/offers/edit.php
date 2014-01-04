@@ -182,12 +182,12 @@
 					<div class="clearfix"></div>
                     </div>
 				
-					<label class="padding_top_13"><?php echo lang('price_adult');?> &euro;<br><span style="font-size:11px;line-height:11px;">esempio prezzo: 99 (senza €,.)</span></label>
+					<label class="padding_top_13"><?php echo lang('price_adult');?> TK.<br><span style="font-size:11px;line-height:11px;">Price example: 1999 (no TK,.)</span></label>
                     <span id="offer_price_adult_error" class="suggestion first_signup_visit"><?php echo lang('price_adult_sugession');?></span>
 					<input type="text" name="offer_price_adult" id="offer_price_adult" class="input-big"  value="<?php if(isset($offer_details)) echo $offer_details->offer_price_adult;?>" />
 					<div class="clearfix"></div>
 	
-					<label class="padding_top_13"><?php echo lang('price_children');?> &euro;<br><span style="font-size:11px;line-height:11px;">esempio prezzo: 99 (senza €,.)</span></label>
+					<label class="padding_top_13"><?php echo lang('price_children');?> TK.<br><span style="font-size:11px;line-height:11px;">Price example: 1999 (no TK,.)</span></label>
 					<span id="offer_price_adult_error" class="suggestion first_signup_visit"><?php echo lang('price_children_sugession');?></span>
 					<input type="text" name="offer_price_children" id="offer_price_children" class="input-big"  value="<?php if(isset($offer_details)) echo $offer_details->offer_price_children;?>" />
 					<div class="clearfix"></div>
@@ -236,23 +236,7 @@
 						
                     </div>
                     <div class="clearfix"></div>
-                    <label style="margin-top:0px !important;">&nbsp;</label>
-
-
-                    <span id="lang_for_inputfield">	
-                        <ul class="site_languag_option">
-                            <?php 
-                                    $languages = $this->config->item('supported_languages');
-                                    if(!empty($languages))
-                                        foreach($languages as $l_key => $l_value ) { 
-                                        if($l_key!=CURRENT_LANGUAGE){
-                            ?>
-                                            <li onclick="toggle_offerdescription('<?php echo $l_key;?>');"><img class="flag" src="<?php echo IMAGEPATH; ?>flags/<?php echo $l_key; ?>.png" /></li>
-                                        <?php } ?>
-                                    <?php } ?>
-                        </ul>
-                    </span>
-                                        <span class="language_span"><?php echo lang('input_description_different_language'); ?></span>
+                    
                     <div class="clearfix-big"></div>		
 								
 					<div style="display:none;">			

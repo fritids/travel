@@ -25,7 +25,7 @@
 
 
 				<div class="twelve columns">
-			<div class="dashboard_item background">
+			<div class="dashboard_item background" style="width: 95.5%;">
 			<h3><?php echo lang('my_comments');?></h3>
 			
 			</div><div class="clearfix-big"></div></div>

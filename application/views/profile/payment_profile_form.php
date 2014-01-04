@@ -50,5 +50,5 @@
 												<?php if(isset($display_error) && $error_message!='') echo $error_message; ?>
 											</div>
 										 </div>	
-                                         <input type="submit" class="button medium yellow" name="save_payment_information" id="save_payment_information" value="<?php echo lang('save');?>" />
+                                         <input type="submit" class="button medium btn-red" name="save_payment_information" id="save_payment_information" value="<?php echo lang('save');?>" />
 									</form>
