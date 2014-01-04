@@ -185,6 +185,22 @@ function showResponse(responseText, statusText, xhr, $form){
 								<?php echo $this->template->block('UserProfileIncompleteNotification','dashboard/_complete_profile_notification.php');?>
                             <?php } ?>  
                             
+                            		
+                            		
+                            		<div class="twelve columns">
+                            			<div class="large-notice notification error background">
+											<h4>
+											<?php if($profile_details->account_expiry_date!=NULL ) { ?>
+												<?php echo lang('your_payment_is_valid_till'); ?>: <?php echo date("d-m-Y", strtotime($profile_details->account_expiry_date));?>	                
+											<?php }else{ ?>
+												<?php echo lang("not_active_membership");?>
+											<?php } ?>
+											</h4>
+										</div>
+										<div class="clearfix-small"></div>
+                            		</div>
+                            		
+                            		
                                                         
 									<div class="twelve columns background">												
 	

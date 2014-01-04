@@ -12,7 +12,7 @@
 				<li <?php if(isset($selected_tab) && $selected_tab=="lastminute") { ?>class="current" <?php } ?> ><a href="<?php echo base_url();?><?php echo $this->config->item('dashboard_lastminute_url');?>"><?php echo lang('offers_nav');?></a></li>
                 <!-- <li><a href="<?php echo base_url();?><?php echo $this->config->item('subscribe_credit_url');?>">Credits: <?php echo $profile_details->available_credit;?></a></li> //-->
                 <!-- <li><a href="<?php echo base_url();?><?php echo $this->config->item('subscribe_credit_url');?>"><?php echo lang('active_account');?></a></li> //-->
-                <li <?php if(isset($selected_tab) && $selected_tab=="payment_settings") { ?>class="current" <?php } ?> ><a href="<?php echo base_url();?><?php echo $this->config->item('payment_bills_url');?>"><?php echo lang('payments_nav');?></a></li>
+                <!-- <li <?php if(isset($selected_tab) && $selected_tab=="payment_settings") { ?>class="current" <?php } ?> ><a href="<?php echo base_url();?><?php echo $this->config->item('payment_bills_url');?>"><?php echo lang('payments_nav');?></a></li> //-->
                 <li <?php if(isset($selected_tab) && $selected_tab=="messages") { ?>class="current" <?php } ?> ><a href="<?php echo base_url();?><?php echo $this->config->item('messages_url');?>"><?php echo str_replace('#n',$total_message,lang('message_nav'));?></a></li>
 
 				<?php } ?>

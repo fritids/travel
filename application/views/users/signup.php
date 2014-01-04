@@ -23,7 +23,7 @@
 				<h1 class="login" style="color:#666;">
                                     <?php 
                                     if(isset($account_type) && $account_type=="2")
-                                        echo lang('dd')."Sign up on Trip-bangladesh"; 
+                                        echo lang('dd')."Sign up - <strong>Tourist</strong>"; 
                                     else if(isset($account_type) && $account_type=="1")
                                         echo lang('regisster')."Sign up - <strong>Hotel Owner</strong>";
                                     else if(isset($account_type) && $account_type=="3")
@@ -34,12 +34,16 @@
                                     ?>
                                 </h1>
                                      <?php 
-                                    if(isset($account_type) && $account_type=="2")
-                                        echo lang('dd')."Already a member? <a href='http://trip-bangladesh.com/users/login'>Login</a>"; 
-                                    else if(isset($account_type) && $account_type=="1")
-                                        echo lang('regisster')."Already a member? <a href='http://trip-bangladesh.com/users/login'>Login</a>";
+                                    if(isset($account_type) && $account_type=="2"){
+                                        echo lang('dd')."Already a member? <a href='".base_url()."users/login'>Login</a>"; 
+										echo "<br>Are you a hotel owner? <a href='".base_url()."users/signup/hotel-owner/beta'>Sign up</a>";
+									}
+                                    else if(isset($account_type) && $account_type=="1"){
+                                        echo lang('regisster')."Already a member? <a href='".base_url()."users/login'>Login</a>";
+										echo "<br>Are you a tourist? <a href='".base_url()."users/signup/tourist'>Sign up</a>";
+									}
                                     else if(isset($account_type) && $account_type=="3")
-                                        echo lang('register')." Tourist Office ";
+                                        echo lang('register')." as Tourist Office ";
                                     else
                                         echo lang('register');
                                     

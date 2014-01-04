@@ -25,7 +25,7 @@ $lang['invoice_number'] = "Invoics Number";
 $lang['payment_by'] = "Type of payment";
 $lang['price'] = "Price";
 $lang['submit'] = "Send";
-$lang['goback_to_registration'] = "Back to registration";
+$lang['goback_to_registration'] = "Back to Sign up";
 
 $lang['free_code_request'] = "Code for free access"; 
 $lang['connect_with'] = "Login using";
@@ -63,7 +63,7 @@ $lang['payment_info_paypal'] = "Currently we only accept bank transfer and for b
 
 
 $lang['payment_bank_title'] = "Thank you for choosing to pay by bank transfer.";
-$lang['payment_bank_description'] = "These below are our coordinates to be used for the payment:
+$lang['payment_bank_description'] = "These are our bank credientials that you can used used for the payment:
 <br> <strong> BANK: Intesa San Paolo <br> IBAN: IT75H0306958011100000004245 <br> HOLDER: Studiomodo by Matthias Gutsch </ strong>";
 
 //Accout Top Panel
@@ -111,17 +111,17 @@ $lang['slideshow_bottom_notice_text'] = "<a href='http://trip-bangladesh.me/how-
 $lang['offers_in_the_city'] = "Offers in city";
 $lang['from'] = "from";
 
-$lang['register_with_us_promotion_text_head'] = "Register and publish your offers (unlimited) only by 1999 BDT / year";
+$lang['register_with_us_promotion_text_head'] = "Register and publish your offers (unlimited) and it's FREE";
 $lang['register_with_us_promotion_text'] = "Register and create your free profile, easy and fast";
 $lang['register_for'] = "Register";
 $lang['view_details'] = "View Details";
 
 //Registration Page
-$lang['register'] = "Register";
+$lang['register'] = "Sign up";
 $lang['tourist'] = "Tourist";
 $lang['hotel_owner'] = "Hotel owner";
 $lang['tourist_office'] = "Tourist office";
-$lang['signup'] = "Register";
+$lang['signup'] = "Sign up";
 $lang['signup_text'] = "Adipiscing consectetur elit lorem aeneane Lipsum, Condimentum ultrices consequat eu, vehicula mauris Lipsum Lipsum Adipiscing aenean jars lorem. Asequat lorem lorem ipsum dolor sit amet, consectetur elit dolor Adipiscing. Aenean nisl pitchers, Condimentum.";
 
 //login page
@@ -317,7 +317,7 @@ $lang['legal_name'] = "Company";
 $lang['attention'] = "Name";
 
 $lang['vat_number_sugession'] = "VAT or Tax Code of your business. Ex: IT XXXXXXXXXX";
-$lang['legal_name_sugession'] = "Legal name of the invoice to.";
+$lang['legal_name_sugession'] = "Legal name of your business.";
 
 //account settings page
 $lang['account_name'] = "Account Name";
@@ -480,14 +480,14 @@ $lang['privacy_string'] = "Privacy";
 $lang['terms_string'] = "Termini e condizioni";
 
 // HEADER
-$lang['popular_string'] = "Scopri";
+$lang['popular_string'] = "Explore";
 $lang['people_string'] = "Chi seguire";
 $lang['blog_string'] = "Blog";
 $lang['remember_me_string'] = "ricordami";
 $lang['signin_header_string'] = "Entra";
 $lang['have_account_string'] = "Hai un account?";
-$lang['new_string'] = "Sei nuovo su Travelly?";
-$lang['signup_header_string'] = "Registrati";
+$lang['new_string'] = "Are you new in trip-bangladesh?";
+$lang['signup_header_string'] = "Sign up";
 $lang['hi_string'] = "Hey,";
 $lang['account_setting_string'] = "Impostazioni account";
 $lang['your_profile_string'] = "Il tuo profilo";
@@ -713,7 +713,7 @@ $lang['search_result_title'] = "Risultati della tua ricerca per ";
 
 $lang['search_result_title_no'] = "Nessun contenuto trovato per la tua ricerca";
 
-$lang['session_expire_error'] = "Devi effettuare l'accesso";
+$lang['session_expire_error'] = "Your session expires. You must be log in again.";
 
 $lang['login_fail_error'] = "Incorrect username and password combination";
 
