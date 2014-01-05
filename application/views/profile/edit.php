@@ -120,6 +120,7 @@ function showResponse(responseText, statusText, xhr, $form){
 <div class="container">
 	<div class="four columns">
     	<?php echo $this->template->block('NormalUserSummary','dashboard/_normal_user_summary.php');?>
+    	<?php if(isset($profile_details) && $profile_details->user_type==1) { ?>
 		<?php echo $this->template->block('AddNewLastMinuteNotification','dashboard/_add_new_lastminute_notification.php'); ?>	
   		<div class="clearfix-small"></div>
   			<div id="default-example-info" class="background" data-collapse>
@@ -132,6 +133,7 @@ function showResponse(responseText, statusText, xhr, $form){
 				<h5><?php echo lang('information_profile_title_3');?></h5>
 				<div><?php echo lang('information_profile_description_3');?></div> 
 			</div>
+		<?php } ?>
 	</div>
 																							
 	<?php 	if((isset($profile_details) && ($profile_details->is_complete==0 || $profile_details->invoice_profile_complete==0)) || isset($show_profile_notification)) { 

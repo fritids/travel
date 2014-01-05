@@ -37,7 +37,7 @@ $lang['payment_info'] = "Make payment to be able to publish your tenders";
 $lang['default_payment_notification_message_for_buy_credit'] = "Fee for the publication of an unlimited number of offers: only 1999 BDT / year";
 
 $lang['dashboard_nav'] = "Dashboard";
-$lang['profile_nav'] = "Business profile";
+$lang['profile_nav'] = "Profile";
 $lang['account_nav'] = "Account information";
 $lang['comments_nav'] = "Comments";
 $lang['offers_nav'] = "Offers";
@@ -885,7 +885,7 @@ $lang['package_amount_advice'] = "Valid for unlimited offer listing within one y
 
 
 $lang['you_dont_have_offers_like'] = "There is no offers that you like most";
-$lang['you_dont_have_recent_comments'] = "There are is recent comments.";
+$lang['you_dont_have_recent_comments'] = "There are is no comments right now.";
 $lang['my_comments'] = "Comments";
 $lang['you_dont_have_active_offer'] = "There is no active offers.";
 $lang['you_dont_have_old_offer'] = "There is no old / expired offers.";

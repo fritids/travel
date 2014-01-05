@@ -152,30 +152,29 @@ function showResponse(responseText, statusText, xhr, $form){
 
 <div class="four columns">
     <?php echo $this->template->block('NormalUserSummary','dashboard/_normal_user_summary.php');?>
-
+	<?php if(isset($profile_details) && $profile_details->user_type==1) { ?>	
     	<?php echo $this->template->block('AddNewLastMinuteNotification','dashboard/_add_new_lastminute_notification.php'); ?>	
+    <?php } ?>
   <div class="clearfix-small"></div>
-  
-  <div id="default-example-info" class="background" data-collapse>
-										                        <h5 class="open"><?php echo lang('information_profile_title_1');?></h5>
-										                       <div>
-										                       			<?php echo lang('information_profile_description_1');?>
-
-										                       </div> 
-										                       
-										                       <h5><?php echo lang('information_profile_title_2');?></h5>
-										                       <div>
-										                       			<?php echo lang('information_profile_description_2');?>
-
-										                       </div> 
+  															
+  															<?php if(isset($profile_details) && $profile_details->user_type==1) { ?>	
+  															<div id="default-example-info" class="background" data-collapse>
+										                    	<h5 class="open"><?php echo lang('information_profile_title_1');?></h5>
+										                    	<div>
+										                       		<?php echo lang('information_profile_description_1');?>
+										                       	</div> 
+										                       	
+										                       	<h5><?php echo lang('information_profile_title_2');?></h5>
+										                       	<div>
+										                       		<?php echo lang('information_profile_description_2');?>
+										                      	</div> 
 										                       
 										                        <h5><?php echo lang('information_profile_title_3');?></h5>
-										                       <div>
-										                       			<?php echo lang('information_profile_description_3');?>
-
-										                       </div> 
-										                       
-										                       </div>
+										                       	<div>
+										                       		<?php echo lang('information_profile_description_3');?>
+																</div> 
+										         			</div>
+										         			<?php } ?>
   
 </div>
 																							
@@ -186,7 +185,7 @@ function showResponse(responseText, statusText, xhr, $form){
                             <?php } ?>  
                             
                             		
-                            		
+                            <?php if(isset($profile_details) && $profile_details->user_type==1) { ?>		
                             		<div class="twelve columns">
                             			<div class="large-notice notification error background">
 											<h4>
@@ -199,7 +198,7 @@ function showResponse(responseText, statusText, xhr, $form){
 										</div>
 										<div class="clearfix-small"></div>
                             		</div>
-                            		
+                            <?php } ?>		
                             		
                                                         
 									<div class="twelve columns background">												

@@ -112,6 +112,6 @@
 			<?php if(isset($display_error) && $error_message!='') echo $error_message; ?>asdadas
 		</div>
 	</div>
-	<input type="submit" class="button medium yellow" name="save_profile_data_normal" id="save_profile_data_normal" value="Save" />
+	<input type="submit" class="button medium btn-red" name="save_profile_data_normal" id="save_profile_data_normal" value="Save" />
 			
 </form>
