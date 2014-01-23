@@ -322,33 +322,21 @@ Vacanze a <?php echo $offer_item->city_name;?>
 
 		<div class="clearfix-bigger"></div>
 
-                    <div class="four columns background">
-                        <div class="item-img">
-                			<ul class="item_toolbar">Vacation deals<br>
-								<strong>Cox's Bazar</strong>
-							</ul>
-							<a href="http://www.trip-bangladesh.com/offers/bangladesh/coxs-bazaar">
-								<img src="<?php echo base_url(); ?>assets/images/home/piemonte.jpg" />						
-		         				<div class="overlay zoom"></div>   
-		         			</a>
-                		</div>
-                        <div class="portfolio-item-meta">
-							<strong>From 499 TK per person</strong>
-							<div style="clear:both;"></div>
-                        </div>
-             		</div>
+                    
                     
                     
                       <div class="four columns background">
                         <div class="item-img">
                 
                               <ul class="item_toolbar">Vacation deals<br>
-									<strong>Saint Martin</strong>
+									<strong>
+										St. Martin's Island
+									</strong>
 									
 																													</ul>
 					<a href="http://www.trip-bangladesh.com/offers/bangladesh/saint-martin">
 						
-						<img src="<?php echo base_url(); ?>assets/images/home/puglia.jpg" />						
+						<img src="<?php echo base_url(); ?>assets/images/home/saint_martin_island.jpg" />						
 		         <div class="overlay zoom"></div>   </a>
                 </div>
                                     <div class="portfolio-item-meta">
@@ -360,6 +348,24 @@ Vacanze a <?php echo $offer_item->city_name;?>
                         
                     </div>
                     
+                    <div class="four columns background">
+                        <div class="item-img">
+                			<ul class="item_toolbar">Vacation deals<br>
+								<strong>
+									Sundarban, Khulna
+								</strong>
+							</ul>
+							<a href="http://www.trip-bangladesh.com/offers/bangladesh/khulna">
+								<img src="<?php echo base_url(); ?>assets/images/home/sundarban.jpg" />						
+		         				<div class="overlay zoom"></div>   
+		         			</a>
+                		</div>
+                        <div class="portfolio-item-meta">
+							<strong>From 499 TK per person</strong>
+							<div style="clear:both;"></div>
+                        </div>
+             		</div>
+                    
                        <div class="four columns background">
                         <div class="item-img">
                 
@@ -369,7 +375,7 @@ Vacanze a <?php echo $offer_item->city_name;?>
 																													</ul>
 					<a href="http://www.trip-bangladesh.com/offers/bangladesh/rangamati">
 						
-						<img src="<?php echo base_url(); ?>assets/images/home/toscana.jpg" />						
+						<img src="<?php echo base_url(); ?>assets/images/home/rangamati.jpg" />						
 		         <div class="overlay zoom"></div>   </a>
                 </div>
                                       <div class="portfolio-item-meta">
@@ -386,12 +392,14 @@ Vacanze a <?php echo $offer_item->city_name;?>
                         <div class="item-img">
                 
                               <ul class="item_toolbar">Vacation deals<br>
-									<strong>Bandarban Nilgiri</strong>
+									<strong>
+										Nilgiri, Bandarban
+									</strong>
 									
 																													</ul>
 					<a href="http://www.trip-bangladesh.com/offers/bangladesh/bandarban">
 						
-						<img src="<?php echo base_url(); ?>assets/images/home/abruzzo.jpg" />						
+						<img src="<?php echo base_url(); ?>assets/images/home/nilgiri3.jpg" />						
 		         <div class="overlay zoom"></div>   </a>
                 </div>
                                      <div class="portfolio-item-meta">
