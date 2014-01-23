@@ -2,7 +2,7 @@
 					<div class="clearfix"></div> 
 					<input type="hidden" name="account_type" id="account_type" value="<?php echo $account_type;?>"><!--  Tourist account!-->
 					
-                    <?php if($invitation_code!=NULL && $account_type=="1") { ?>
+                    <?php if($invitation_code!=NULL && $account_type=="1" && FALSE) { ?>
                     					<div class="notification red" style="background-color:#efefef;">
                     					<h5 style="margin-bottom:10px;line-height:14px;">Promotion Code: PROMO4FREE2MON<br> (free access for 2 months.)</h5>
                     	<?php if (isset($invalid_invitation_code) && $invalid_invitation_code==TRUE) { ?>

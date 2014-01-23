@@ -53,8 +53,9 @@ function showHide(shID) {
 			</div>
 	<br>
 
-			<p>Registrarsi e creare il proprio profilo �� gratuito, facile e rapido. <a href="<?php echo base_url();?><?php echo $this->config->item('hotel_owner_signup_url'); ?>">Puoi ideare e pubblicare un numero illimitato di offerte a solo 99��� all'anno.</a> Clicca su "Registrati" nella parte alta del sito. Si apre una semplice maschera d'inserimento. Metti i dati indispensabili (nome, cognome, e-mail, user password) per aprire e gestire il tuo spazio su Travelly (account). <em>Riceverai una e-mail di conferma dell'avvenuta registrazione. Clicca su link che trovi nella mail per attivare il tuo account.</em> <a href="/assets/pdf/travelly_come_funziona.pdf" target="_blank"><strong>Istruzioni per l'uso (scarica pdf)</strong></a></p>
-			<a href="<?php echo base_url();?><?php echo $this->config->item('hotel_owner_signup_url'); ?>" class="button medium red">Registrarsi ora &raquo;</a> 
+			<p>Register now and create your free account, it easy, fast and free. <a href="<?php echo base_url();?><?php echo $this->config->item('hotel_owner_signup_url'); ?>">You can create and publish an unlimited number of offers by FREE.</a> Click on "Registration" in the upper part of the site. This opens a simple form to enter. Put the necessary data (name, surname, e-mail address, user password) to open and manage your space Travelly (account). <em> receive an e-mail confirming your registration. Click on the link provided in the email to activate your account. </em> 
+				<!-- <a href="/assets/pdf/travelly_come_funziona.pdf" target="_blank"><strong>Istruzioni per l'uso (scarica pdf)</strong></a> //--> </p>
+			<a href="<?php echo base_url();?><?php echo $this->config->item('hotel_owner_signup_url'); ?>" class="button medium btn-red">Post you offers &raquo;</a> 
 		
 		
       	
@@ -71,17 +72,16 @@ function showHide(shID) {
 		
 				<div class="ten columns">
 
-			<p> Accedi a Travelly cliccando su "Entra" nella parte alta del sito.
-Verrai indirizzata/o direttamente al tuo <a href="<?php echo base_url();?><?php echo $this->config->item('dashboard_url'); ?>">'dashboard'</a>, il pannello di controllo del tuo account.
+			<p> Sign in Trip-bangladesh clicking "Sign In" at the top of the site.
+You will be addressed / or directly to your <a href="<?php echo base_url();?><?php echo $this->config->item('dashboard_url'); ?>">'dashboard'</a>, the control panel of your account.
  <br>
-<a href="http://www.travelly.me/dashboard">Clicca su "Profilo"</a>. Riporta qui le informazioni sulla tua struttura che vuoi rendere disponibili online per la clientela.
+<a href="http://www.trip-bangladesh.com/dashboard">Click on "Profile"</a>. Report here information about your business that you'd like to make it available online for customers.
  <br><br>
-Oltre ai servizi e alle caratteristiche, abbi cura di selezionare il "tema": i clienti cercano le offerte anche per tipologia di esperienza o vacanza. Come puoi vedere, se devi fare aggiunte o correzioni �� possibile modificare velocemente qualsiasi dettaglio e in ogni momento.
- <a href="#" id="profile-show" class="showLink" onclick="showHide('profile');return false;">visualizza altro.</a>
+In addition to the services and features, take care to select the "theme": customers are looking for deals for the type of experience or vacation. As you can see, if you have to make additions or corrections can change quickly and any detail at all times.
+ <!-- <a href="#" id="profile-show" class="showLink" onclick="showHide('profile');return false;">view more.</a> //-->
 		
 		<div id="profile" class="more">
-         <p>
-* MULTILINGUA: Travelly traduce automaticamente in Inglese e Tedesco le diciture che spunti in Italiano.Inoltre: se desideri inserire le traduzioni in queste due lingue dei testi in Italiano, clicca sulle bandierine sotto gli spazi e procedi. Il tuo profilo sar�� sempre ottimizzato per la navigazione in tre lingue comunitarie.</p>
+         <p>* </p>
          <p><a href="#" id="profile-hide" class="hideLink" onclick="showHide('profile');return false;">chiudi.</a></p>
       </div>
       
@@ -101,23 +101,23 @@ Oltre ai servizi e alle caratteristiche, abbi cura di selezionare il "tema": i c
 
 						<div class="ten columns">
 
-			<p class="tooltips"><strong>Puoi ideare e pubblicare un numero illimitato di offerte a solo 99��� all'anno</strong>. Attraverso Travelly inserisci, modifichi o rimuovi testi o immagini in qualsiasi momento, e da ovunque ti trovi.
+			<p class="tooltips"><strong>You can create and publish an unlimited number of offers just 1999 BDT per year</strong>. Through Trip-bangladesh enter, edit or remove text or images at any time and from anywhere.
 
-Sulla sinistra dello schermo trovi una guida che illustra quali informazioni inserire nei campi, cos�� da comporre il tuo prodotto turistico nel modo migliore per la sua pubblicazione su web. 
+On the left side of the screen you will find a guide that explains what information to enter in the fields, as well as compose your tourism product in the best way for its publication on the web.
 
-<a href="#" id="offer-show" class="showLink" onclick="showHide('offer');return false;">visualizza altro.</a>
+<a href="#" id="offer-show" class="showLink" onclick="showHide('offer');return false;">view more.</a>
 		
 		<div id="offer" class="more">
-         <p>Come puoi vedere, se devi fare aggiunte o correzioni �� possibile modificare velocemente qualsiasi dettaglio e in ogni momento.
+         <p>As you can see, if you have to make additions or corrections can change quickly and any detail at all times.
 <br>
 
-* La pagina d'inserimento che il sistema ti propone �� semplice ed intuitiva. Ad ogni nuova stagione, oppure ogni qual volta si presenti l'occasione (manifestazioni o eventi, week-end particolari, vacanze a tema ��� ecc.) puoi 'sbizzarrirti' nell'approntare le tue proposte e riguardarle in anteprima prima di metterle online.
+* The page input that the system offers you simple and intuitive. With each new season, or whenever the opportunity presents itself (events or events, weekend special, holiday-themed, etc..) You can 'play around' in making your proposals and affect them before putting them in the preview online.
 <br><br>
-* Ecco qui seguito come si presenta la tua offerta, prima nella forma sintetica, poi nel dettaglio. Attraverso le lettere dell'alfabeto puoi capire in che campi finiscono i contenuti.
+* Here below how you present your offering, first in summary form, then in detail. Through the letters of the fields that you can understand the content end.
 <br><br>
-* Se desideri consulenza o suggerimenti per rendere pi�� accattivanti le tue offerte per il turista in cerca di occasioni, puoi sempre chiamarci a questo numero 0987654321
+* If you want advice or tips to make your offerings more attractive for tourists looking for bargains, you can always call us at this number 01840142029
 </p>
-         <p><a href="#" id="offer-hide" class="hideLink" onclick="showHide('offer');return false;">chiudi.</a></p>
+         <p><a href="#" id="offer-hide" class="hideLink" onclick="showHide('offer');return false;">close.</a></p>
       </div>
 
 
@@ -128,23 +128,23 @@ Sulla sinistra dello schermo trovi una guida che illustra quali informazioni ins
 	
 	<div class="clearfix-border"></div>
 								<div class="clearfix-big"></div>		<div class="four columns">
-		<h3><div class="number">4.</div><br>PUBLISH<br>FOLLOW OFFERS<br>ARCHIVE</h3>
+		<h3><div class="number">4.</div><br>PUBLISH YOUR OFFERS<br>FOLLOW OFFERS <br>ARCHIVING</h3>
 
 </div>
 
 								<div class="ten columns">
 
-			<p class="tooltips">Quando hai inserito le tue proposte e sei pronto a pubblicarle, la prima volta Travelly chiede di effettuare il <a href="http://travelly.me/account/recharge">pagamento del canone annuo di 99 ��� </a><em>(iva esclusa)</em>. Naturalmente non lo chieder�� se lo hai gi�� stato effettuato.
+			<p class="tooltips">When you have entered your proposals and are ready to publish them, the first time Trip-bangladesh requesting to make the <a href="http://trip-bangladesh.me/account/recharge">payment of the annual rent of 1999 BDT </a><em></em>. Of course you do not ask yourself if you've already been made.
 
-La tua offerta viene catalogata in base alle parole chiave e ai criteri che hai scelto in fase di compilazione in modo che il turista le possa reperire in pochi click.
-<a href="#" id="example-show" class="showLink" onclick="showHide('example');return false;">visualizza altro.</a>
+Your offer is cataloged according to keywords and criteria you have chosen at compile time so that the tourist can find in a few clicks.
+<a href="#" id="example-show" class="showLink" onclick="showHide('example');return false;">view more.</a>
 		
 		<div id="example" class="more">
-         <p>* Il turista interessato pu�� decidere di 'seguire' le proposte provenienti man mano dalla tua struttura: senza ricevere informative o newsletters ��� ogni qualvolta pubblicherai una proposta se la trover�� automaticamente all'interno del proprio account. Puoi perci�� mantenere viva l'attenzione del cliente.
+         <p>* The interested tourist can choose to 'follow' the proposals as coming from your business: without receiving informative newsletters or whenever you publish a proposal if the Trover automatically in your account. You can perci keep the attention of the customer.
 <br><br>
-* Travelly ti consente di raccogliere tutte le offerte che hai pubblicato anche dopo la loro scadenza.
-In questo modo puoi rivedere la tipologia di proposte formulate, aggiustarle, ottimizzarle, oppure riproporle tali e quali in periodi e occasioni successive.</p>
-         <p><a href="#" id="example-hide" class="hideLink" onclick="showHide('example');return false;">chiudi.</a></p>
+* Trip-bangladesh allows you to collect all the offers that you have published even after their expiry.
+In this way, you can review the types of proposals, fix them, enhance them, or propose them as such in subsequent periods and occasions.</p>
+         <p><a href="#" id="example-hide" class="hideLink" onclick="showHide('example');return false;">close.</a></p>
       </div>
 
 

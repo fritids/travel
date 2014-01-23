@@ -20,34 +20,34 @@
 
 <p class="tooltips">
  
-Abbiamo cercato di realizzare un sistema che fosse il più chiaro e semplice possibile.
-Se però non siamo riusciti a togliere anche solo un piccolo dubbio, e vuoi contattarci per una spiegazione, non esitare a chiamarci o a scriverci.
-<br><strong>Ci trovi qui a tua disposizione:</strong>
+We have created a system that was the most clear and simple as possible.
+If we did not remove even a small doubt, and would like to contact us for an explanation, do not hesitate to call us or write to us.
+<br><strong>We are here at your disposal:</strong>
  </p>
 
- <a href="http://helpdesk.travelly.me" class="button medium yellow">Apri un ticket per richiedere Assistenza &raquo;</a>
+ <a href="mailto:support@trip-bangladesh.com" class="button medium btn-red">Send an email to request assistance &raquo;</a>
  <br>
  <br>
  <h4>
-ASSISTENZA TECNICA WEB & DOMANDE AMMINISTRATIVE</h4>
+WEB APPLICATIONS TECHNICAL SUPPORT & ADMINISTRATIVE</h4>
  
-<p>Scrivi una mail a <a href="mailto:support@travelly.me">support@travelly.me</a></p>
+<p>Write an email to <a href="mailto:support@trip-bangladesh.com">support@trip-bangladesh.com</a></p>
  
  <br>
- <h4>Vuoi un nostro parere promozionale?</h4>
+ <h4>Do you want our opinion a promotional?</h4>
  
-<p>Se può tornarti utile ti offriamo volentieri qualche suggerimento o piccolo stratagemma per rendere le tue offerte più intriganti.
-Il punto di vista di un esterno può aiutare a dare più valore alla tua proposta e capire come può essere recepita.
+<p>Can come in handy if you have any suggestions or willingly little trick to make your offers more intriguing.
+The point of view of an outsider can help give more value to your proposal and understand how it can be implemented.
 <br> 
-Scrivi una mail a <a href="mailto:support@travelly.me">support@travelly.me</a></p>
+Write an email to <a href="mailto:support@trip-bangladesh.com">support@trip-bangladesh.com</a></p>
  </p>
  <br>
-<h4>Travelly ti piace e vorresti fare di più?</h4>
+<h4>Trip-bangladesh you like and would like to do more?</h4>
  
-<p>Desideri organizzare la tua attività commerciale e rafforzare il tuo marketing a costi trasparenti e senza sorprese?
-Possiamo valutare il cosiddetto “marketing mix” che fa al caso tuo (internet, pubblicità tradizionale, media ...).
-Lo definiamo con te e ti sottoponiamo un preventivo trasparente e non impegnativo. <br> 
-Scrivi una mail a <a href="mailto:hello@travelly.me">hello@travelly.me</a></p>
+<p>Would you like to organize your business activities and strengthen your marketing costs transparent and without surprises?
+We evaluate the so-called marketing mix that's right for you (internet, traditional advertising, media ...).
+We define with you and we submit a quote transparent and non-challenging. <br> 
+Write an email to <a href="mailto:hello@trip-bangladesh.com">hello@trip-bangladesh.com</a></p>
 
 	
 	</div>

@@ -21,26 +21,24 @@
 
 		<h1>Jobs</h1>
 
-<h4>PHP / Codeigniter developer per startup</h4>
-<p>Siamo un start-up alla ricerca di un developer che conosca bene
-il linguaggio Codeigniter PHP Framework da affiancare al nostro ingegnere. Stiamo
-sviluppando una piattaforma particolarmente innovativa e per questo
-vorremmo incontrare una persona capace e soprattutto interessata nel
-partecipare attivamente all'interno del founder team del progetto.
+<h4>PHP developer for startup</h4>
+<p>We are a start-up looking for a developer who is familiar with 
+language Codeigniter PHP Framework to work alongside our engineer. we are 
+particularly innovative and developing a platform for this 
+we would like to meet a person capable and most interested in 
+participate actively in the project team founder.
 
 <br><br>
-<strong>Dettagli</strong>
-- Lavoro in remoto per migliorare il prodotto attuale e inserire alcune nuove funzionalit.
-- PHP / MySQL / Codeigniter / Ajax / JS
-- Sviluppo metodi API architettura REST
-- amare il mondo di vacanze
-- disponibilit minima immediata 4 ore al giorno
-- spirito da startupper
+<strong>Details</strong>
+- Remote working to improve the existing product and add some new features.
+- PHP / MySQL / Codeigniter / Laravel / Ajax / JS
+- Development of REST API
+- immediate availability Minimum 4 hours per day
+- spirit startuppers
 <br><br>
 
-Per chi fosse interessato a saperne di piu'iceverà tutti i dettagli
-scrivendo al seguente indirizzo mail: <br><br><a href="mailto:hello@travelly.me">hello@travelly.me</a>
-<br><a href="https://twitter.com/travelly_me" class="twitter-follow-button" data-show-count="false" data-lang="it" data-show-screen-name="false">Segui @travelly_me</a>
+For those interested in learning all the details send an email to: <br><br><a href="mailto:hello@trip-bangladesh.com">hello@trip-bangladesh.com</a>
+<br><a href="https://twitter.com/travelly_me" class="twitter-follow-button" data-show-count="false" data-lang="it" data-show-screen-name="false">Segui @trip-bangladesh</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
 	
 					<div class="clearfix-big"></div>
@@ -48,13 +46,7 @@ scrivendo al seguente indirizzo mail: <br><br><a href="mailto:hello@travelly.me"
 				<div class="clearfix-border"></div>
 					<div class="clearfix-big"></div>
 
-<h4>Agenti Commerciali</h4>
-<p>Travelly cerca Agenti in tutta italia. Il ruolo prevede la vendita di servizi quali i visti consolari sia business che turistici per qualunque destinazione, prenotazioni appartamenti, hotel, tour, crociere, pacchetti turistici su misura e soprattutto pacchetti business per instaurare rapporti commerciali con Alberghi e Bed & Breakfast, da proporre ad Agenzie di Viaggi, Istituzioni, Aziende e privati. 
-<br><br>
-Per chi fosse interessato a saperne di piu'iceverà tutti i dettagli
-scrivendo al seguente indirizzo mail: <br><br><a href="mailto:hello@travelly.me">hello@travelly.me</a>
-<br><a href="https://twitter.com/travelly_me" class="twitter-follow-button" data-show-count="false" data-lang="it" data-show-screen-name="false">Segui @travelly_me</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></p>
+
 	</div>
 				<div class="clearfix-bigger"></div>
 

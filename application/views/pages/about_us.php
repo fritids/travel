@@ -16,13 +16,13 @@
 		<div class="ten columns">
 		
 
-		<h1>Storia di Travelly</h1>
+		<h1>About Trip-bangladesh</h1>
 
-<p class="tooltips">Travelly è un’iniziativa di promozione della ricettività dell’agenzia web <a href="http://www.studiomodo.it" target="_blank">Studiomodo</a>.
+<p class="tooltips">Trip-bangladesh is an initiative to promote receptivity agency web <a href="http://www.ideaincube.com" target="_blank">Ideaincube</a>
  <br><br>
-Avvalendosi della collaborazione di consulenti di marketing territoriale, <a href="http://www.studiomodo.it" target="_blank">Studiomodo</a> propone uno strumento operativo per lo sviluppo dell’incoming a partire dagli operatori di mercato (strutture ricettive, tour operators) e dei consorzi turistici (aziende di soggiorno, iat, pro loco).
+With the collaboration of local marketing consultants, <a href="http://www.ideaincube.com" target="_blank">Ideaincube</a> proposes an operational tool for the development dellincoming since the market operators (hotels, tour operators) and tourism associations (companies stay, iat, per site).
  <br><br>
-Specializzata in realizzazione di siti internet per web 2.0, <a href="http://www.studiomodo.it" target="_blank">Studiomodo</a> mette a disposizione un tool b2c (Travelly) e personalizza il marketing mix della struttura ricettiva e del consorzio turistico curandone la pubblicistica cartacea, il posizionamento su web, la promozione coi social network.</p>
+Specializing in the creation of websites for web 2.0, <a href="http://www.ideaincube.com" target="_blank">Ideaincube</a> provides a tool b2c (Travelly) and customize the marketing mix of accommodation and tourist information handling its paper publications, placement on web promotion with social networks</p>
 
 	</div>
 			<div class="clearfix-small"></div>

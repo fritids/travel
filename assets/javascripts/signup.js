@@ -49,10 +49,10 @@ $(document).ready(function(){
 		if($('#account_type').val()=="1"){
 			var check7 = true;
 			if($('#invitation_code').val()=="" || $('#invitation_code').val()==null){
-				check7=false;
-				$("#invitation_codeInfo").text("codice");
-				$("#invitation_codeInfo").css('color','red');
-				$('#invitation_code').focus();
+				// check7=false;
+				// $("#invitation_codeInfo").text("codice");
+				// $("#invitation_codeInfo").css('color','red');
+				// $('#invitation_code').focus();
 			}
 			else{
 				$("#invitation_codeInfo").text("This code will be sent to you via e-mail. Check your email address !");
