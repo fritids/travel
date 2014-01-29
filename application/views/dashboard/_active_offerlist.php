@@ -14,11 +14,11 @@
 <p class="detail">
 
 								                        <span><strong><?php echo lang('duration_time');?>:</strong></span> <?php echo $offer_item->offer_duration;?>, <span><strong><?php echo lang('offer_includes');?>:</strong></span> <?php echo $offer_item->offerinclude_option?><br>
-								                      <span><strong>Valido:</strong></span> <?php echo date('d M',strtotime($offer_item->offer_start_date)); ?> al <?php echo date('d M Y',strtotime($offer_item->offer_finish_date)); ?>
+								                      <span><strong>Validity:</strong></span> <?php echo date('d M',strtotime($offer_item->offer_start_date)); ?> al <?php echo date('d M Y',strtotime($offer_item->offer_finish_date)); ?>
 								                    </p>											</div> 												                   	                
 						                				                   	                
-                 							<div class="item_body_right">a partire da<br>
-												<h3>&euro; <?php echo $offer_item->offer_price_adult;?></h3>
+                 							<div class="item_body_right">Starting from<br>
+												<h3>TK. <?php echo $offer_item->offer_price_adult;?></h3>
                    								<div class="clearfix-small"></div>
                 							</div>
                 							<div class="clearfix"></div>
@@ -26,9 +26,9 @@
                 									
                 									<?php if(isset($is_loggedin) && $is_loggedin=="true"){ ?>
 			                                    		<?php if($profile_details->user_id==$offer_item->user_id) { ?>                							<div class="clearfix-big"></div>
-<div style="background-color:#efefef;padding:5px;">
-						                                        <a href="<?php echo base_url();?><?php echo str_replace('%id%',$offer_item->offer_id,$this->config->item('offers_edit_url'));?>" class="button small yellow"><?php echo lang('edit');?></a>
-						                                        <a id="delete_button" href="javascript:void(0);" class="button small red"><?php echo lang('cancel');?></a>
+<div style="background-color:#efefef;padding:3px; padding-top: 7px; padding-left: 12px;">
+						                                        <a href="<?php echo base_url();?><?php echo str_replace('%id%',$offer_item->offer_id,$this->config->item('offers_edit_url'));?>" class="button small btn-red"><?php echo lang('edit');?></a>
+						                                        <a id="delete_button" href="javascript:void(0);" class="button small btn-red"><?php echo lang('cancel');?></a>
 				                                                    <div class="popover">
 				                                                        <a href="javascript:void(0);" class="close"></a>
 				                                                        <div class="inner">

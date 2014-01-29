@@ -28,6 +28,7 @@ class APPHooks{
         	$lang = $_SESSION['lang_code'];
     	}
     	// Still no Lang. Lets try some browser detection then
+    	/*
     	elseif (!empty( $_SERVER['HTTP_ACCEPT_LANGUAGE'] )){
         	// explode languages into array
         	$accept_langs = explode(',', $_SERVER['HTTP_ACCEPT_LANGUAGE']);
@@ -42,6 +43,7 @@ class APPHooks{
             	}
         	}
     	}
+		*/
 		//echo $lang;
     	// If no language has been worked out - or it is not supported - use the default
     	if(empty($lang) or !in_array($lang, array_keys($config['supported_languages']))){
@@ -57,6 +59,7 @@ class APPHooks{
 		//echo $lang;
 		//print_r($_SESSION);
 		// Sets a constant to use throughout ALL of CI.
+		//echo $lang;
     	define('CURRENT_LANGUAGE', $lang);
     }
 }

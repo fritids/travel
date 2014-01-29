@@ -1,7 +1,15 @@
 <?php 
 	if($user_past_offers!=NULL){
 		foreach($user_past_offers as $offer_key=>$offer_item) { ?>
-		                                <div id="my_old_offer_<?php echo $offer_item->offer_id; ?>" class="dashboard_item">
+		                                
+		                                
+		                                
+		                                
+		                                
+		                                
+		                                
+		                                
+		                                <div id="my_old_offer_<?php echo $offer_item->offer_id; ?>" class="dashboard_item" style="border:solid red 1px;">
 		                                    <div class="item-img">
 		                                        <a href="<?php echo base_url();?><?php echo offers_url($offer_item);?>" title="<?php echo $offer_item->offer_title;?>">
 		                                        	<?php 
@@ -36,7 +44,7 @@
 						                	<div class="item_body_detail">
 												    <p class="detail">
 								                        <span>Giorni:</span> <?php echo $offer_item->offer_duration;?><br>
-								                        <span>Quantità:</span> <?php echo $offer_item->offer_availability;?><br>
+								                        <span>Quantit��:</span> <?php echo $offer_item->offer_availability;?><br>
 								                        <span>Trattamento:</span> <?php echo $offer_item->offerinclude_option?><br>
 								                      <span>Valido:</span> <strong><?php echo date('d M',strtotime($offer_item->offer_start_date)); ?> al <?php echo date('d M Y',strtotime($offer_item->offer_finish_date)); ?></strong>
 								                    </p>	             	                

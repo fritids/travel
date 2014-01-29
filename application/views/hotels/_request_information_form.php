@@ -65,27 +65,27 @@
 	}
 </script>	
 
-<form id="information-request" method="post" action="<?php echo base_url();?>hotels/send_request_information">
+<form id="information-request" method="post" action="<?php echo base_url();?>hotels/send_request_information" style="width: 200px;">
 	<div id="show_inforequest_error_message" class="error_message" style="display: block;"></div>
 
 	<div class="clearfix"></div>
 	<label>Name</label>
-	<input type="text" class="input-big" value="<?php if(isset($profile_details)) echo $profile_details->display_name;?>" name="request_information_name" id="request_information_name" onfocus="$('#request_information_name').css('border','solid #bababa 1px');" />
+	<input type="text" class="input-big" style="width: 180px;" value="<?php if(isset($profile_details)) echo $profile_details->display_name;?>" name="request_information_name" id="request_information_name" onfocus="$('#request_information_name').css('border','solid #bababa 1px');" />
 				
     <div class="clearfix"></div>
 	<label>Email</label>
-	<input type="text" class="input-big"   value="<?php if(isset($profile_details)) echo $profile_details->email;?>" name="request_information_email" id="request_information_email" onfocus="$('#request_information_email').css('border','solid #bababa 1px');" />
+	<input type="text" class="input-big" style="width: 180px;"    value="<?php if(isset($profile_details)) echo $profile_details->email;?>" name="request_information_email" id="request_information_email" onfocus="$('#request_information_email').css('border','solid #bababa 1px');" />
 
 	<div class="clearfix"></div>
 	<label>Phone</label>
-	<input type="text" class="input-big"  value="<?php if(isset($profile_details) && $profile_details->phone!=NULL) echo $profile_details->phone;?>" name="request_information_phone" id="request_information_phone" onfocus="$('#request_information_phone').css('border','solid #bababa 1px');" />
+	<input type="text" class="input-big" style="width: 180px;"   value="<?php if(isset($profile_details) && $profile_details->phone!=NULL) echo $profile_details->phone;?>" name="request_information_phone" id="request_information_phone" onfocus="$('#request_information_phone').css('border','solid #bababa 1px');" />
 	
     <div class="clearfix"></div>
 	<label>Message</label>
-	<textarea name="message" id="message" style="width:160px;" onfocus="$('#message').css('border','solid #bababa 1px');" ></textarea>
+	<textarea name="message" id="message" style="width: 180px;"  style="width:160px;" onfocus="$('#message').css('border','solid #bababa 1px');" ></textarea>
     
     <div class="clearfix"></div>
-	<input type="checkbox" name="accept_privacy_conditions" id="accept_privacy_conditions" value="1" style="width:30px; margin-left:-5px;"> I agree to the travelly <a href="#privacy_policy" rel="leanModal">Pricacy Policy</a>
+	<input type="checkbox" name="accept_privacy_conditions" id="accept_privacy_conditions" value="1" style="width:20px; margin-left:0px;"> I agree to the trip-bangladesh <a href="#privacy_policy" rel="leanModal">pricacy policy</a>
 	<div class="clearfix"></div>
     
 	<input type="hidden" name="hotel_id" id="hotel_id" value="<?php echo $hotel_profile_information[0]->user_id;?>">
@@ -93,7 +93,7 @@
 	<input type="hidden" name="requester_id" id="requester_id" value="<?php if(isset($profile_details)) echo $profile_details->user_id; else echo "-1"; ?>">		
 	<div class="clearfix-big"></div>
 
-	<input type="submit" name="request_information" id="request_information" value="Information request" class="button medium yellow" style="padding-left: 5px; padding-right: 5px; width: auto;">
+	<input type="submit" name="request_information" id="request_information" value="Send request" class="button medium yellow" style="padding-left: 5px; padding-right: 5px; width: auto;">
 	<div class="clearfix"></div>	
 	<span id="request_info_form_loading" style="display:block;"></span>
 </form>

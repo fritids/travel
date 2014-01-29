@@ -15,7 +15,7 @@
 		<a href="<?php echo base_url();?><?php echo $this->config->item('jobs_page_url'); ?>"><?php echo lang('jobs'); ?></a> | 
 		<a href="<?php echo base_url();?><?php echo $this->config->item('support_page_url'); ?>"><?php echo lang('support'); ?></a> | 
 		<a href="<?php echo base_url();?><?php echo $this->config->item('contact_page_url'); ?>"><?php echo lang('contact'); ?></a> | 
-		<a href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>">Post your offers</a> | 
+		<a href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>">Publish offers</a> | 
 		<a href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>">Sign up</a> 
 		<!--  
 		&copy; 2013 | P.I 02250380207 | <a href="http://www.ideaincube.com" target="_blank"><strong>credits</strong></a>

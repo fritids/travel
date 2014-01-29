@@ -247,17 +247,21 @@ class Authentication
 								redirect($this->obj->config->item('user_profile_edit_url'),'refresh');	
 							}
 						} 
+					/*
 					else{
 							$this->obj->phpsession->save('show_payment_notification','yes');
 							$this->obj->phpsession->save('payment_notification_message',lang('please_recharge_your_account'));
 							redirect($this->obj->config->item('subscribe_credit_url'),'refresh');	
 						}
+					*/
 				}
+				/*
 				else{
 					$this->obj->phpsession->save('show_payment_notification','yes');
 					$this->obj->phpsession->save('payment_message',lang('please_recharge_your_account'));
 					redirect($this->obj->config->item('subscribe_credit_url'),'refresh');	
 				}
+				*/
 			}else{
 				$this->obj->phpsession->save('display_error','yes');
 				$this->obj->phpsession->save('error_message',$this->obj->lang->line('dont_have_permission_to_buy_credit'));

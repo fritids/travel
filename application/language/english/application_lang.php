@@ -96,7 +96,7 @@ $lang['payment_methods'] = "Payment Method";
 
 
 //home page
-$lang['lastmminute'] = "Find Offers, Hotels, B&B, Vacation Rentals and Holiday packages in <strong>Bangladesh</ strong> ";
+$lang['lastmminute'] = "Find Offers, Hotels, B&B, Vacation Rentals and Holiday packages in <strong>Bangladesh</ strong>";
 $lang['hotel'] = "Hotel";
 $lang['bb'] = "B&B";
 $lang['vacation_house'] = "Vacation Rentals";

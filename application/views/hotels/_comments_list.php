@@ -8,13 +8,13 @@
 
 	<form id="post_new_comments" method="post" action="<?php echo base_url();?><?php echo $this->config->item('create_new_comments_url');?>">
     	<p>
-        	<textarea name="comment_content" id="comment_textbox" class="comment-content"></textarea>
+        	<textarea name="comment_content" id="comment_textbox" class="comment-content" style="width: 450px; height: 100px;"></textarea>
         </p>
 		<p class="controls">
 			<input type="hidden" name="commented_hotel_id" id="commented_hotel_id" value="<?php if(isset($hotel_profile_information)) echo $hotel_profile_information[0]->profile_id;?>">
 			<input type="hidden" name="comment_parent" id="comment_parent" value="0">
 			<?php if(isset($is_loggedin) && $is_loggedin=="true"){ ?>
-           		<input type="submit" name="post_new_comments" id="post_new_comments" value="Post Comment" class="button medium yellow" />
+           		<input type="submit" name="post_new_comments" id="post_new_comments" value="Post Comment" class="button medium btn-red" />
             <?php }else{ ?>
             	<a class="open-popup button medium yellow" rel="leanModal" href="#user-login-popup">Post Comment</a>
             <?php }?>

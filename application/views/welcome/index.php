@@ -174,11 +174,47 @@ updateMarkerPosition(marker.getPosition());
 </script>
 <script type="text/javascript" src="<?php echo JSPATH;?>jquery.leanModal.min.js"></script>
 		<script type="text/javascript">
-			$(function() {
-    			$('a[rel*=leanModal]').leanModal({ top : 200, closeButton: ".modal_close" });
-    	    	$("#basicPopup3").click();
-	
-			});
+			function setCookie(c_name, value, exdays){
+			    var exdate=new Date();
+			    exdate.setDate(exdate.getDate() + exdays);
+			    var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+			    document.cookie=c_name + "=" + c_value + ";path=/";
+			  }
+			
+			  function getCookie(c_name){
+			    var c_value = document.cookie;
+			
+			    var c_start = c_value.indexOf(" " + c_name + "=");
+			    if (c_start == -1){
+			      c_start = c_value.indexOf(c_name + "=");
+			    }
+			    if (c_start == -1){
+			      c_value = null;
+			    }
+			    else{
+			      c_start = c_value.indexOf("=", c_start) + 1;
+			      var c_end = c_value.indexOf(";", c_start);
+			      if (c_end == -1){
+			        c_end = c_value.length;
+			      }
+			      c_value = unescape(c_value.substring(c_start,c_end));
+			    }
+			    return c_value;
+			  }
+			
+			  function show_popup_message(){
+			    var is_first_visit = getCookie('first_visit');
+			    if (is_first_visit != 0) {
+			        $("#basicPopup3").click();
+			        setCookie('first_visit', 0);  
+			    }
+			  }
+				$(function() {
+	    			$('a[rel*=leanModal]').leanModal({ top : 200, closeButton: ".modal_close" });
+	    	    	show_popup_message();
+	    	    	//$("#basicPopup3").click();
+	    	    	
+				});
 		</script>
 
 <a id="basicPopup3" rel="leanModal" name="social" href="#social"></a>
@@ -190,8 +226,8 @@ updateMarkerPosition(marker.getPosition());
 	</div>
 		<div id="social-message">The only platform where you can publish your offers.<br><h4>Try it now free for two months.</h4><br>Create your own packages, find the facts for the quality of your proposed stay. You can then decide whether it's worth it.
 
-<br><br><a href="<?php echo base_url();?><?php echo $this->config->item('hotel_owner_signup_url'); ?>" style="width:80px;height:17px;" class="button medium btn-red"><?php echo lang('button_registrati_homepage');?> &raquo;</a> <a href="<?php echo base_url();?><?php echo $this->config->item('dashboard_url');?>" style="width:54px;height:17px; color:#FFF;" class="button medium btn-red">Login &raquo;</a>
-<a href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>" style="width:114px;height:17px;" class="button medium btn-red">How it works &raquo;</a>
+<br><br><a href="<?php echo base_url();?><?php echo $this->config->item('signup_url'); ?>" style="width:80px;height:17px;" class="button medium btn-red"><?php echo lang('button_registrati_homepage');?> &raquo;</a> <a href="<?php echo base_url();?><?php echo $this->config->item('dashboard_url');?>" style="width:54px;height:17px; color:#FFF;" class="button medium btn-red">Login &raquo;</a>
+<a href="<?php echo base_url();?><?php echo $this->config->item('how_it_work_page_for_hotel_owner_url'); ?>" style="width:114px;height:17px;" class="button medium btn-red">Publish offers &raquo;</a>
 
 <div class="clearfix-border"></div><a href="http://pinterest.com/travellyme/" style="float:left;margin-top:6px; height:24px; width:40px;" target="_blank"><img src="<?php echo IMAGEPATH; ?>pinterest.jpg"></a>
 <a href="https://twitter.com/travelly_me" class="twitter-follow-button" data-show-count="true" data-lang="<?php echo lang('language_string');?>" data-show-screen-name="false">Segui @trip-bangladesh</a>
@@ -283,8 +319,8 @@ updateMarkerPosition(marker.getPosition());
                     <div class="four columns background">
                         <div class="item-img">
                 
-                        <ul class="item_toolbar">da<br>
-									<h3 style="color:#FFF;"><?php echo $offer_item->offer_price_adult;?>���</h3>
+                        <ul class="item_toolbar">from<br>
+									<h3 style="color:#FFF;"><?php echo $offer_item->offer_price_adult;?> TK.</h3>
 									
 																													</ul>
 					<a href="<?php echo base_url();?><?php echo offers_url($offer_item);?>">

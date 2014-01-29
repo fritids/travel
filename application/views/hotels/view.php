@@ -213,7 +213,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
                         </span> 
                         <span id="like_this_post">
                             <a class="open-popup" rel="leanModal" href="#user-login-popup">
-                                <span id="likethisprofile_txt_<?php echo $hotel_profile_information[0]->user_id;?>">Mi piace</span>
+                                <span id="likethisprofile_txt_<?php echo $hotel_profile_information[0]->user_id;?>">I like</span>
                             </a>
                         </span>
                     </div>
@@ -260,12 +260,12 @@ google.maps.event.addDomListener(window, 'load', initialize);
 
                         
                         
-                   <h3>Descrizione <?php if($hotel_profile_information!=NULL && array_key_exists(0,$hotel_profile_information)) echo $hotel_profile_information[0]->hotel_name;?></h3>     
+                   <h3>Description: <?php if($hotel_profile_information!=NULL && array_key_exists(0,$hotel_profile_information)) echo $hotel_profile_information[0]->hotel_name;?></h3>     
 				<p>
                 	<?php if($hotel_profile_information!=NULL && array_key_exists(0,$hotel_profile_information)) echo $hotel_profile_information[0]->hotel_description;?>
                 </p>
                 
-                                   <h3>Informazioni importanti</h3>     
+                                   <h3>Important informations</h3>     
 
                  <p class="tooltips">
             	<?php if($hotel_profile_information!=NULL && array_key_exists(0,$hotel_profile_information)) echo $hotel_profile_information[0]->important_information;?>
@@ -424,8 +424,8 @@ google.maps.event.addDomListener(window, 'load', initialize);
 <div class="background padding">
 
  <?php if(isset($is_loggedin) && $is_loggedin=="true"){ ?>
-        				<div class="follow_this_hotel button medium yellow"> <!-- Dont rename this class name//-->
-                        	<a id="<?php echo $hotel_profile_information[0]->user_id;?>" href="javascript:void(0);">
+        				<div class="follow_this_hotel button medium btn-red"> <!-- Dont rename this class name//-->
+                        	<a id="<?php echo $hotel_profile_information[0]->user_id;?>" href="javascript:void(0);" style="color:#FFFFFF;">
                         		<span id="follow_this_hotel_text_<?php echo $hotel_profile_information[0]->user_id;?>">
                                 		<?php if(is_followed_this_profile($hotel_profile_information[0]->user_id,$profile_details->user_id)) { ?>
                                         		<?php echo lang('unfollow_this_hotel_text');?>
@@ -436,7 +436,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
                            </a>
                         </div>
             <?php }else{ ?>
-                        <a class="open-popup button medium yellow" rel="leanModal" href="#user-login-popup">
+                        <a class="open-popup button medium btn-red" rel="leanModal" href="#user-login-popup" style="color:#FFFFFF;">
                             <?php echo lang('follow_this_hotel_text');?>
                         </a>
             <?php } ?>
