@@ -16,12 +16,12 @@
 		<div class="ten columns">
 		
 
-		<h1>Ti serve una mano?</h1>
+		<h1>Do you need any help?</h1>
 
 <p class="tooltips">
  
 We have created a system that was the most clear and simple as possible.
-If we did not remove even a small doubt, and would like to contact us for an explanation, do not hesitate to call us or write to us.
+If you have even a small doubt, and would like to contact us for an explanation, do not hesitate to call us or write to us.
 <br><strong>We are here at your disposal:</strong>
  </p>
 
@@ -34,7 +34,7 @@ WEB APPLICATIONS TECHNICAL SUPPORT & ADMINISTRATIVE</h4>
 <p>Write an email to <a href="mailto:support@trip-bangladesh.com">support@trip-bangladesh.com</a></p>
  
  <br>
- <h4>Do you want our opinion a promotional?</h4>
+ <h4>Do you want our opinion as promotional?</h4>
  
 <p>Can come in handy if you have any suggestions or willingly little trick to make your offers more intriguing.
 The point of view of an outsider can help give more value to your proposal and understand how it can be implemented.
