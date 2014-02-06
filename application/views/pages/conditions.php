@@ -20,12 +20,12 @@
 
 
 <h4>Objective</h4>
-<p>These terms and conditions are subject to the rules for my rental space on our servers connected to the Internet elassistenza of sites created by our company.</p>
+<p>These terms and conditions are subject to the rules for my rental space on our servers connected to the Internet assistance of sites created by our company.</p>
 <h4>Rules</h4>
-<p><h2>The service has a cost of 1999 BDT per year (tax included)</h2><br>
+<p><h2>The service is FREE!</h2><br>
 	<div class="notification warning closeable">
-				<p><span>Try it now free for two months.</span> Create your own packages, find the facts for the quality of your proposed stay. You can then decide whether it's worth it. The service <a href="http://trip-bangladesh.com/how-it-works-hotel-owner"><strong>NON</strong></a> is automatically renewed. <strong> After that time it will be possible to use it at a cost of 1999 BDT / year.</strong> <a href="http://trip-bangladesh.com/terms-and-conditions">read conditions</a><br></p><br>
-				<a href="<?php echo base_url();?><?php echo $this->config->item('hotel_owner_signup_url'); ?>" class="button medium btn-red">Sign up &raquo;</a> 
+				<p><span>Try it now by free!</span> Create your own packages, find the facts for the quality of your proposed stay. You can then decide whether it's worth it. The <a href="<?php echo base_url(); ?>how-it-works-hotel-owner">service</a> is <strong>NOT</strong> automatically renewed. <strong> After first year, it will be possible to use it at a cost of 1999 BDT / year.</strong> <a href="<?php echo base_url(); ?>terms-and-conditions">read our conditions</a><br></p><br>
+				<a href="<?php echo base_url();?><?php echo $this->config->item('hotel_owner_signup_url'); ?>" class="button medium btn-red">Sign up Now &raquo;</a> 
 			</div>
 <br><h4>Guarantees</h4>
 <p>And 'forbidden to use the services of Studiomodo. to contravene directly or indirectly to the applicable Italian laws of the state or any other state. The customer can not use the services of Studiomodo for the dissemination of erotic material. In the event of contravention of the above prohibitions, the contract will have to be understood dellart.1456 terminated pursuant to the Civil Code. The customer also raises the Studiomodo entirety. for any civil and criminal liability arising dallutilizzo illegal and improper use of the service.</p>

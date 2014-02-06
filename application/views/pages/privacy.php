@@ -21,20 +21,17 @@
 
 		<h1>Privacy Policy</h1>
 
-<p>Quest’applicazione (di seguito “Applicazione”) raccoglie alcuni Dati Personali. Tali Dati Personali sono raccolti per le finalità e sono trattati secondo le modalità di seguito riportate. 
+<p>This application collects certain Personal Data. Such Personal Information is collected for the purposes, and processed according to the methods described below. 
 </p>
-<h4>Tipologie di Dati</h4>
-<p>I Dati Personali trattati dalla presente Applicazione sono: Cognome, Numero di Telefono, Ragione sociale, Indirizzo e Email.</p>
+<h4>Kinds of Data</h4>
+<p>Personal Data processed by this application are: Name, Telephone Number, Company Name, Address, and Email.</p>
 
-<p>I Dati Personali possono essere inseriti volontariamente dall’Utente o dall’Interessato, oppure raccolti in modo automatico, tramite la navigazione. L’eventuale utilizzo di Cookie da parte dell’Applicazione o dei titolari dei servizi terzi di cui l’Applicazione si avvale, ove non diversamente precisato, ha la finalità di identificare l’Utente e registrare le relative preferenze per finalità strettamente legate allo svolgimento del servizio richiesto dall’Utente.</p>
-<p>Il mancato conferimento da parte dell’Utente di alcuni Dati Personali, ed in particolare dei Dati di Navigazione mediante la disattivazione dei Cookie dell’Applicazione, potrebbe rendere impossibile la prestazione di alcuni servizi o la navigazione. I Dati Personali raccolti possono riferirsi sia all’Utente, sia a soggetti terzi di cui l’Utente fornisce i dati.
-</p>
-<p>L'Utente si assume la responsabilità dei Dati personali di terzi pubblicati o condivisi mediante l’Applicazione e garantisce di avere il diritto di comunicarli o diffonderli liberando il Titolare del Trattamento da qualsiasi responsabilità verso terzi.
-</p>
-<h4>Modalità di trattamento</h4>
-<p>Il Titolare tratta i Dati Personali degli Utenti e degli Interessati adottando le opportune misure di sicurezza volte ad impedire l’accesso, la divulgazione, la modifica o la distruzione non autorizzate dei Dati Personali. Il trattamento viene effettuato mediante strumenti informatici con modalità organizzative strettamente correlate alle finalità indicate di seguito.<br><br>Oltre al titolare, in alcuni casi, potrebbero avere accesso ai Dati soggetti esterni (come fornitori di servizi tecnici terzi, corrieri postali, hosting provider, società informatiche, agenzie di comunicazione). L’elenco aggiornato dei soggetti potrà sempre essere richiesto al Titolare del Trattamento.
-</p>
-	
+<p>Personal data may be entered by the User or the Interested Party, or collected automatically, through the navigation. The absence of data on the User of certain personal data, and in particular the navigation data by disabling Cookie Application, could make it impossible for the provision of certain services or navigation. The Personal Data collected may refer to both the User, whether third parties to whom you provide the data.</p>
+<p>The user assumes the responsibilities of the Personal Data to third parties published or shared through the Application and warrant that you have the right to disclose or disseminate releasing the Data Controller from any liability to third parties.</p>
+
+<h4>Mode of treatment</h4>
+<p>The Holder is the Personal Data Users and interested by taking appropriate security measures to prevent unauthorized access, disclosure, unauthorized modification or destruction of Personal Data. The treatment is carried out using computers with organizational procedures strictly related to the purposes set out below.</p>
+<p>In addition to the owner, in some cases, may have access to data external parties (such as third party technical service providers, mail carriers, hosting providers, IT companies, communications agencies). The updated list of subjects may be requested from the Data Controller.</p>	
 	</div>
 				<div class="clearfix-bigger"></div>
 
