@@ -33,7 +33,7 @@
 			
 			
 
-				<?php if(isset($profile_details) && $profile_details->is_complete==0) { ?>
+				<?php if(isset($profile_details) && $profile_details->is_complete==0 && $profile_details->user_type==1) { ?>
                 	<?php echo $this->template->block('UserProfileIncompleteNotification','dashboard/_complete_profile_notification.php');?>
                 <?php } ?>
                 
