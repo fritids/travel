@@ -180,7 +180,7 @@ function showResponse(responseText, statusText, xhr, $form){
 																							
 
 			
-							<?php if((isset($profile_details) && ($profile_details->is_complete==0 || $profile_details->invoice_profile_complete==0)) || isset($show_profile_notification)) { ?>
+							<?php if((isset($profile_details) && $profile_details->user_type==1 && ($profile_details->is_complete==0 || $profile_details->invoice_profile_complete==0)) || isset($show_profile_notification)) { ?>
 								<?php echo $this->template->block('UserProfileIncompleteNotification','dashboard/_complete_profile_notification.php');?>
                             <?php } ?>  
                             

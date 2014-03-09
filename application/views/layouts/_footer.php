@@ -21,10 +21,10 @@
 		&copy; 2013 | P.I 02250380207 | <a href="http://www.ideaincube.com" target="_blank"><strong>credits</strong></a>
 		//-->
 			<div class="clearfix-big"></div>
-		<a href="http://www.facebook.com/pages/Travelly/405193586167312" style="margin-right:5px;" target="_blank">
+		<a href="http://www.facebook.com" style="margin-right:5px;" target="_blank">
 		<img src="<?php echo IMAGEPATH; ?>facebook.png"></a> 
-		<a href="https://twitter.com/travelly_me" target="_blank"  style="margin-right:5px;"><img src="<?php echo IMAGEPATH; ?>twitter.png"></a> 
-		<a href="http://pinterest.com/travellyme/" target="_blank"><img src="<?php echo IMAGEPATH; ?>pinterest_logo_white.png"></a>
+		<a href="https://twitter.com/" target="_blank"  style="margin-right:5px;"><img src="<?php echo IMAGEPATH; ?>twitter.png"></a> 
+		<a href="http://pinterest.com/" target="_blank"><img src="<?php echo IMAGEPATH; ?>pinterest_logo_white.png"></a>
 
 	
 	</div></div>

@@ -12,8 +12,9 @@
 <div class="four columns">
 
     <?php echo $this->template->block('NormalUserSummary','dashboard/_normal_user_summary.php');?>			
-
-    		<?php echo $this->template->block('AddNewLastMinuteNotification','dashboard/_add_new_lastminute_notification.php'); ?>	
+	<?php if(isset($profile_details) && $profile_details->is_complete==0 && $profile_details->user_type==1) { ?>
+    	<?php echo $this->template->block('AddNewLastMinuteNotification','dashboard/_add_new_lastminute_notification.php'); ?>
+    <?php } ?>	
   <div class="clearfix-small"></div>
   		
     				

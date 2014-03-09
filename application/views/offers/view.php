@@ -454,11 +454,10 @@ google.maps.event.addDomListener(window, 'load', initialize);
 	<div class="background padding" style="padding-bottom:5px;">
   
    <ul class="the-icons">
-        <li><div class="price"></div><strong><?php echo $offer_details->offer_price_adult;?> &euro;</strong>/ <?php echo lang('adults');?> </li>
-                    <li><div class="children"></div><em><?php echo lang('children');?> </em><br> <?php echo $offer_details->offer_price_children;?> &euro;</li>
-
-            <li><div class="calendar"></div><em><?php echo lang('duration_time');?> </em><br><?php echo $offer_details->offer_duration;?></li>
-                        <li><div class="restaurant"></div><em><?php echo lang('offer_includes');?> </em><br><?php echo $offer_details->offerinclude_option;?></li>
+        <li><div class="price"></div><strong style="font-size: 28px;"><?php echo $offer_details->offer_price_adult;?> TK.</strong>/ <?php echo lang('adults');?> </li>
+       	<li><div class="children"></div><em><?php echo lang('children');?> </em><br> <?php echo $offer_details->offer_price_children;?> TK.</li>
+       	<li><div class="calendar"></div><em><?php echo lang('duration_time');?> </em><br><?php echo $offer_details->offer_duration;?></li>
+        <li><div class="restaurant"></div><em><?php echo lang('offer_includes');?> </em><br><?php echo $offer_details->offerinclude_option;?></li>
 
         <li><div class="calendar"></div><em><?php echo lang('offer_validation');?></em><br><?php echo date("d/m/Y",strtotime($offer_details->offer_start_date));?> - <?php echo date("d/m/Y",strtotime($offer_details->offer_finish_date));?></li>
    <li style="border:none;">

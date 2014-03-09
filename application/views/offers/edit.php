@@ -315,7 +315,7 @@
 						</div>
 					</div>
 					<input type="hidden" name="offer_id" id="offer_id" value="<?php echo $offer_id;?>"  />
-					<input type="submit" name="save_offer_informaiton" id="save_offer_informaiton" value="<?php echo lang('save');?>" class="button medium yellow">
+					<input type="submit" name="save_offer_informaiton" id="save_offer_informaiton" value="<?php echo lang('save');?>" class="button medium btn-red">
 						<div class="clearfix-big"></div>
 				</form>
 			</div>
