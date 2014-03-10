@@ -15,7 +15,7 @@
 		<div class="ten columns">
 		
 
-		<h1>10 Good Reasons To Publish!</h1>
+		<h1 style="font-size:25px;">10 Good Reasons To Publish on Trip-Bangladesh!</h1>
 
 		<p class="tooltips">
 			1. Expose their offers in an international showcase (not just the structure). <br> 
