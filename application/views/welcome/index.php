@@ -344,7 +344,7 @@ Vacation at <?php echo $offer_item->city_name;?>
                             </div>
                             <div class="date"><?php echo $offer_item->offer_duration;?></div>
                             <div class="description">
-<?php echo date('d M',strtotime($offer_item->offer_start_date)); ?> al <?php echo date('d M Y',strtotime($offer_item->offer_finish_date)); ?>
+<?php echo date('d M',strtotime($offer_item->offer_start_date)); ?> to <?php echo date('d M Y',strtotime($offer_item->offer_finish_date)); ?>
                             </div>
                         </div>
                         
