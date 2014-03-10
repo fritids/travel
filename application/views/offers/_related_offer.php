@@ -1,10 +1,10 @@
 <!-- 960 Container -->
 	<!-- Portfolio Content -->
-		
-		<h4 class="headline">Altre Offerte</h4>
+	<?php if(isset($related_offers) && $related_offers!=NULL) { ?>	
+		<h4 class="headline">You might also like...</h4>
 				<div class="clearfix-big"></div>
 	<!-- 1/4 Column -->
-	<?php if(isset($related_offers) && $related_offers!=NULL) { ?>
+	
 		<?php foreach($related_offers as $roffer_key=>$offer_item){ ?>
 			 	  <!-- 1/4 Column -->
 			 	  
@@ -20,7 +20,7 @@
 		                        ?>
                              </a>
 						<p> <a class="offer_name" href="<?php echo base_url();?><?php echo offers_url($offer_item);?>" title="<?php echo $offer_item->offer_title;?>">
-Vacanze a <?php echo $offer_item->city_name;?>
+Vacation at <?php echo $offer_item->city_name;?>
 								</a><br><strong><?php echo $offer_item->offer_duration;?></strong></p>
 						<span><?php echo date('d M',strtotime($offer_item->offer_start_date)); ?> al <?php echo date('d M Y',strtotime($offer_item->offer_finish_date)); ?></span>
 					</div>

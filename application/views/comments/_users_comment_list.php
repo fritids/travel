@@ -3,7 +3,7 @@
 		foreach($comments_list as $comment_key=>$comment_item) { ?>
             <article id="comment_item_<?php echo $comment_item->comment_id; ?>" class="comments dashboard_item">
                 <div class="item_body">
-                <h5>
+                <h5 style="border: 0px;">
                      <span class="stars">
                      	<input name="star_<?php echo $comment_item->comment_id;?>" type="radio" class="star" disabled="disabled" <?php if($comment_item->hotel_rating==1) { ?> checked="checked" <?php }?> />
 						<input name="star_<?php echo $comment_item->comment_id;?>" type="radio" class="star" disabled="disabled" <?php if($comment_item->hotel_rating==2) { ?> checked="checked" <?php }?> />
@@ -26,8 +26,8 @@
                     </p>							
             
                 </div>
-                <div class="item_body_right">
-                    <a id="delete_button" href="javascript:void(0);" class="button small red">delete</a>
+                <div class="item_body_right" style="border: 0px; background: none;">
+                    <a id="delete_button" href="javascript:void(0);" class="button small btn-red">delete</a>
 						<div class="popover">
                             <a href="javascript:void(0);" class="close"></a>
                             <div class="inner">

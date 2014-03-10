@@ -165,7 +165,7 @@ $lang['notify_me_checkbox_text'] = "Notify me by e-mail about offers of trip-ban
 
 
 $lang['booking_request'] = "Request availability";
-$lang['booking_request_undertitle'] = "Trip-bangladesh.com with simple and free.";
+$lang['booking_request_undertitle'] = "It's simple and free!";
 $lang['error_accept_privacy'] = "Please accept the privacy policy.";
 $lang['booking_button'] = "Booking";
 $lang['name'] = "Name";

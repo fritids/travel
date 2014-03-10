@@ -339,7 +339,7 @@ updateMarkerPosition(marker.getPosition());
                                     <div class="portfolio-item-meta">
                         	<div class="hotel">
                              <a class="offer_name" href="<?php echo base_url();?><?php echo offers_url($offer_item);?>" title="<?php echo $offer_item->offer_title;?>">
-Vacanze a <?php echo $offer_item->city_name;?>
+Vacation at <?php echo $offer_item->city_name;?>
                              </a>
                             </div>
                             <div class="date"><?php echo $offer_item->offer_duration;?></div>

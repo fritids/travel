@@ -5,6 +5,7 @@
 											<table class="standard-table">
 													<tr>
 														<th>Name</th>
+														<th>Contact</th>
 														<th>From</th>
 														<th>To</th>
 														<th></th>
@@ -12,13 +13,14 @@
 													<?php foreach($new_messages as $new_message_key=>$new_message_item) { ?>
 													<tr>
 														<td><h4><a rel="leanModal" href="#message_view_<?php echo ($new_message_key+1);?>"><?php echo $new_message_item->booking_name;?></a></h4></td>
+														<td><?php echo $new_message_item->booking_phone;?></td>
 														<td><?php echo $new_message_item->booking_checkin_date;?></td>
 														<td><?php echo $new_message_item->booking_checkout_date;?></td>
 														<td>
-															<a rel="leanModal" href="#message_view_<?php echo ($new_message_key+1);?>" class="button small red">view</a>
+															<a rel="leanModal" href="#message_view_<?php echo ($new_message_key+1);?>" class="button small btn-red">view</a>
 															<?php if(isset($is_loggedin) && $is_loggedin=="true"){ ?>
 						                                    		
-									                                        <a id="delete_button" href="javascript:void(0);" class="button small yellow"><?php echo lang('cancel');?></a>
+									                                        <a id="delete_button" href="javascript:void(0);" class="button small btn-red"><?php echo lang('cancel');?></a>
 							                                                    <div class="popover">
 							                                                        <a href="javascript:void(0);" class="close"></a>
 							                                                        <div class="inner">
@@ -37,12 +39,16 @@
                                                             <div id="message_view_<?php echo ($new_message_key+1);?>" class="message_popup">
                                                                 <div id="signup-ct">
                                                                     <div id="signup-header">
-                                                                        <h2>Booking request</h2>
-                                                                        <p><?php echo $new_message_item->booking_name;?></p>
-                                                                        <a class="modal_close" href="#"></a>
+                                                                    	<h2 style="margin-top: -2px; margin-bottom: 3px;">Booking request</h2>
+																		<p>
+																			<?php echo $new_message_item->booking_name;?>
+																		</p>
+																		<a class="modal_close" href="#"></a>
                                                                     </div>
-                                                                    <div id="popup_main_content">
-                                                                        <?php echo $new_message_item->booking_message;?>
+                                                                    <div id="popup_main_content" style="font-size: 12px !important; padding-top: 10px; ">
+                                                                        <b>Message:</b> <?php echo $new_message_item->booking_message;?><br><br>
+                                                                        <b>Person (adult):</b> <?php echo $new_message_item->booking_adult;?><br><br>
+                                                                        <b>Email:</b> <a href="mailto:<?php echo $new_message_item->booking_email;?>"><?php echo $new_message_item->booking_email;?></a>
                                                                     </div>
                                                                 </div>
                                                             </div>

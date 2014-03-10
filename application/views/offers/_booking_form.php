@@ -35,7 +35,7 @@
 		}
 		else{
 			$('#accept_booking_conditions_error').show();
-			$('#accept_booking_conditions_error').text('privacy');
+			$('#accept_booking_conditions_error').text('Please confirm conditions');
 			return false;
 		}
 	}
@@ -103,12 +103,12 @@
 				
 			</form>
 
-			<div id="booking">
+			<div id="booking" style="top:100px !important;">
 					<div id="signup-ct">
                     <form action="<?php echo base_url();?>offers/bookong_request" method="post" name="booking-request" id="booking-request-form" style="margin:0px; padding:0px;">
 						<div id="signup-header">
-							<h2><?php echo lang('booking_request');?></h2>
-							<p><?php echo lang('booking_request_undertitle');?></p>
+							<h2 style="margin-top: -2px; margin-bottom: 3px;"><?php echo lang('booking_request');?></h2>
+							<p style="margin-top: 3px;"><?php echo lang('booking_request_undertitle');?></p>
 							<a class="modal_close" href="#"></a>
 						</div>
 						<div id="popup_main_content">
@@ -118,11 +118,11 @@
 							<div class="clearfix-big"></div>
 
 	                            <label><?php echo lang('checkin');?></label>
-	                            <input type="text" class="text date_picker" name="booking_from_date" id="alternate-from" value="Checkin" />
+	                            <input type="text" class="text date_picker" name="booking_from_date" id="alternate-from" value="Checkin" readonly="readonly" />
 	                            <div class="clearfix"></div>
 	
 	                            <label><?php echo lang('checkin');?></label>
-	                            <input type="text" class="text date_picker" name="booking_to_date"  id="alternate-to" value="Checkout" />
+	                            <input type="text" class="text date_picker" name="booking_to_date"  id="alternate-to" value="Checkout" readonly="readonly" />
 	                            <div class="clearfix"></div>
 			
 								<label><?php echo lang('adults');?></label>
@@ -185,7 +185,7 @@
 								<div class="clearfix"></div>
 								<input type="hidden" id="offer_id" name="offer_id" value="<?php echo $offer_details->offer_id;?>">
 								<input type="hidden" id="user_id" name="user_id" value="<?php if(isset($profile_details)) echo $profile_details->user_id; else echo "-1"; ?>">
-	                            <input type="submit" name="request_booking" id="request_booking" value="<?php echo lang('send_request');?>" class="button medium btn-green">
+	                            <input type="submit" name="request_booking" id="request_booking" value="<?php echo lang('send_request');?>" class="button medium btn-red" style="margin-left: 90px;" />
 	                            <span id="request_info_form_loading" style="display:block;"></span>
 							</div>
 						</div>

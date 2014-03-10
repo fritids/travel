@@ -10,8 +10,8 @@
    <article class="full-width background">
    <?php } ?>
    
-							<ul class="item_toolbar" style="width:50px;">da<br>
-                    <h3 style="color:#FFF;"><?php echo $offer_item->offer_price_adult;?>€</h3>
+							<ul class="item_toolbar" style="width:100px;">from<br>
+                    <h3 style="color:#FFF;"><?php echo $offer_item->offer_price_adult;?> TK.</h3>
                 </ul>
 								<figure><a href="<?php echo base_url();?><?php echo offers_url($offer_item);?>">
                     <?php 

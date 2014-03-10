@@ -2902,21 +2902,21 @@ ul.region-list {
 /******************CSS EXTEND BY ASHISH****************************/
 .error_message {
 	color: #FF0000;
-	background: url('../images/error_message.png') no-repeat left;
-	padding-left: 20px;
+	/*background: url('../images/error_message.png') no-repeat left;*/
 	font-size: 12px;
+	margin-bottom:15px;
+	font-weight:bold;
 	display: none;
 }
 
 .success_message {
 	color: #FF0000;
-	background: url('../images/success_message.gif') no-repeat left;
+	/*background: url('../images/success_message.gif') no-repeat left;*/
 	font-size: 12px;
+	font-weight:bold;
 	display: none;
 	color: green !important;
 	margin-bottom:15px;
-	padding:10px;
-	padding-left: 30px;
 }
 span.suggestion {
 	font-size: 11px;

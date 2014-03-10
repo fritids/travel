@@ -101,6 +101,7 @@ $route['offers/(:any)/(:any)/(:any)'] = "lastminute/search/$1/$2/$3";
 
 
 $route['search/hotels/(:any)/(:any)'] = "hotels/direct_search";
+$route['hotels/send_request_information'] = "hotels/send_request_information";
 $route['hotels/page/(:num)'] = "hotels/index/$1";
 $route['hotels/page'] = "hotels/index";
 $route['hotels/search_hotel'] = "hotels/search_hotel";
